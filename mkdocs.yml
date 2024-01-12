@@ -1,0 +1,98 @@
+site_name: aiTour 
+site_author: Kinnariya Mama Tanha
+site_description: >-
+  AI学习之旅
+repo_url: https://github.com/KinnariyaMamaTanha/aiTour
+repo_name: aiTour
+
+theme:
+  name: material
+  language: zh
+  
+  features:
+    - header.autohide
+    - navigation.tracking
+    - navigation.top
+    - navigation.path
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.footer
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.annotate
+
+  palette:
+    # For dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle: 
+        icon: material/brightness-4
+        name: Switch to light mode
+    
+    # For the light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+  
+  favicon: images/logo.jpg
+
+  icon:
+    repo: fontawesome/brands/git-alt
+  
+  static_templates:
+    - 404.html
+
+nav:
+  - 序: index.md
+  - 大一上:
+    - 微积分: da-yi-shang/calculus-1.md
+    - 线性代数: da-yi-shang/linear-algebra.md
+    - 离散数学: da-yi-shang/discrete-math.md
+    - C++: da-yi-shang/c++.md
+    - Python: da-yi-shang/python.md
+    - 数据结构: da-yi-shang/data-structure.md 
+
+plugins: 
+  - search
+  #- git-revision-date-localized:
+   #   enable_creation_date: true
+
+extra: 
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/KinnariyaMamaTanha
+      name: My GitHub Account
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:jy_zhou@sjtu.edu.cn
+      name: My E-mail Address
+
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+  - footnotes
+  - admonition
+  - abbr
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - pymdownx.arithmatex:  # latex支持
+      generic: true
+  - pymdownx.highlight: # 代码块高亮
+      anchor_linenums: true
+      linenums: true # 显示行号
+      auto_title: true # 显示编程语言名称
+
+copyright: Copyright &copy; 2023 - present Kinnariya Mama Tanha

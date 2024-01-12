@@ -1,0 +1,6 @@
+---
+hide:
+    - footer
+---
+# Data Structure
+
