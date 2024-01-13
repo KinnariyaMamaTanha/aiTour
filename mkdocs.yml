@@ -58,7 +58,7 @@ theme:
 nav:
   - 序: index.md
   - 大一上:
-    - 微积分: da-yi-shang/calculus-1.md
+    - 微积分(1): da-yi-shang/calculus-1.md
     - 线性代数: da-yi-shang/linear-algebra.md
     - 离散数学: da-yi-shang/discrete-math.md
     - C++: da-yi-shang/c++.md
