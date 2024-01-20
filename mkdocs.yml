@@ -64,8 +64,8 @@ nav:
     - C++: da-yi-shang/c++.md
     - Python: da-yi-shang/python.md
     # - 数据结构: da-yi-shang/data-structure.md 
-  - 实用工具:
-    - Obsidian: tools/obsidian
+  #- 实用工具:
+   # - Obsidian: tools/obsidian
 
 plugins: 
   - search
