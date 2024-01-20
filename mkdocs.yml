@@ -60,10 +60,12 @@ nav:
   - 大一上:
     - 微积分(1): da-yi-shang/calculus-1.md
     - 线性代数: da-yi-shang/linear-algebra.md
-    - 离散数学: da-yi-shang/discrete-math.md
+    - 离散数学入门: da-yi-shang/discrete-math.md
     - C++: da-yi-shang/c++.md
     - Python: da-yi-shang/python.md
-    - 数据结构: da-yi-shang/data-structure.md 
+    # - 数据结构: da-yi-shang/data-structure.md 
+  - 实用工具:
+    - Obsidian: tools/obsidian
 
 plugins: 
   - search
@@ -76,7 +78,7 @@ extra:
       link: https://github.com/KinnariyaMamaTanha
       name: My GitHub Account
     - icon: fontawesome/solid/paper-plane
-      link: mailto:jy_zhou@sjtu.edu.cn
+      link: mailto:yuhengji073@gmail.com
       name: My E-mail Address
 
 markdown_extensions: 
@@ -95,4 +97,4 @@ markdown_extensions:
       linenums: true # 显示行号
       auto_title: true # 显示编程语言名称
 
-copyright: Copyright &copy; 2023 - present Kinnariya Mama Tanha
+copyright: Copyright &copy; 2023 - present KinnariyaMamaTanha
