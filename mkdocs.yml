@@ -64,9 +64,11 @@ nav:
     - C++: da-yi-shang/c++.md
     - Python: da-yi-shang/python.md
     - 数据结构: da-yi-shang/data-structure.md 
-  - 实用工具:
-    - Obsidian: tools/Obsidian
-    - Anaconda: tools/Anaconda
+    - 实用工具:
+      - Git: tools/Git.md
+      - Obsidian: tools/Obsidian.md
+      - Anaconda: tools/Anaconda.md
+      - Material-for-MkDocs: tools/Material-for-MkDocs.md
 
 plugins: 
   - search
