@@ -14,4 +14,6 @@ Obsidian使用Markdown语法（但不是GFM, [GitHub Favored Markdown](https://g
 
 **关于主题配置**：赏心悦目的UI固然怡人，但是也不应该花费太多时间在界面配置上。如果你有折腾的习惯，请注意控制好自己的双手和大脑，把重心放在记笔记这件事本身上吧！（对于其它软件的配置也是同样）
 
+**关于同步**：网上有多种同步Obsidian方式，我选择使用Obsidian + Git + Github模式，由于Obsidian中的笔记库(vault)和Git中的仓库(repository)有相似之处，因此我直接将一个Obsidian库作为Git的repository进行存储。只需要定期向Github中递交最新版本的笔记，就可以在别处通过克隆仓库的方式下载完整笔记库了。（注：Obsidian有用于自动同步GitHub的插件，但是我没有使用，故在此不作介绍。另外，也可以尝试Obsidian + OneDrive的方式进行笔记同步，通过学生优惠能够获得很大的云存储空间以及实时同步的功能，缺点是本地误删会导致云端文件也被删除）
+
 更进一步地，如果你想将Obsidian融入自己的日常学习工作流中，可以参考csdiy中[关于Obsidian的介绍](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/workflow/)。
