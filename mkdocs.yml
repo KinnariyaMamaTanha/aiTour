@@ -68,6 +68,7 @@ nav:
       - Git: tools/Git.md
       - Obsidian: tools/Obsidian.md
       - Anaconda: tools/Anaconda.md
+      - Scoop: tools/Scoop.md
       - Material-for-MkDocs: tools/Material-for-MkDocs.md
 
 plugins: 
