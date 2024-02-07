@@ -15,9 +15,9 @@ hide:
 
 由于这本书将会在我的学习生涯中不断的更新，因此，我采用以时间为序的方式编排整本书的内容。我知道这样或许会带来一些缺点，如知识脉络不清晰，无法提供适合所有人的学习路线等。但我的想法是，通过分享我个人的学习路线，或许能够为他人带来一些参考和借鉴的价值。当然，我更提倡每一个人都构建自己的学习路线，毕竟"It's best only when it fits you"。
 
-截止2024年1月11日，这本书记录了以下内容：
+截至目前，这本书记录了以下内容：
 
-1. 大一上：[数学分析](da-yi-shang/calculus-1.md)，[线性代数](da-yi-shang/linear-algebra.md)（高等代数），[离散数学](da-yi-shang/discrete-math.md)，[C++](da-yi-shang/c++.md)，[Python](da-yi-shang/python.md)，[数据结构](da-yi-shang/data-structure.md)
+1. 大一上：[数学分析](da-yi-shang/calculus-1.md)，[线性代数](da-yi-shang/linear-algebra.md)（高等代数），[离散数学](da-yi-shang/discrete-math.md)，[C++](da-yi-shang/c++.md)，[Python](da-yi-shang/python.md)，[数据结构](da-yi-shang/data-structure.md)，以及一些实用工具。
 
 ## 特别鸣谢
 
