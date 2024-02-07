@@ -39,4 +39,4 @@ hide:
 1. [洛谷](https://www.luogu.com.cn/)：一个OI向的刷题网站。
 2. [Leetcode](https://leetcode.cn/)：一个offer向的刷题网站。
 3. [Python Tutor](https://pythontutor.com/):一个可以将C++，Java，Python等语言代码可视化的网站。
-4. [C++笔记](https://github.com/KinnariyaMamaTanha/Notes/tree/main/Coding%20Languages/C%2B%2B)：这是我在学习*C++ Primer Plus*时做的笔记，大概整理了一些知识点，但是其中的一些链接无法打开（因为我使用[Obsidian](../tools/obsidian.md)做笔记，一些链接是Wiki链接，GitHub无法识别），可以参考[README](https://github.com/KinnariyaMamaTanha/Notes/blob/main/README.md)中的说明。
+4. [C++笔记](https://github.com/KinnariyaMamaTanha/Notes/tree/main/Coding%20Languages/C%2B%2B)：这是我在学习*C++ Primer Plus*时做的笔记，大概整理了一些知识点，但是其中的一些链接无法打开（因为我使用[Obsidian](../tools/Obsidian.md)做笔记，一些链接是Wiki链接，GitHub无法识别），可以参考[README](https://github.com/KinnariyaMamaTanha/Notes/blob/main/README.md)中的说明。
