@@ -63,15 +63,18 @@ nav:
     - 离散数学入门: da-yi-shang/discrete-math.md
     - C++: da-yi-shang/c++.md
     - Python: da-yi-shang/python.md
-    - 数据结构: da-yi-shang/data-structure.md 
     - 实用工具:
       - Git: tools/Git.md
-      - WSL2: tools/WSL2.md
       - Vim: tools/Vim.md
       - Anaconda: tools/Anaconda.md
       - Obsidian: tools/Obsidian.md
       - Scoop: tools/Scoop.md
       - Material-for-MkDocs: tools/Material-for-MkDocs.md
+  - 大一寒假:
+    - 数据结构: da-yi-han-jia/data-structure.md
+    - 数据分析: da-yi-han-jia/data-analysis.md
+    - 实用工具:
+      - WSL2: tools/WSL2.md
 
 plugins: 
   - search
