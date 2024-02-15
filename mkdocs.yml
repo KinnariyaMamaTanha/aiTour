@@ -72,6 +72,7 @@ nav:
       - Material-for-MkDocs: tools/Material-for-MkDocs.md
   - 大一寒假:
     - 数据结构: da-yi-han-jia/data-structure.md
+    - 算法: da-yi-han-jia/algorithm.md
     - 数据分析: da-yi-han-jia/data-analysis.md
     - 实用工具:
       - WSL2: tools/WSL2.md
