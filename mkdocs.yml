@@ -1,8 +1,9 @@
 site_name: aiTour 
 site_author: Kinnariya Mama Tanha
+site_url: https://aitour.icu/
 site_description: >-
   AI学习之旅
-repo_url: https://aitour.icu
+repo_url: https://github.com/KinnariyaMamaTanha/aiTour/
 repo_name: aiTour
 
 theme:
