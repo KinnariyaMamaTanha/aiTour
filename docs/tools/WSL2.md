@@ -13,6 +13,13 @@ WSL，全称"Windows Subsystem for Linux"，用于在Windows系统中运行Linux
 
 关于WSL2的安装教程，可以参考[官方文档](https://learn.microsoft.com/en-us/windows/wsl/install)。
 
-在我编辑这个页面时，WSL2还存在内存占用高的问题（其实不止WSL2，Windows11本身内存占用就很高），可以参考[官方配置文档](https://learn.microsoft.com/en-us/windows/wsl/wsl-config#wslconfig)进行配置，以减少内存占用（或者自行加装内存条dog.jpg）。也可以使用软件[Mem Reduct](https://github.com/henrypp/memreduct)进行定时的内存清理。
+在我编辑这个页面时，WSL2还存在如下问题：
 
-更进一步的使用方法，可以自行Google。
+1. 内存占用高（其实不止WSL2，Windows11本身内存占用就很高）。可以参考[官方配置文档](https://learn.microsoft.com/en-us/windows/wsl/wsl-config#wslconfig)进行配置，以减少内存占用（或者自行加装内存条dog.jpg）。也可以使用一个轻量的软件[Mem Reduct](https://github.com/henrypp/memreduct)进行定时的内存清理。
+2. 对GUI应用支持不太友好。这点因个人电脑而异（例如在我的电脑上始终无法正常运行xfce4桌面，参考了多方教程仍没有解决方案），可以尝试使用微软推出的[WSLg](https://learn.microsoft.com/zh-cn/windows/wsl/tutorials/gui-apps)，以在Windows直接打开Linux的GUI应用。
+
+关于WSL2的更进一步的使用方法，可以自行Google。
+
+由于使用WSL2的初衷就是学习Linux，因此也需要一些Linux教程：
+1. [菜鸟教程](https://www.runoob.com/linux/linux-tutorial.html)
+2. [Linux 101](https://101.lug.ustc.edu.cn/)
