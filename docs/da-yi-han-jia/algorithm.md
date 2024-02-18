@@ -22,4 +22,6 @@ hide:
 
 ## 相关链接
 
-1. [cs161](https://stanford-cs161.github.io/winter2024/)：斯坦福大学的算法设计课程网站。该课程不公开课程视频，但仍然可以在B站上搜索到。
+1. [CS161](https://stanford-cs161.github.io/winter2024/)：斯坦福大学的算法设计课程网站。该课程不公开课程视频，但仍然可以在B站上搜索到。
+2. [Hello算法](https://www.hello-algo.com/)：Github上的62k+star项目，包含了基本的数据结构和算法教程，提供了不少的代码的可视化，可以帮助理解背后的逻辑；另外还提供了多种语言的数据结构实现。
+3. [OI-wiki](https://oi-wiki.org/)：一个OI竞赛向网站，里面囊括了若干进阶数据结构的简短教程，可作为课外扩展内容。

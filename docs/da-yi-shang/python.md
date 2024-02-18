@@ -35,9 +35,8 @@ hide:
 
 ## 相关链接
 
-1. [cs61A 2020summer](https://inst.eecs.berkeley.edu/~cs61a/su20/)：这是伯克利大学的cs61A课程2020夏季版官方网站。（据说2020fall版更好）
+1. [cs61A 2020summer](https://inst.eecs.berkeley.edu/~cs61a/su20/)：这是伯克利大学的cs61A课程2020夏季版官方网站。（当然也有许多不同年份的版本，请自行斟酌选择）
 2. [csdiy](https://csdiy.wiki/#cs61a)：梦开始的地方。
-3. [Python笔记](https://github.com/KinnariyaMamaTanha/Notes/tree/main/Coding%20Languages/Python)：这是我学习Python时做的笔记，结构稍显混乱，可以作为参考（不保证完全正确性）。
-4. [Python Tutor](https://pythontutor.com/)：一个可以将Python代码可视化的网站。
-5. [COMPOSING PROGRAMS](https://composingprograms.netlify.app/)：教材的中译版。
-6. [The Python Standard Library](https://docs.python.org/3/library/)：Python的官方文档，具有一定Python基础后应该学会查阅。
+3. [Python Tutor](https://pythontutor.com/)：一个可以将Python代码可视化的网站。
+4. [COMPOSING PROGRAMS](https://composingprograms.netlify.app/)：教材的中译版。
+5. [The Python Standard Library](https://docs.python.org/3/library/)：Python的官方文档，具有一定Python基础后可以查阅。
