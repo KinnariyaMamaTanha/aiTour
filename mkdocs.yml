@@ -77,6 +77,8 @@ nav:
     - 数据分析: da-yi-han-jia/data-analysis.md
     - 实用工具:
       - WSL2: tools/WSL2.md
+  - 大一下:
+    - 概率论: da-yi-xia/probability.md
 
 plugins: 
   - search

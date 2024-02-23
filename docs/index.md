@@ -18,7 +18,7 @@ hide:
 截至目前，这本书记录了以下内容：
 
 1. 大一上：[数学分析](da-yi-shang/calculus-1.md)，[线性代数](da-yi-shang/linear-algebra.md)（高等代数），[离散数学](da-yi-shang/discrete-math.md)，[C++](da-yi-shang/c++.md)，[Python](da-yi-shang/python.md)，以及一些实用工具。
-2. 大一寒假：[数据结构](da-yi-han-jia/data-structure.md), [数据分析](da-yi-han-jia/data-analysis.md)和实用工具
+2. 大一寒假：[数据结构](da-yi-han-jia/data-structure.md), [数据分析](da-yi-han-jia/data-analysis.md), [算法设计与分析](./da-yi-han-jia/algorithm.md)和实用工具
 
 ## 特别鸣谢
 
