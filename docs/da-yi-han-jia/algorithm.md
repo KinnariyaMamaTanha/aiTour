@@ -7,9 +7,9 @@ hide:
 
 ## 课程简介
 
-- **先修要求**：熟练掌握任何一门语言（推荐[C++](../da-yi-shang/c++.md)或[Python](../da-yi-shang/python.md)），以及[数据结构](../da-yi-han-jia/data-structure.md)
+- **先修要求**：熟练掌握任何一门语言（推荐[C++](../da-yi-shang/c++.md)或[Python](../da-yi-shang/python.md)），[离散数学](../da-yi-shang/discrete-math.md)，[数据结构](../da-yi-han-jia/data-structure.md)，以及[概率论](../da-yi-xia/probability.md)的基础知识
 - **参考材料**：
-    - 斯坦福大学的[算法设计与分析课程CS161](https://stanford-cs161.github.io/winter2024/)
+    - 斯坦福大学的算法设计与分析课程[CS161](https://stanford-cs161.github.io/winter2024/)
     - *Introduction to Algorithm*，作者: Thmos.H.Cormen, Charles E. Leiserson, etc.
 - **主要内容**：
     - 基本算法分析方法：大O记号、主方法、摊还分析
@@ -18,10 +18,19 @@ hide:
 
 ## 个人心得
 
+严格来说，学习数据结构的同时，应该已经接触到了一些算法（例如排序、DFS、BFS等），但是那时并没有学习这些算法背后的设计思路和方法，即使涉及到了，也只是一点基础，没有作深入学习。因此，在学习完数据结构后，我紧接着学习了《算法设计与分析》这门课。由于中学时曾简单地接触过OI竞赛，因此我学习新算法的时间相对较短（大概是大半个寒假），不能作为普遍的参考。
 
+同[数据结构](./data-structure.md)中相同，我仍然推荐在学习完一个算法后从0开始实现该算法。另外，我还推荐跟随CS161的slides进行学习，理由是：
+
+1. 这门课程的slides配图十分详实，很有助于理解算法的运行过程（相同的效果可以在[Hello算法](https://www.hello-algo.com/)中获得）；
+2. 在slides中，几乎每一个算法都给出了实际的问题情景，让我意识到算法和生活其实是息息相关的。
+
+CS161的配套教材是《算法导论》，一本有名的算法圣经，其数学推导非常严谨（但是有些章节又略显繁琐），尽管对数学基础欠佳的同学不太友好，但仍然非常值得一读。此外，在随机化算法和其后续的一些复杂度分析中会使用一些基础的概率论知识，可以通过阅读《概率导论》的前三章来补齐。
 
 ## 相关链接
 
 1. [CS161](https://stanford-cs161.github.io/winter2024/)：斯坦福大学的算法设计课程网站。该课程不公开课程视频，但仍然可以在B站上搜索到。
-2. [Hello算法](https://www.hello-algo.com/)：Github上的62k+star项目，包含了基本的数据结构和算法教程，提供了不少的代码的可视化，可以帮助理解背后的逻辑；另外还提供了多种语言的数据结构实现。
-3. [OI-wiki](https://oi-wiki.org/)：一个OI竞赛向网站，里面囊括了若干进阶数据结构的简短教程，可作为课外扩展内容。
+2. [Hello算法](https://www.hello-algo.com/)：Github上的62k+star项目，包含了基本的数据结构和算法教程，提供了不少的代码的可视化，可以帮助理解背后的逻辑；另外还提供了多种语言的算法实现。
+3. [OI-wiki](https://oi-wiki.org/)：一个OI竞赛向网站，里面囊括了几乎所有竞赛常见算法的简短教程，可作为课外扩展内容。
+4. [洛谷](https://www.luogu.com.cn)：一个偏OI向的算法题网站。
+5. [力扣](https://leetcode.cn/)：一个偏offer向的算法题网站。

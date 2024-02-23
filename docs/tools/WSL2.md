@@ -21,5 +21,8 @@ WSL，全称"Windows Subsystem for Linux"，用于在Windows系统中运行Linux
 关于WSL2的更进一步的使用方法，可以自行Google。
 
 由于使用WSL2的初衷就是学习Linux，因此也需要一些Linux教程：
+
 1. [菜鸟教程](https://www.runoob.com/linux/linux-tutorial.html)
 2. [Linux 101](https://101.lug.ustc.edu.cn/)
+
+个人使用的是后者，可以帮助小白快速入门Linux。
