@@ -1,8 +1,3 @@
----
-hide:
-    - footer
----
-
 # Linear Algebra
 
 ## 课程简介

@@ -1,7 +1,3 @@
----
-hide:
-    - footer
----
 # Calculus(1)
 
 ## 课程简介

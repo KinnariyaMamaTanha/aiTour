@@ -1,7 +1,3 @@
----
-hide:
-    - footer
----
 # Python
 
 ## 课程简介

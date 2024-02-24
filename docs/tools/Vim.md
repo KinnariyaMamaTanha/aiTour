@@ -1,8 +1,3 @@
----
-hide:
-    - footer
----
-
 # Vim
 
 我是从csdiy上的[vim介绍界面](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Vim/)了解vim并进行学习的，相关教程可以在这个网页查询到。

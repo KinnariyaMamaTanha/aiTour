@@ -1,12 +1,8 @@
----
-hide:
-    - footer
----
 # Data Structure
 
 ## 课程简介
 
-- **先修要求**：任何一门编程语言的熟练使用（推荐[C++](../da-yi-shang/c++.md)或者[Python](../da-yi-shang/python.md)）
+- **先修要求**：任何一门编程语言的熟练使用（推荐[C++](../da-yi-shang/c++.md)或者[Python](../da-yi-shang/python.md)），以及[离散数学](../da-yi-shang/discrete-math.md)
 - **参考材料**：
     - 《数据结构：思想与实现》，作者：俞勇、翁惠玉
     - 《算法导论》，作者：Thmos.H.Cormen, Charles E. Leiserson, etc.
