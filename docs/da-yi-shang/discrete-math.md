@@ -1,7 +1,3 @@
----
-hide:
-    - footer
----
 # Discrete Math(Basic)
 
 ## 课程简介

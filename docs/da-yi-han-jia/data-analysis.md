@@ -1,8 +1,3 @@
----
-hide:
-    - footer
----
-
 # Data Analysis
 
 ## 课程简介

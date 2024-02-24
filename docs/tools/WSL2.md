@@ -1,8 +1,3 @@
----
-hide:
-    - footer
----
-
 # WSL2
 
 WSL，全称"Windows Subsystem for Linux"，用于在Windows系统中运行Linux系统，而WSL2为WSL的第二个版本。WSL2是基于完整的Linux内核构建的，因此能提供更好的性能和更好的兼容性，使得在 Windows 系统上运行 Linux 应用程序更加流畅和稳定。

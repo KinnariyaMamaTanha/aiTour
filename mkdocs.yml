@@ -18,7 +18,6 @@ theme:
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
-    - navigation.footer
     - search.highlight
     - search.share
     - search.suggest
@@ -58,6 +57,7 @@ theme:
 
 nav:
   - 序: index.md
+  - 我的学习规划: learning-path.md
   - 大一上:
     - 微积分(1): da-yi-shang/calculus-1.md
     - 线性代数: da-yi-shang/linear-algebra.md
@@ -73,7 +73,7 @@ nav:
       - Material-for-MkDocs: tools/Material-for-MkDocs.md
   - 大一寒假:
     - 数据结构: da-yi-han-jia/data-structure.md
-    - 算法: da-yi-han-jia/algorithm.md
+    - 算法设计与分析: da-yi-han-jia/algorithm.md
     - 数据分析: da-yi-han-jia/data-analysis.md
     - 实用工具:
       - WSL2: tools/WSL2.md
@@ -109,5 +109,10 @@ markdown_extensions:
       anchor_linenums: true
       linenums: true # 显示行号
       auto_title: true # 显示编程语言名称
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 copyright: Copyright &copy; 2023 - present KinnariyaMamaTanha

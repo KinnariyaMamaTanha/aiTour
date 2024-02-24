@@ -1,8 +1,3 @@
----
-hide:
-    - footer
----
-
 # Algorithm
 
 ## 课程简介

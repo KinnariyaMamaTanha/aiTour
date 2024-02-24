@@ -1,8 +1,3 @@
----
-hide:
-    - footer
----
-
 # Probability
 
 !!! warning

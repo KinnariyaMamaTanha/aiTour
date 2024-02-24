@@ -1,7 +1,3 @@
----
-hide:
-    - footer
----
 # Anaconda
 
 在学习中，不同的任务往往会要求不同的Python环境，比如某个项目可能只能在Python3.10以上运行，另一个项目又会要求Python版本必须为3.9, 并且还要求CUDA版本为12.1，Pytorch版本为2.1.2。这时为了避免繁琐的环境配置以及解决多版本Python共存的问题，可以使用Anaconda来管理不同的Python环境。
