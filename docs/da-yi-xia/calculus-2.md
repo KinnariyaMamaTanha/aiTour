@@ -1,4 +1,4 @@
-# Probability
+# Calculus(2)
 
 !!! warning
     This page hasn't been completed yet.

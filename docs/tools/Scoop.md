@@ -4,7 +4,7 @@
 
 这时，scoop就提供了类似上述软件的功能，可以使你在Windows上享受到“傻瓜式”软件管理。以neovim为例，只需要简单的一句指令：`scoop install neovim`，就可以直接安装neovim，并且省去了最烦人的环境变量设置的环节。另外，在下载某个软件的时候，scoop也实现了自动安装相关软件的功能，实在是非常便捷。
 
-为了学习scoop，可以：
+为了学习scoop的用法，可以：
 
 1. 阅读[官网](https://scoop.sh/)的说明以获得功能的简要介绍；
 2. 阅读[官方文档](https://github.com/ScoopInstaller/Scoop/wiki)来获得使用scoop的最好教程。

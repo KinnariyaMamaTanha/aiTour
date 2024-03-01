@@ -1,4 +1,4 @@
-# Probability
+# Machine Learning
 
 !!! warning
     This page hasn't been completed yet.

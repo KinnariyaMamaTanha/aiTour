@@ -78,7 +78,9 @@ nav:
     - 实用工具:
       - WSL2: tools/WSL2.md
   - 大一下:
+    - 微积分(2): da-yi-xia/calculus-2.md
     - 概率论: da-yi-xia/probability.md
+    - 机器学习: da-yi-xia/machine-learning.md
 
 plugins: 
   - search
