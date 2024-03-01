@@ -7,7 +7,7 @@ graph TD
     aiTour(aiTour)
     A(C++)
     B(Python)
-    C(微积分)
+    C(微积分Ⅰ)
     D(线性代数)
     E(离散数学)
     F(算法设计与分析)
@@ -15,18 +15,20 @@ graph TD
     H(数据分析)
     I(概率论)
     J(机器学习)
+    K(微积分Ⅱ)
 
-    click AI "../"
+    click aiTour "../"
     click A "../da-yi-shang/c++/"
-    click B "../da-yi-shang/python"
-    click C "../da-yi-shang/calculus-1"
-    click D "../da-yi-shang/linear-algebra"
-    click E "../da-yi-shang/discrete-math"
-    click F "../da-yi-han-jia/algorithm"
-    click G "../da-yi-han-jia/data-structure"
-    click H "../da-yi-han-jia/data-analysis"
-    click I "../da-yi-xia/probability"
-    click J "../da-yi-xia/machine-learning"
+    click B "../da-yi-shang/python/"
+    click C "../da-yi-shang/calculus-1/"
+    click D "../da-yi-shang/linear-algebra/"
+    click E "../da-yi-shang/discrete-math/"
+    click F "../da-yi-han-jia/algorithm/"
+    click G "../da-yi-han-jia/data-structure/"
+    click H "../da-yi-han-jia/data-analysis/"
+    click I "../da-yi-xia/probability/"
+    click J "../da-yi-xia/machine-learning/"
+    click K "../da-yi-xia/calculus-2/"
     
     aiTour---C
     aiTour---D
@@ -35,16 +37,18 @@ graph TD
     A---G
     A---B
     B---H
-    C---I
+    C---K
     D---I
     D---J
     D---F
+    E---I
     E---G
     F---J
     G---F
     H---J
     I---J
     I---F
+    K---I
 ```
 
 这份学习路线仅仅只是一个抛砖引玉——每个人都应该有自己独特的学习路线，而不是一味地照搬别人的。然而，相信对于很多人而言，提前了解接下来应该去学些什么并不是一件容易的事情。这里提供一个思路：
