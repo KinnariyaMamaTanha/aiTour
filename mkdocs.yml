@@ -71,6 +71,7 @@ nav:
       - Obsidian: tools/Obsidian.md
       - Scoop: tools/Scoop.md
       - Material-for-MkDocs: tools/Material-for-MkDocs.md
+      - 魔法: tools/Magic.md
   - 大一寒假:
     - 数据结构: da-yi-han-jia/data-structure.md
     - 算法设计与分析: da-yi-han-jia/algorithm.md
@@ -81,6 +82,7 @@ nav:
     - 微积分(2): da-yi-xia/calculus-2.md
     - 概率论: da-yi-xia/probability.md
     - 机器学习: da-yi-xia/machine-learning.md
+  - 小工具: tools/gadgets.md
 
 plugins: 
   - search

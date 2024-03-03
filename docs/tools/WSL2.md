@@ -32,7 +32,7 @@
 
 ## 安装及使用
 
-关于WSL2的安装教程，可以参考[官方文档](https://learn.microsoft.com/en-us/windows/wsl/install)。另外，官方文档也解决了一部分问题，建议按需阅读。关于WSL2的更进一步的使用方法，请自行Google。
+关于WSL2的安装教程，可以参考[官方文档](https://learn.microsoft.com/en-us/windows/wsl/install)。另外，官方文档也解决了使用中的一部分问题，建议按需阅读。关于WSL2的更进一步的使用方法，请自行Google。
 
 ## 存在的问题
 
