@@ -9,7 +9,7 @@ zlibrary：由于各种原因，在此不放链接
 ## 翻译网站
 
 1. <https://www.deepl.com/translator> ：DeepL翻译器，专业词汇翻译准确率较高
-2. <https://mathdf.com/cn/> ：网易有道翻译
+2. <https://dict.youdao.com/> ：网易有道翻译
 3. <https://translate.google.com/?hl=zh-CN&sl=auto&tl=en&op=translate> ：Google翻译我的神！
 4. <https://wantwords.net/> ：反向词典
 
