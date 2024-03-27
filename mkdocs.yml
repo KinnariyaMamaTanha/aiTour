@@ -1,4 +1,4 @@
-site_name: aiTour 
+site_name: aiTour
 site_author: Kinnariya Mama Tanha
 site_url: https://aitour.icu/
 site_description: >-
@@ -29,10 +29,10 @@ theme:
       scheme: slate
       primary: indigo
       accent: deep purple
-      toggle: 
+      toggle:
         icon: material/brightness-4
         name: Switch to light mode
-    
+
     # For the light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -58,6 +58,7 @@ theme:
 nav:
   - 序: index.md
   - 我的学习规划: learning-path.md
+  - 提问的智慧: how-to-ask-questions.md
   - 大一上:
     - 微积分(1): da-yi-shang/calculus-1.md
     - 线性代数: da-yi-shang/linear-algebra.md
@@ -82,12 +83,15 @@ nav:
     - 微积分(2): da-yi-xia/calculus-2.md
     - 概率论: da-yi-xia/probability.md
     - 机器学习: da-yi-xia/machine-learning.md
+    - 实用工具:
+      - Latex: tools/Latex.md
+      - Docker: tools/Docker.md
   - 小工具: tools/gadgets.md
 
-plugins: 
+plugins:
   - search
-  #- git-revision-date-localized:
-   #   enable_creation_date: true
+  - git-revision-date-localized:
+      enable_creation_date: true
 
 extra: 
   social:
@@ -98,7 +102,7 @@ extra:
       link: mailto:yuhengji073@gmail.com
       name: My E-mail Address
 
-markdown_extensions: 
+markdown_extensions:
   - attr_list
   - md_in_html
   - footnotes
