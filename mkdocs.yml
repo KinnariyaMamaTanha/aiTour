@@ -92,6 +92,9 @@ plugins:
   - search
   - git-revision-date-localized:
       enable_creation_date: true
+      exclude:
+        - blog/archive/*
+        - blog/category/*
 
 extra: 
   social:
