@@ -91,10 +91,13 @@ nav:
 plugins:
   - search
   - git-revision-date-localized:
+      type: date
       enable_creation_date: true
       exclude:
         - blog/archive/*
         - blog/category/*
+      # locale: en
+      fallback_to_build_date: true
 
 extra: 
   social:
