@@ -91,7 +91,7 @@ nav:
 plugins:
   - search
   - git-revision-date-localized:
-    enable_creation_date: true
+      enable_creation_date: true
 
 extra: 
   social:
