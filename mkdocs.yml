@@ -83,6 +83,7 @@ nav:
     - 微积分(2): da-yi-xia/calculus-2.md
     - 概率论: da-yi-xia/probability.md
     - 机器学习: da-yi-xia/machine-learning.md
+    - 深度学习: da-yi-xia/deep-learning.md
     - 实用工具:
       - Latex: tools/Latex.md
       - Docker: tools/Docker.md
@@ -122,5 +123,10 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 copyright: Copyright &copy; 2023 - present KinnariyaMamaTanha
