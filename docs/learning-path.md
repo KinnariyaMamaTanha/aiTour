@@ -1,21 +1,20 @@
 # My aiTour
 
-截至目前，这是我个人的 AI 学习路线（顺序为由上到下，连线为对应的先修关系）：
+截至目前，这是我个人的 AI 学习路线，顺序为由上到下，连线为对应的先修关系（提示：点击可进入相应页面）：
 
 ```mermaid
 graph TD
     aiTour(aiTour)
     A(C++)
     B(Python)
-    C(微积分Ⅰ)
+    C(微积分)
     D(线性代数)
     E(离散数学)
     F(算法设计与分析)
     G(数据结构)
-    H(数据分析)
-    I(概率论)
-    J(机器学习)
-    K(微积分Ⅱ)
+    H(概率论)
+    I(机器学习)
+    J(深度学习)
 
     click aiTour "../"
     click A "../da-yi-shang/c++/"
@@ -25,10 +24,9 @@ graph TD
     click E "../da-yi-shang/discrete-math/"
     click F "../da-yi-han-jia/algorithm/"
     click G "../da-yi-han-jia/data-structure/"
-    click H "../da-yi-han-jia/data-analysis/"
-    click I "../da-yi-xia/probability/"
-    click J "../da-yi-xia/machine-learning/"
-    click K "../da-yi-xia/calculus-2/"
+    click H "../da-yi-xia/probability/"
+    click I "../da-yi-xia/machine-learning/"
+    click J "../da-yi-xia/deep-learning/"
 
     aiTour---C
     aiTour---D
@@ -36,19 +34,20 @@ graph TD
     aiTour---A
     A---G
     A---B
-    B---H
-    C---K
+    B---I
+    B---J
+    C---H
+    D---H
     D---I
-    D---J
     D---F
-    E---I
+    E---H
     E---G
-    F---J
+    F---I
     G---F
     H---J
+    H---I
+    H---F
     I---J
-    I---F
-    K---I
 ```
 
 这份学习路线仅仅只是一个抛砖引玉——每个人都应该有自己独特的学习路线，而不是一味地照搬别人的。这里提供一个思路，以构建你自己的学习路线：

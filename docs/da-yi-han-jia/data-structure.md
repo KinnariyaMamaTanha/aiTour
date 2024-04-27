@@ -36,3 +36,7 @@
 2. [cs61b](https://sp18.datastructur.es/)：UCB 的数据结构课程（使用 Java），非常神仙的一门课，对于完全没有接触过数据结构的同学，建议通过学习这门课程入门。
 3. [OI-wiki](https://oi-wiki.org/)：一个 OI 竞赛向网站，里面囊括了若干进阶数据结构的简短教程，可作为课外扩展内容。
 4. [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/)：一个可视化数据结构的网站。
+
+## 后续课程
+
+在学习完数据结构之后，请开始学习[算法](./algorithm.md)吧！加油！💪

@@ -45,8 +45,7 @@
 
 1. 内存占用高（其实不止 WSL2，Windows11 本身内存占用就很高）。可以参考[官方配置文档](https://learn.microsoft.com/en-us/windows/wsl/wsl-config#wslconfig)进行配置，以减少内存占用（或者自行加装内存条dog.jpg）。也可以使用一个轻量的软件 [Mem Reduct](https://github.com/henrypp/memreduct) 进行定时的内存清理；
 2. 对 GUI 应用支持不太友好。这点因个人电脑而异（例如在我的电脑上始终无法正常运行 xfce4 桌面，参考了多方教程仍没有解决方案），可以尝试使用微软推出的 [WSLg](https://learn.microsoft.com/zh-cn/windows/wsl/tutorials/gui-apps) ，以在 Windows 直接打开 Linux 的 GUI 应用；（2024-03-23补充：我通过 X server 成功配置好了 xfce4 桌面，但是很卡顿，体验不好，可能是电脑自身配置的原因，故放弃 WSL2 桌面）
-3. 一旦开启 Hyper-V 后，就无法再使用 VMware 或者 VirtualBox 等虚拟机软件了，也就是说，WSL2 和它们不可兼得；（2024-03-19补充：VMware 已经支持 Hyper-V；VirtualBox 也行，但是还存在一些 bug）
-4. 磁盘空间不会自动回收，需要手动压缩空间（并且最好转移到 D 盘中，不然 C 盘很容易就会炸开）。
+3. 磁盘空间不会自动回收，需要手动压缩空间（并且最好转移到 D 盘中，不然 C 盘很容易就会炸开）。
 
 ## Linux使用教程
 
@@ -58,20 +57,20 @@
 
 个人使用的是后两者，可以帮助小白快速入门 Linux。
 
-此外，MIT 的 [The-missing-semester](https://missing.csail.mit.edu/2020/) 课程也可以作为参考，中文翻译网址<https://missing-semester-cn.github.io/>
+此外，MIT 的 [The-missing-semester](https://missing.csail.mit.edu/2020/) 课程也可以作为参考，中文翻译网址 <https://missing-semester-cn.github.io/>
 
 ## 配置深度学习环境
 
 在熟悉了 WSL2 的基本操作之后，就可以开始配置机器学习/深度学习的环境了，我的大致配置过程如下：
 
-1. 在 Windows 中安装NVIDIA驱动程序
+1. 在 Windows 中安装 NVIDIA 驱动程序
 2. 在 WSL2 中安装 CUDA
 3. 在 WSL2 中安装 cuDNN
-4. 在 WSL2 中安装 anaconda（或 conda、miniconda）。当然不一定非要用 anaconda，使用 [docker](./Docker.md) 一样可以，但是 anaconda 的配置相对更简单一些
+4. 在 WSL2 中安装 anaconda（或 conda、miniconda）。当然不一定非要用 anaconda，使用 [docker](./Docker.md) 一样可以，但是 anaconda 的上手相对更简单一些
 5. 在 WSL2 中安装 Pytorch 等 Python 包
 6. 使用 VScode 或 Pycharm 专业版等远程连接 WSL2（或者直接在 WSL2 中安装 IDE/编辑器，不太推荐），开始 coding
 
-由于不同的电脑情况不同，具体过程还请自行搜索安装教程。这里给出我参考的中文教程：<https://zhuanlan.zhihu.com/p/621142457>，以及<https://zhuanlan.zhihu.com/p/434239083>。其中，前者侧重于基于 docker 的配置方法，后者侧重于基于 anaconda 的配置方法（最后一部分安装 intelliJ Ultimate 的步骤可省略），参考时请关注年份是否合适，如果过于久远请查找最新版本的配置方法！
+由于不同的电脑情况不同，具体过程还请自行搜索安装教程。这里给出我参考的中文教程：<https://zhuanlan.zhihu.com/p/621142457>，以及 <https://zhuanlan.zhihu.com/p/434239083>。其中，前者侧重于基于 docker 的配置方法，后者侧重于基于 anaconda 的配置方法（最后一部分安装 intelliJ Ultimate 的步骤可省略），参考时请关注年份是否合适，如果过于久远请查找最新版本的配置方法！当然，前往官网搜索一定能保证时效性，故更推荐自行查找 NVIDIA 以及 Pytorch 官网教程。
 
 注意：我仅参考了教程中的大致配置步骤，具体命令则是通过阅读官方文档来获得，这样出错的概率会大大降低。并且由于此时我还没有学习 docker 的使用方法，故采用的是 anaconda 来进行环境配置。
 

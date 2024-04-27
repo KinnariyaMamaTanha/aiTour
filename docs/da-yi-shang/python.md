@@ -36,3 +36,15 @@
 3. [Python Tutor](https://pythontutor.com/)：一个可以将Python代码可视化的网站。
 4. [COMPOSING PROGRAMS](https://composingprograms.netlify.app/)：教材的中译版。
 5. [The Python Standard Library](https://docs.python.org/3/library/)：Python的官方文档，具有一定Python基础后可以查阅。
+
+## 其它同样精彩的课程/资料
+
+### [Stanford CS106A: Programming Methodologies](https://cs106a.stanford.edu/)
+
+斯坦福编程入门系列第一门课程，我没有上过这门课，仅仅列在此处以供参考。
+
+## 后续课程
+
+如果你是从 Python 开始入门编程的话，当学习完 Python 之后，我建议先学习一下 [C++](./c++.md)，了解程序运行中的更底层一些的东西，有助于增强理解。如果你还没有学习[数据结构](../da-yi-han-jia/data-structure.md)以及[算法](../da-yi-han-jia/algorithm.md)的话，我的建议是先去学习这两门课程（注意先完成这两门课的其它先修课程），在训练中不断增强自己的代码能力，尝试挑战写出越来越优美的代码！
+
+另外，当你学习完 Python 和 C++ 之后，你应该已经拥有了快速学习任何一门语言的能力，因此，我将不再提供其它语言的课程推荐，请自行探索吧！加油！💪

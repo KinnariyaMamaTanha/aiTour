@@ -17,7 +17,7 @@
 <del>当然，创建这个网站一方面也能提高我自己的学习认真程度。</del>我会竭尽我所能：
 
 1. 寻找优质书籍、网课等资料并进行汇总；
-2. 安排出一条尽可能合理的AI学习路线规划；
+2. 安排出一条尽可能合理的 AI 学习路线规划；
 3. 在具体的课程中提供自己的尽可能多的有价值的心得体会。
 
 对于前两点，我有信心做到令大多数人满意；对于最后一点，我所提供的心得也许并不适合每一个人，这是一件仁者见仁的事情，我会做到我能力范围内的最好。
@@ -43,3 +43,7 @@
 ## Discussions
 
 本书计划在基本成熟后添加讨论区，届时请在讨论区进行 Discussion，或者成立QQ/微信群进行交流。
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=KinnariyaMamaTanha/aiTour&type=Timeline)](https://star-history.com/#KinnariyaMamaTanha/aiTour&Timeline)

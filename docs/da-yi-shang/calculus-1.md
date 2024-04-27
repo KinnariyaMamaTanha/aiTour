@@ -36,3 +36,7 @@
 
 ## 相关链接
 1. [Essence of Calculus](https://www.3blue1brown.com/topics/linear-algebra)：3Blue1Brown官方视频网站，中配视频可以在B站自行搜索。
+
+## 后续课程
+
+在学完这一部分以及[线性代数](./linear-algebra.md)基础内容之后，你就可以前往学习[微积分Ⅱ](../da-yi-xia/calculus-2.md)了。加油！💪
