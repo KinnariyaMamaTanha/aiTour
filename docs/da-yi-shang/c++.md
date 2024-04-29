@@ -38,7 +38,7 @@
 
 ## 其它同样精彩的课程/资料
 
-### [Stanford CS106B: Programming Abstractions](https://web.stanford.edu/class/cs106b/)
+### [Stanford CS106B](https://web.stanford.edu/class/cs106b/)
 
 斯坦福大学编程入门系列的第二门课程，讲授 C++ 的使用以及一些基础的数据结构与算法知识，并且应用这些知识去解决一些复杂的问题。这门课程的先修课程为 CS106A，斯坦福编程入门系列的第一门课程（教授 Python 语言）。如果你不喜欢看书的话，可以尝试上这门网课。
 

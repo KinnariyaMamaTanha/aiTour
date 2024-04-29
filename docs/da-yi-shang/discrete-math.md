@@ -4,7 +4,7 @@
 
 - **先修要求**：无
 - **参考材料**：
-    - 上海交大殷翔老师的讲义，可见于[Discrete Math(Honor)](https://xiangyin.sjtu.edu.cn/teaching.html)
+    - 上海交大殷翔老师的讲义，可见于 [Discrete Math(Honor)](https://xiangyin.sjtu.edu.cn/teaching.html)
     - 《离散数学及其应用》，作者：Kenneth H.Rosen
 - **主要内容**：
     - 数理逻辑（命题逻辑，谓词逻辑）
@@ -41,10 +41,10 @@
 
 ## 其它同样精彩的课程/资料
 
-### [Stanford CS103: Mathematical Foundations of Computing](https://web.stanford.edu/class/cs103/)
+### [Stanford CS103](https://web.stanford.edu/class/cs103/)
 
 这门课程讲授离散数学、计算理论、复杂度理论，比我所使用的资料覆盖面更广，可以用作参考和补充。
 
 ## 后续课程
 
-离散数学可以说贯穿了整个 AI 的学习，处于基石的位置。在学习完这门课程后，如果你的数学基础学习较快的话（指学习完了[微积分Ⅰ](./calculus-1.md)和[线性代数](./linear-algebra.md)），可以开始[概率论](../da-yi-xia/probability.md)的学习了！如果你的编程方面学习较快的话（指学习完了 [C++](./c++.md) 或者 [Python](./python.md) 其中之一），就可以开始学习[数据结构](../da-yi-han-jia/data-structure.md)和[算法](../da-yi-han-jia/algorithm.md)了！
+离散数学可以说贯穿了整个计算机的学习，处于基石的位置。在学习完这门课程后，如果你的数学基础学习较快的话（指学习完了[微积分Ⅰ](./calculus-1.md)和[线性代数](./linear-algebra.md)），可以开始[概率论](../da-yi-xia/probability.md)的学习了！如果你的编程方面学习较快的话（指学习完了 [C++](./c++.md) 或者 [Python](./python.md) 其中之一），就可以开始学习[数据结构](../da-yi-han-jia/data-structure.md)和[算法](../da-yi-han-jia/algorithm.md)了！

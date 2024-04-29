@@ -15,6 +15,9 @@ graph TD
     H(概率论)
     I(机器学习)
     J(深度学习)
+    K(凸优化)
+    L(计算机系统入门)
+    M(矩阵论)
 
     click aiTour "../"
     click A "../da-yi-shang/c++/"
@@ -27,6 +30,9 @@ graph TD
     click H "../da-yi-xia/probability/"
     click I "../da-yi-xia/machine-learning/"
     click J "../da-yi-xia/deep-learning/"
+    click K "../da-yi-shu-jia/convex-optimization/"
+    click L "../da-yi-shu-jia/CSAPP/"
+    click M "../da-yi-shu-jia/matrix-theory/"
 
     aiTour---C
     aiTour---D
@@ -36,18 +42,24 @@ graph TD
     A---B
     B---I
     B---J
+    C---K
+    D---K
     C---H
     D---H
     D---I
+    D---M
     D---F
     E---H
     E---G
     F---I
+    F---L
     G---F
     H---J
     H---I
     H---F
     I---J
+    M---I
+    K---I
 ```
 
 这份学习路线仅仅只是一个抛砖引玉——每个人都应该有自己独特的学习路线，而不是一味地照搬别人的。这里提供一个思路，以构建你自己的学习路线：
@@ -63,4 +75,3 @@ graph TD
 
 在确定好学习路线后，就需要确定学习每门课程所用的资料了。这个步骤就需要按照你的个人喜好来决定。一般来说，所需的资料在网上应该是数不胜数的，你可以按需挑选最符合你胃口的资料和课程。
 
-在做好这些准备工作后，请开始你的 AI 学习之旅吧！
