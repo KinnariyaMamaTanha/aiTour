@@ -2,137 +2,147 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://aitour.icu/</loc>
-         <lastmod>2024-04-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://aitour.icu/how-to-ask-questions/</loc>
-         <lastmod>2024-04-27</lastmod>
+         <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aitour.icu/learning-path/</loc>
-         <lastmod>2024-04-27</lastmod>
+         <lastmod>2024-04-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://aitour.icu/preparations/</loc>
+         <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aitour.icu/da-yi-han-jia/algorithm/</loc>
-         <lastmod>2024-04-27</lastmod>
+         <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aitour.icu/da-yi-han-jia/data-analysis/</loc>
-         <lastmod>2024-04-27</lastmod>
+         <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aitour.icu/da-yi-han-jia/data-structure/</loc>
-         <lastmod>2024-04-27</lastmod>
+         <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aitour.icu/da-yi-shang/c%2B%2B/</loc>
-         <lastmod>2024-04-27</lastmod>
+         <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aitour.icu/da-yi-shang/calculus-1/</loc>
-         <lastmod>2024-04-27</lastmod>
+         <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aitour.icu/da-yi-shang/discrete-math/</loc>
-         <lastmod>2024-04-27</lastmod>
+         <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aitour.icu/da-yi-shang/linear-algebra/</loc>
-         <lastmod>2024-04-27</lastmod>
+         <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aitour.icu/da-yi-shang/python/</loc>
-         <lastmod>2024-04-27</lastmod>
+         <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://aitour.icu/da-yi-shu-jia/convex-optimazation/</loc>
-         <lastmod>2024-04-27</lastmod>
+         <loc>https://aitour.icu/da-yi-shu-jia/computer-system/</loc>
+         <lastmod>2024-04-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://aitour.icu/da-yi-shu-jia/convex-optimization/</loc>
+         <lastmod>2024-04-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://aitour.icu/da-yi-shu-jia/matrix-theory/</loc>
+         <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aitour.icu/da-yi-xia/calculus-2/</loc>
-         <lastmod>2024-04-27</lastmod>
+         <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aitour.icu/da-yi-xia/deep-learning/</loc>
-         <lastmod>2024-04-27</lastmod>
+         <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aitour.icu/da-yi-xia/machine-learning/</loc>
-         <lastmod>2024-04-27</lastmod>
+         <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aitour.icu/da-yi-xia/probability/</loc>
-         <lastmod>2024-04-27</lastmod>
+         <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aitour.icu/tools/Anaconda/</loc>
-         <lastmod>2024-04-27</lastmod>
+         <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aitour.icu/tools/Docker/</loc>
-         <lastmod>2024-04-27</lastmod>
+         <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aitour.icu/tools/Git/</loc>
-         <lastmod>2024-04-27</lastmod>
+         <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aitour.icu/tools/Latex/</loc>
-         <lastmod>2024-04-27</lastmod>
+         <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aitour.icu/tools/Magic/</loc>
-         <lastmod>2024-04-27</lastmod>
+         <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aitour.icu/tools/Material-for-MkDocs/</loc>
-         <lastmod>2024-04-27</lastmod>
+         <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aitour.icu/tools/Obsidian/</loc>
-         <lastmod>2024-04-27</lastmod>
+         <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aitour.icu/tools/Scoop/</loc>
-         <lastmod>2024-04-27</lastmod>
+         <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aitour.icu/tools/Vim/</loc>
-         <lastmod>2024-04-27</lastmod>
+         <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aitour.icu/tools/WSL2/</loc>
-         <lastmod>2024-04-27</lastmod>
+         <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aitour.icu/tools/gadgets/</loc>
-         <lastmod>2024-04-27</lastmod>
+         <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

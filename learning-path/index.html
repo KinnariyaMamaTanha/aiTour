@@ -15,10 +15,10 @@
         <link rel="canonical" href="https://aitour.icu/learning-path/">
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../preparations/">
       
       
-        <link rel="next" href="../how-to-ask-questions/">
+        <link rel="next" href="../da-yi-shang/calculus-1/">
       
       
       <link rel="icon" href="../images/logo.jpg">
@@ -281,6 +281,26 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../preparations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    旅途前的准备
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -303,26 +323,6 @@
 
       </a>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../how-to-ask-questions/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    提问的智慧
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -921,7 +921,7 @@
         
   
   <span class="md-ellipsis">
-    机器学习
+    机器学习入门
   </span>
   
 
@@ -942,7 +942,7 @@
         
   
   <span class="md-ellipsis">
-    深度学习
+    深度学习入门
   </span>
   
 
@@ -1050,6 +1050,111 @@
   
   
   
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    大一暑假
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            大一暑假
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../da-yi-shu-jia/convex-optimization/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    凸优化
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../da-yi-shu-jia/matrix-theory/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    矩阵论
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../da-yi-shu-jia/computer-system/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    计算机系统入门
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../tools/gadgets/" class="md-nav__link">
         
@@ -1114,6 +1219,9 @@
     H(概率论)
     I(机器学习)
     J(深度学习)
+    K(凸优化)
+    L(计算机系统入门)
+    M(矩阵论)
 
     click aiTour "../"
     click A "../da-yi-shang/c++/"
@@ -1126,6 +1234,9 @@
     click H "../da-yi-xia/probability/"
     click I "../da-yi-xia/machine-learning/"
     click J "../da-yi-xia/deep-learning/"
+    click K "../da-yi-shu-jia/convex-optimization/"
+    click L "../da-yi-shu-jia/CSAPP/"
+    click M "../da-yi-shu-jia/matrix-theory/"
 
     aiTour---C
     aiTour---D
@@ -1135,18 +1246,24 @@
     A---B
     B---I
     B---J
+    C---K
+    D---K
     C---H
     D---H
     D---I
+    D---M
     D---F
     E---H
     E---G
     F---I
+    F---L
     G---F
     H---J
     H---I
     H---F
-    I---J</code></pre>
+    I---J
+    M---I
+    K---I</code></pre>
 <p>这份学习路线仅仅只是一个抛砖引玉——每个人都应该有自己独特的学习路线，而不是一味地照搬别人的。这里提供一个思路，以构建你自己的学习路线：</p>
 <div class="admonition note">
 <p class="admonition-title">aiTour生成算法</p>
@@ -1159,7 +1276,6 @@
 <p>通过上述过程，就可以构建起一个斯坦福版本的学习路线了。（当然，不一定必须学习相应的斯坦福课程，完全可以在网上查找推荐的替代课程）</p>
 <p>或者，你也可以参考 <a href="https://hkn.eecs.berkeley.edu/courseguides">UCB</a> 的课程地图。再或者，你也可以将上述思路运用到 <a href="https://csdiy.wiki">csdiy</a> 中。</p>
 <p>在确定好学习路线后，就需要确定学习每门课程所用的资料了。这个步骤就需要按照你的个人喜好来决定。一般来说，所需的资料在网上应该是数不胜数的，你可以按需挑选最符合你胃口的资料和课程。</p>
-<p>在做好这些准备工作后，请开始你的 AI 学习之旅吧！</p>
 
 
 
@@ -1182,7 +1298,7 @@
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 27, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 29, 2024</span>
   </span>
 
     
