@@ -20,7 +20,7 @@ Obsidian 使用 Markdown 语法（但不是 GFM, [GitHub Favored Markdown](https
 
 ## 关于同步与备份
 
-实际上有多种同步 Obsidian 方式，我选择使用 *Obsidian + Git + Github* 的方法，由于Obsidian 中的笔记库(vault)和 Git 中的仓库(repository)有相似之处，因此我直接将一个 Obsidian 库作为 Git 的 repository 进行存储。只需要定期向 Github 中递交最新版本的笔记，就可以在别处通过克隆仓库的方式下载完整笔记库了。（注：Obsidian 有用于自动同步 GitHub 的插件，但是我没有使用，故在此不作介绍。另外，也可以尝试 Obsidian + OneDrive 的方式进行笔记同步，通过学生优惠能够获得4T的云存储空间以及实时同步的功能，缺点是本地误删会导致云端文件也被删除，并且无法在 OneDrive 中直接预览 .md 文件）
+实际上有多种同步 Obsidian 方式，我选择使用 *Obsidian + Git + Github* 的方法，由于Obsidian 中的笔记库(vault)和 Git 中的仓库(repository)有相似之处，因此我直接将一个 Obsidian 库作为 Git 的 repository 进行存储。只需要定期向 Github 中递交最新版本的笔记，就可以在别处通过克隆仓库的方式下载完整笔记库了。（注：Obsidian 有用于自动同步 GitHub 的插件，但是我没有使用，故在此不作介绍。另外，也可以尝试 Obsidian + OneDrive 的方式进行笔记同步，通过学生优惠能够获得 4T 的云存储空间以及实时同步的功能，缺点是本地误删会导致云端文件也被删除，并且无法在 OneDrive 中直接预览 .md 文件）
 
 ## 关于缺陷
 

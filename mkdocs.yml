@@ -57,8 +57,8 @@ theme:
 
 nav:
   - 序: index.md
+  - 旅途前的准备: preparations.md
   - 我的学习规划: learning-path.md
-  - 提问的智慧: how-to-ask-questions.md
   - 大一上:
     - 微积分(1): da-yi-shang/calculus-1.md
     - 线性代数: da-yi-shang/linear-algebra.md
@@ -82,11 +82,15 @@ nav:
   - 大一下:
     - 微积分(2): da-yi-xia/calculus-2.md
     - 概率论: da-yi-xia/probability.md
-    - 机器学习: da-yi-xia/machine-learning.md
-    - 深度学习: da-yi-xia/deep-learning.md
+    - 机器学习入门: da-yi-xia/machine-learning.md
+    - 深度学习入门: da-yi-xia/deep-learning.md
     - 实用工具:
       - Latex: tools/Latex.md
       - Docker: tools/Docker.md
+  - 大一暑假:
+    - 凸优化: da-yi-shu-jia/convex-optimization.md
+    - 矩阵论: da-yi-shu-jia/matrix-theory.md
+    - 计算机系统入门: da-yi-shu-jia/computer-system.md
   - 小工具: tools/gadgets.md
 
 plugins:

@@ -1,4 +1,4 @@
-# Deep Learning(Basic)
+# Matrix Theory
 
 !!! warning
     This page hasn't been completed yet.
@@ -19,3 +19,6 @@
 
 ## 相关链接
 
+## 其它同样精彩的课程/资料（可选择性添加这一节）
+
+## 后续课程

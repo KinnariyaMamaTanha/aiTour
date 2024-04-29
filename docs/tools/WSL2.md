@@ -37,7 +37,7 @@
 
 关于 WSL2 的安装教程，可以参考[官方文档](https://learn.microsoft.com/en-us/windows/wsl/install)。另外，官方文档也解决了使用中的一部分问题，建议按需阅读。关于 WSL2 的更进一步的使用方法，请自行 Google。
 
-另外，在一份[texlive的安装教程](https://tug.ctan.org/info/install-latex-guide-zh-cn/install-latex-guide-zh-cn.pdf)的附录中，包含了一些 WSL 的教程（例如将 Linux 发行版迁移到非系统盘等），可以作为参考。
+另外，在一份 [texlive 的安装教程](https://tug.ctan.org/info/install-latex-guide-zh-cn/install-latex-guide-zh-cn.pdf)的附录中，包含了一些 WSL 的教程（例如将 Linux 发行版迁移到非系统盘等），可以作为参考。
 
 ## 存在的问题
 
@@ -49,7 +49,7 @@
 
 ## Linux使用教程
 
-由于使用WSL2的初衷就是学习 Linux 的基本操作，因此也需要一些 Linux 教程：
+由于使用 WSL2 的初衷也有学习 Linux 的基本操作，因此也需要一些 Linux 教程：
 
 1. [菜鸟教程](https://www.runoob.com/linux/linux-tutorial.html)
 2. [Linux 101](https://101.lug.ustc.edu.cn/)（Ubuntu）

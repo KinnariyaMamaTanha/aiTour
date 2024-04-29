@@ -5,7 +5,7 @@
 
 ## 课程简介
 
-- **先修要求**：[微积分Ⅱ](./calculus-2.md)，[概率论](./probability.md)，[数据分析](../da-yi-han-jia/data-analysis.md)（至少要掌握 [Python](../da-yi-shang/python.md) ），[算法](../da-yi-han-jia/algorithm.md)，以及一些基础的矩阵论知识（实际上只用矩阵求导，可以参考[这篇专栏](https://zhuanlan.zhihu.com/p/273729929)）
+- **先修要求**：[微积分Ⅱ](./calculus-2.md)，[概率论](./probability.md)，[数据分析](../da-yi-han-jia/data-analysis.md)（至少要掌握 [Python](../da-yi-shang/python.md) ），[算法](../da-yi-han-jia/algorithm.md)，以及一些基础的[矩阵论](../da-yi-shu-jia/matrix-theory.md)知识（实际上只用矩阵求导，可以参考[这篇专栏](https://zhuanlan.zhihu.com/p/273729929)）；不用先修[凸优化](../da-yi-shu-jia/convex-optimization.md)，但是学了也有一定好处
 - **参考材料**：
     - [Stanford CS229](https://cs229.stanford.edu/)：斯坦福机器学习课程，由网红教授吴恩达授课
 - **主要内容**：
