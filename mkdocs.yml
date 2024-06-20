@@ -9,7 +9,8 @@ repo_name: aiTour
 theme:
   name: material
   language: zh
-  
+  custom_dir: overrides
+
   features:
     - header.autohide
     - navigation.tracking
@@ -24,7 +25,7 @@ theme:
     - content.code.annotate
 
   palette:
-    # For dark mode
+    # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: indigo
@@ -33,7 +34,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
-    # For the light mode
+    # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: indigo
@@ -46,12 +47,12 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  
+
   favicon: images/logo.jpg
 
   icon:
     repo: fontawesome/brands/git-alt
-  
+
   static_templates:
     - 404.html
 
@@ -59,53 +60,65 @@ nav:
   - 序: index.md
   - 旅途前的准备: preparations.md
   - 我的学习规划: learning-path.md
-  - 大一上:
-    - 微积分(1): da-yi-shang/calculus-1.md
-    - 线性代数: da-yi-shang/linear-algebra.md
-    - 离散数学入门: da-yi-shang/discrete-math.md
-    - C++: da-yi-shang/c++.md
-    - Python: da-yi-shang/python.md
-    - 实用工具:
-      - Git: tools/Git.md
-      - Vim: tools/Vim.md
-      - Anaconda: tools/Anaconda.md
-      - Obsidian: tools/Obsidian.md
-      - Scoop: tools/Scoop.md
-      - Material-for-MkDocs: tools/Material-for-MkDocs.md
-      - 魔法: tools/Magic.md
-  - 大一寒假:
-    - 数据结构: da-yi-han-jia/data-structure.md
-    - 算法设计与分析: da-yi-han-jia/algorithm.md
-    - 数据分析: da-yi-han-jia/data-analysis.md
-    - 实用工具:
-      - WSL2: tools/WSL2.md
-  - 大一下:
-    - 微积分(2): da-yi-xia/calculus-2.md
-    - 概率论: da-yi-xia/probability.md
-    - 机器学习入门: da-yi-xia/machine-learning.md
-    - 深度学习入门: da-yi-xia/deep-learning.md
-    - 实用工具:
-      - Latex: tools/Latex.md
-      - Docker: tools/Docker.md
-  - 大一暑假:
-    - 凸优化: da-yi-shu-jia/convex-optimization.md
-    - 矩阵论: da-yi-shu-jia/matrix-theory.md
-    - 计算机系统入门: da-yi-shu-jia/computer-system.md
-  - 小工具: tools/gadgets.md
+  - 总览: 
+    - 课程总览: overview/course-overview.md
+    - 好书推荐: overview/good-books.md
+  - 实用工具:
+    - Magic: tools/Magic.md
+    - Git: tools/Git.md
+    - Vim: tools/Vim.md
+    - Anaconda: tools/Anaconda.md
+    - Docker: tools/Docker.md
+    - WSL2: tools/WSL2.md
+    - Scoop: tools/Scoop.md
+    - LaTeX: tools/LaTeX.md
+    - Obsidian: tools/Obsidian.md
+    - 小工具: tools/gadgets.md
+  - C++:
+    - "C++ Primer Plus": c++/C++-Primer-Plus.md
+    - "Stanford CS106B: Programming Abstractions": c++/CS106B.md
+  - Python:
+    - "UCB CS61a: Structure and Interpretation of Computer Programs": python/CS61a.md
+    - "Stanford CS106A: Programming Methodologies": python/CS106A.md
+  - 数学分析:
+    - "PKU 00331501/2: 数学分析": mathematical-analysis/00331501-00331502.md
+    - "数学分析教程上册": mathematical-analysis/数学分析教程上册.md
+    - "数学分析教程下册": mathematical-analysis/数学分析教程下册.md
+  - 线性代数:
+    - "MIT 18.06: Linear Algebra": linear-algebra/MIT18.06.md
+  - 离散数学:
+    - "UCB CS70: discrete Math and probability theory": discrete-math/CS70.md
+    - "SJTU CS2501H: Discrete Math(Honor)": discrete-math/CS2501H.md
+    - "Stanford CS103: Mathematical Foundations of Computing": discrete-math/CS103.md
+  - 概率论:
+    - "MIT RES.6-012: Introduction to Probability": probability/RES.6-012.md
+  - 高等代数:
+    - "FDU MATH120011: 高等代数": advanced-linear-algebra/MATH120011.md
+  - 数据结构与算法:
+    - "UCB CS61b: Data Structures": data-structure-and-algorithm/CS61b.md
+    - "Stanford CS161: Design and Analysis of Algorithms": data-structure-and-algorithm/CS161.md
+    - "数据结构：思想与实现": data-structure-and-algorithm/数据结构：思想与实现.md
+  - 机器学习基础:
+    - "Stanford CS229: Machine Learning": machine-learning/CS229.md
+    - "UCB CS189/289A: Introduction to Machine Learning": machine-learning/CS189.md
+  - 深度学习基础:
+    - "Stanford CS230: Deep Learning": deep-learning/CS230.md
+    - "国立台湾大学: 李宏毅机器学习": deep-learning/李宏毅机器学习.md
+    - "动手学深度学习": deep-learning/dive-into-deep-learning.md
+    - "个人学习路线": deep-learning/kinnari's-deep-learning.md
 
 plugins:
   - search
-  - git-revision-date-localized:
-      enable_creation_date: true
+  - git-revision-date-localized
 
-extra: 
+extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/KinnariyaMamaTanha
-      name: My GitHub Account
-    - icon: fontawesome/solid/paper-plane
-      link: mailto:yuhengji073@gmail.com
-      name: My E-mail Address
+      name: visit my GitHub profile
+    - icon: /fontawesome/regular/envelope
+      name: email to author
+      link: mailto:2823324228@qq.com
 
 markdown_extensions:
   - attr_list
@@ -132,5 +145,6 @@ extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
-copyright: Copyright &copy; 2023 - present KinnariyaMamaTanha
+copyright: Copyright &copy; 2024 - present KinnariyaMamaTanha

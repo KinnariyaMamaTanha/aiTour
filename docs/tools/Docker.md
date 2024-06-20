@@ -1,8 +1,5 @@
 # Docker
 
-!!! warning
-    This page hasn't been completed yet.
-
 ## 什么是 Docker
 
 下面是官网的介绍：
@@ -17,7 +14,5 @@
 
 ## 怎么学习 Docker
 
-可以先浏览一下[这篇博客](https://zhuanlan.zhihu.com/p/187505981)，大致了解 Docker 的工作原理。
-
-初学者最好的教程当然是 Docker 的[官方教程](https://docs.docker.com/guides/get-started/)。如果你阅读英文文档不太熟练的话，可以参考[菜鸟教程](https://www.runoob.com/docker/docker-tutorial.html)。
+可以先浏览一下[这篇博客](https://zhuanlan.zhihu.com/p/187505981)，大致了解 Docker 的工作原理。在此之后，初学者最好的教程当然是 Docker 的[官方教程](https://docs.docker.com/guides/get-started/)。更重要的是，务必在实践中学习！你可以使用 [play-with-docker](https://github.com/play-with-docker/play-with-docker?tab=readme-ov-file) 这个开源项目，通过该项目提供的免费云端 Alpine linux 来学习 docker 的用法。
 
