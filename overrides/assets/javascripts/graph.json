@@ -1,0 +1,194 @@
+{
+    "nodes": [
+        {
+            "id": "aiTour",
+            "name": "aiTour",
+            "symbolSize": 3,
+            "value": "/"
+        },
+        {
+            "id": "A",
+            "name": "C++",
+            "symbolSize": 0.1,
+            "value": "/c++/CS106B"
+        },
+        {
+            "id": "B",
+            "name": "Python",
+            "symbolSize": 0.1,
+            "value": "/python/CS61a"
+        },
+        {
+            "id": "C",
+            "name": "微积分",
+            "symbolSize": 0.1,
+            "value": "/calculus/18.0x"
+        },
+        {
+            "id": "D1",
+            "name": "线性代数",
+            "symbolSize": 0.1,
+            "value": "/linear-algebra/MIT18.06"
+        },
+        {
+            "id": "E",
+            "name": "离散数学",
+            "symbolSize": 0.1,
+            "value": "/discrete-math/CS2501H"
+        },
+        {
+            "id": "F",
+            "name": "计算机体系结构",
+            "symbolSize": 0.1,
+            "value": "/computer-architecture/CS61c"
+        },
+        {
+            "id": "G",
+            "name": "数据结构与算法",
+            "symbolSize": 0.1,
+            "value": "/data-structure-and-algorithm/CS61b"
+        },
+        {
+            "id": "H1",
+            "name": "概率论",
+            "symbolSize": 0.1,
+            "value": "/probability/RES.6-012"
+        },
+        {
+            "id": "H2",
+            "name": "随机过程",
+            "symbolSize": 0.1,
+            "value": "/stochastic-processes/AI2613"
+        },
+        {
+            "id": "I1",
+            "name": "机器学习",
+            "symbolSize": 0.1,
+            "value": "/machine-learning/CS229"
+        },
+        {
+            "id": "J1",
+            "name": "深度学习",
+            "symbolSize": 0.1,
+            "value": "/deep-learning/kinnari's-deep-learning"
+        },
+        {
+            "id": "J2",
+            "name": "计算机视觉",
+            "symbolSize": 0.1,
+            "value": "/computer-vision/EECS498.008"
+        },
+        {
+            "id": "J3",
+            "name": "自然语言处理",
+            "symbolSize": 0.1,
+            "value": "/natural-language-processing/CS224n"
+        },
+        {
+            "id": "J4",
+            "name": "语音处理",
+            "symbolSize": 0.1,
+            "value": "/speech-processing/CS224s"
+        },
+        {
+            "id": "K",
+            "name": "优化理论",
+            "symbolSize": 0.1,
+            "value": "/optimization/EECS127-227A"
+        }
+    ],
+    "links": [
+        {
+            "source": "aiTour",
+            "target": "D1"
+        },
+        {
+            "source": "aiTour",
+            "target": "C"
+        },
+        {
+            "source": "aiTour",
+            "target": "E"
+        },
+        {
+            "source": "aiTour",
+            "target": "B"
+        },
+        {
+            "source": "aiTour",
+            "target": "A"
+        },
+        {
+            "source": "B",
+            "target": "G"
+        },
+        {
+            "source": "A",
+            "target": "F"
+        },
+        {
+            "source": "B",
+            "target": "I1"
+        },
+        {
+            "source": "C",
+            "target": "K"
+        },
+        {
+            "source": "C",
+            "target": "H1"
+        },
+        {
+            "source": "D1",
+            "target": "K"
+        },
+        {
+            "source": "E",
+            "target": "H1"
+        },
+        {
+            "source": "E",
+            "target": "G"
+        },
+        {
+            "source": "G",
+            "target": "I1"
+        },
+        {
+            "source": "I1",
+            "target": "J1"
+        },
+        {
+            "source": "H1",
+            "target": "H2"
+        },
+        {
+            "source": "H1",
+            "target": "I1"
+        },
+        {
+            "source": "J1",
+            "target": "J2"
+        },
+        {
+            "source": "J1",
+            "target": "J3"
+        },
+        {
+            "source": "J3",
+            "target": "J4"
+        },
+        {
+            "source": "H2",
+            "target": "J4"
+        },
+        {
+            "source": "G",
+            "target": "K"
+        },
+        {
+            "source": "D1",
+            "target": "H2"
+        }
+    ]
+}

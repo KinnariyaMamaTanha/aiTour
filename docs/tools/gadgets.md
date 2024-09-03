@@ -37,6 +37,10 @@
 12. <https://github.com/prakhar1989/awesome-courses> ：Awesome CS Courses
 13. <https://jhc.sjtu.edu.cn/courses> : 上海交通大学 John 班课程网站
 14. <https://web.archive.org> : web archive，可以用于寻找一些以往开放过，但是现在不再开放的课程网站。
+15. <https://hackway.org> : 学习路线/职业方向推荐，根据不同阶段划分出一个供参考的路线
+16. <https://github.com/kmario23/deep-learning-drizzle> : 一份人工智能课程汇总
+17. <https://huggingface.co/learn> : Hugging Face 社区推出的开源课程
+18. <https://www.learnpytorch.io/> : Pytorch 教程。
 
 此外还可以参考 csdiy 的[定制属于你的课程地图](https://csdiy.wiki/CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/)一节。
 
@@ -49,7 +53,7 @@
 
 ## 问答网站/论坛
 
-1. <https://stackoverflow.com> ：stackoverflow + Google 基本可以解决你的99%的 CS 问题
+1. <https://stackoverflow.com> ：stackoverflow + Google 基本可以解决你的 99%的 CS 问题
 2. <https://www.zhihu.com> ：江湖人称某乎，有一些知识类回答值得一看，但是请别刷里面的其它内容
 3. <https://www.bing.com/chat> ：微软推出的 Copilot，现目前相当于 GPT4 的联网版本，使用英文提问效果更佳
 4. <https://0xffff.one> ：一个 CS 相关的论坛
@@ -59,36 +63,19 @@
 ## 学习路线/经验/课程分享网站/博客
 
 1. <https://flowus.cn/share/afd555bf-fd94-4124-988f-f98653dd3a52> ：北大数学系的分享网站，有极多的资源分享
-2. <https://www.huaxiaozhuan.com> ：一位博主的 AI 学习笔记，包含了从基础的数学到人工智的深入阶段的所有笔记，内容量极大
+2. <https://www.huaxiaozhuan.com> ：AI 算法工程师手册，包含了从基础的数学到人工智的深入阶段的所有笔记，内容量极大
 3. <https://dagrad.site> ：一位清华大学学长创建的自动化系手册，清华本科的同学可以查看参考
-4. <https://www.mihaileric.com/posts/complete-artificial-intelligence-undergraduate-course-plan> ： 斯坦福毕业学生mihaileric 给出的一份 AI 建议课程清单，可做参考
+4. <https://www.mihaileric.com/posts/complete-artificial-intelligence-undergraduate-course-plan> ： 斯坦福毕业学生 mihaileric 给出的一份 AI 建议课程清单，可做参考
 5. <https://wdxtub.com> ：一位博主的博客网站，我参考了其中的不周山系列的 CSAPP 部分
 6. <https://cs-plan.com> ：一位华南师范大学学长搭建的 CS 经验分享网站，与 csdiy 相似，截至我编辑此条时仍在搭建中
 7. <https://survivesjtu.gitbook.io/survivesjtumanual> ：上交生存手册，强烈建议所有人阅读（尤其是刚入学的新生）
 8. <https://lilianweng.github.io> : blogs of Lilian, the head of Safety Systems at OpenAI
-9.  <https://www.diegovera.org> : Diego Vera 的博客网站，记录了他的三年数学和物理的自学之旅
+9. <https://www.diegovera.org> : Diego Vera 的博客网站，记录了他的三年数学和物理的自学之旅
 10. <https://learn.lianglianglee.com> : 一些技术文章的摘抄
-
-## Apps/Plugins
-
-1. <https://woobx.cn> : 一个木函，支持多平台，体积小巧的一个工具箱，提供了很多实用功能
-2. <https://app.grammarly.com> ：一款随时纠正你的英语写作的软件/插件（<del>感觉广告满天飞</del>）
-3. <http://ksria.com/simpread> ：简阅，可以提供沉浸式阅读网页（对于某些花里胡哨的网页效果奇佳，譬如某SDN）
-4. <https://gamma.app/generate> ：AI 生成 PPT 的网站，香！
-5. <https://app.suno.ai> ：AI 生成歌曲网站，可供无聊时消遣
-6. <https://www.sejda.com> : sejda PDF 编辑器，多数功能免费且好用
-7. <https://www.sumatrapdfreader.org> : samatraPDF，一款小巧的 PDF 阅读器
-8. <https://hack.chat> : hacker 的多人在线聊天平台，必须同时在线，没有保存聊天记录、留言等功能
-9. <https://github.com/Wox-launcher/Wox> : 快速唤起应用、文件夹、系统设置等的小工具，很方便，从此摆脱桌面快捷方式
-10. <https://memreduct.or> : 一款清除多余内存占用的软件，个人使用感觉良好
-11. <https://wakatime.com> : 一款记录代码时长的插件，在 vscode 等主流编辑器上均可以使用，可以有效检查自己是否摸鱼
-12. <https://mermaid.live> : 在线预览 mermaid 图
-13. <https://github.com/cyrus-and/gdb-dashboard> : 将 gdb 调试代码以 dashboard 的方式呈现
-14. <https://github.com/jesseduffield/lazygit> : 懒人的 git
-15. <https://www.languagereactor.com> : Youtube 等平台双语字幕
-16. <https://github.com/sxyazi/yazi> : 一款轻巧的终端文件管理器，我在 WSL2 中使用它。类似的软件还有很多，例如 [superfile](https://github.com/yorukot/superfile)、[ranger](https://github.com/ranger/ranger)、[joshuto](https://github.com/kamiyaa/joshuto)等等
-17. <https://squidfunk.github.io/mkdocs-material> : 本书使用它搭建；也可以用来搭建个人博客等
-18. <https://searcholic.com> : AI 支持的资源搜索网站
+11. <https://roadmap.sh> : 你可以在这里找到许多方向的 roadmap，不过是否合理需要根据你个人的情况来判断了
+12. <https://jowus72zrc.feishu.cn/wiki/Khl9wKWO7iuKKpkTUEOcqRzvnVh> : HIT 自学组新人指引
+13. <https://feiyue.online> : 清华大学飞跃手册
+14. <https://docs.net9.org> : 清华大学计算机系学生科协技能引导文档
 
 ## 导师评价
 
@@ -101,3 +88,24 @@
 3. <https://sci-hub.ren>
 4. <https://www.connectedpapers.com> : "Explore academic papers in a visual graph"
 5. <https://www.cs.utexas.edu/users/EWD> : 伟大的计算机科学家 Edsger W. Dijkstra 一生的著作
+6. <https://arxiv-sanity-lite.com>
+7. <https://paperswithcode.com> : 一个开源的论文网站，目标是 *create a free and open resource with Machine Learning papers, code, datasets, methods and evaluation tables*。你甚至可以为该网站的社区做出自己的贡献！详细介绍可以在 [About](https://paperswithcode.com/about) 界面查看
+8. <https://www.connectedpapers.com> : 以图形化的方式向你展示不同论文之间的联系
+9. <https://aclanthology.org/> : ACL anthology for NLP papers.
+
+## 留学
+
+1. <https://opencs.app>
+2. <https://global-cs-application.github.io>
+3. <https://www.1point3acres.com>
+
+## 人工智能项目/框架
+
+1. <https://huggingface.co/>：Wonderful AI community.
+2. <https://github.com/josephmisiti/awesome-machine-learning> : 机器学习框架汇总
+3. <https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code> : 500 个 CV 和 NLP 相关项目的汇总
+
+## 数据集
+
+1. <https://huggingface.co/datasets>
+2. <https://www.paperswithcode.com/datasets>
