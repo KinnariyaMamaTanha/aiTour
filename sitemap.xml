@@ -2,212 +2,150 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://aitour.icu/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://aitour.icu/learning-path/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/preparations/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://aitour.icu/advanced-linear-algebra/MATH120011/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://aitour.icu/c%2B%2B/C%2B%2B-Primer-Plus/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/c%2B%2B/CS106B/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
-         <loc>https://aitour.icu/computer-system/CS15213/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://aitour.icu/calculus/18.0x/</loc>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
-         <loc>https://aitour.icu/computer-vision/EECS498-007/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://aitour.icu/convex-optimization/CMU10-725/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://aitour.icu/convex-optimization/EE364A/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://aitour.icu/computer-vision/EECS498.008/</loc>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/data-structure-and-algorithm/CS161/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/data-structure-and-algorithm/CS61b/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/data-structure-and-algorithm/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%9A%E6%80%9D%E6%83%B3%E4%B8%8E%E5%AE%9E%E7%8E%B0/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/deep-learning/CS230/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/deep-learning/dive-into-deep-learning/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/deep-learning/kinnari%27s-deep-learning/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/deep-learning/%E6%9D%8E%E5%AE%8F%E6%AF%85%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/discrete-math/CS103/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/discrete-math/CS2501H/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/discrete-math/CS70/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/linear-algebra/MIT18.06/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/machine-learning/CS189/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/machine-learning/CS229/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://aitour.icu/mathematical-analysis/00331501-00331502/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://aitour.icu/mathematical-analysis/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E6%95%99%E7%A8%8B%E4%B8%8A%E5%86%8C/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://aitour.icu/mathematical-analysis/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E6%95%99%E7%A8%8B%E4%B8%8B%E5%86%8C/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/natural-language-processing/CS224n/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
+    </url>
+    <url>
+         <loc>https://aitour.icu/optimization/EE364A/</loc>
+         <lastmod>2024-09-03</lastmod>
+    </url>
+    <url>
+         <loc>https://aitour.icu/optimization/EECS127-227A/</loc>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/overview/course-overview/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/overview/good-books/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/probability/RES.6-012/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
-         <loc>https://aitour.icu/python/CS106A/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://aitour.icu/python/CS50P/</loc>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/python/CS61a/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
+    </url>
+    <url>
+         <loc>https://aitour.icu/stochastic-processes/AI2613/</loc>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/tools/Anaconda/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/tools/Docker/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/tools/Git/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/tools/LaTeX/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/tools/Magic/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/tools/Obsidian/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/tools/Scoop/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/tools/Vim/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/tools/WSL2/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
     <url>
          <loc>https://aitour.icu/tools/gadgets/</loc>
-         <lastmod>2024-06-20</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-03</lastmod>
     </url>
 </urlset>
