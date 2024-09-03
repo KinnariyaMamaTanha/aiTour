@@ -59,8 +59,7 @@ theme:
 nav:
   - 序: index.md
   - 旅途前的准备: preparations.md
-  - 我的学习规划: learning-path.md
-  - 总览: 
+  - 总览:
     - 课程总览: overview/course-overview.md
     - 好书推荐: overview/good-books.md
   - 实用工具:
@@ -75,15 +74,12 @@ nav:
     - Obsidian: tools/Obsidian.md
     - 小工具: tools/gadgets.md
   - C++:
-    - "C++ Primer Plus": c++/C++-Primer-Plus.md
     - "Stanford CS106B: Programming Abstractions": c++/CS106B.md
   - Python:
     - "UCB CS61a: Structure and Interpretation of Computer Programs": python/CS61a.md
-    - "Stanford CS106A: Programming Methodologies": python/CS106A.md
-  - 数学分析:
-    - "PKU 00331501/2: 数学分析": mathematical-analysis/00331501-00331502.md
-    - "数学分析教程上册": mathematical-analysis/数学分析教程上册.md
-    - "数学分析教程下册": mathematical-analysis/数学分析教程下册.md
+    - "Harvard CS50p: Introduction to Programming with Python": python/CS50P.md
+  - 微积分:
+    - "MIT 18.01/18.02": calculus/18.0x.md
   - 线性代数:
     - "MIT 18.06: Linear Algebra": linear-algebra/MIT18.06.md
   - 离散数学:
@@ -92,8 +88,10 @@ nav:
     - "Stanford CS103: Mathematical Foundations of Computing": discrete-math/CS103.md
   - 概率论:
     - "MIT RES.6-012: Introduction to Probability": probability/RES.6-012.md
-  - 高等代数:
-    - "FDU MATH120011: 高等代数": advanced-linear-algebra/MATH120011.md
+  - 随机过程:
+    - "SJTU AI2613: Stochastic Processes": stochastic-processes/AI2613.md
+  - 优化理论:
+    - "UCB EECS 127-227A: Optimization Models in Engineering": optimization/EECS127-227A.md
   - 数据结构与算法:
     - "UCB CS61b: Data Structures": data-structure-and-algorithm/CS61b.md
     - "Stanford CS161: Design and Analysis of Algorithms": data-structure-and-algorithm/CS161.md
@@ -106,10 +104,15 @@ nav:
     - "国立台湾大学: 李宏毅机器学习": deep-learning/李宏毅机器学习.md
     - "动手学深度学习": deep-learning/dive-into-deep-learning.md
     - "个人学习路线": deep-learning/kinnari's-deep-learning.md
+  - 计算机视觉:
+    - "UMich EECS 498.008/598.008: Deep Learning for Computer Vision": computer-vision/EECS498.008.md
+  - 自然语言处理:
+    - "Stanford CS224n: Natural Language Processing with Deep Learning": natural-language-processing/CS224n.md
 
 plugins:
   - search
   - git-revision-date-localized
+  - obsidian-interactive-graph
 
 extra:
   social:
@@ -142,9 +145,16 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 
 extra_javascript:
-  - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js
+  - https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js
+  - assets/javascripts/interactive_graph.js
+
+extra_css:
+  - assets/stylesheets/interactive_graph.css
+  - assets/stylesheets/link.css
+  - assets/stylesheets/customize.css
 
 copyright: Copyright &copy; 2024 - present KinnariyaMamaTanha

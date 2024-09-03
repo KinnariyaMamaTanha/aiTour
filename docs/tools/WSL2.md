@@ -57,7 +57,7 @@
 
 1. [菜鸟教程](https://www.runoob.com/linux/linux-tutorial.html)
 2. [Linux 101](https://101.lug.ustc.edu.cn/)（Ubuntu）
-3. [鳥哥的Linux私房菜](https://linux.vbird.org/)（CentOS7）
+3. [鳥哥的 Linux 私房菜](https://linux.vbird.org/)（CentOS7）
 
 个人使用的是后两者，可以帮助小白快速入门 Linux。
 
@@ -70,7 +70,7 @@
 1. 在 Windows 中安装 NVIDIA 驱动程序
 2. 在 WSL2 中安装 Anaconda / Miniconda，或使用 [Docker](./Docker.md)，但是 [Anaconda](./Anaconda.md) 的上手相对更简单一些
 3. 在 WSL2 中利用 conda 创建虚拟环境，并安装 Pytorch 等需要的包
-4. 安装 cuda-toolkit 和 cudnn。根据需要，决定是使用 conda 在特定深度学习环境中局部安装，还是为 WSL2 进行全局安装。
+4. 按需安装 cuda-toolkit 和 cudnn。根据根据需求，决定是使用 conda 在特定深度学习环境中局部安装，还是为 WSL2 进行全局安装。
 5. 使用 VS Code 或 Pycharm 专业版等远程连接 WSL2（或者直接在 WSL2 中安装 IDE/编辑器，不太推荐），开始 coding。
 
 由于电脑情况各不相同，还请自行搜索安装教程。这里给出我参考的中文教程：<https://zhuanlan.zhihu.com/p/621142457>，以及 <https://zhuanlan.zhihu.com/p/434239083>。其中，前者侧重于基于 Docker 的配置方法，后者侧重于基于 Anaconda 的配置方法（个人并不推荐其中安装 intelliJ Ultimate 的步骤），参考时请关注年份是否合适，如果过于久远请查找最新版本的配置方法！当然，前往官网搜索一定能保证时效性，故更推荐自行查找 NVIDIA 以及 Pytorch 官网教程。我仅参考了这两个教程中的大致配置步骤，具体命令则是通过阅读官方文档来获得，这样安装出错的概率会大大降低。
