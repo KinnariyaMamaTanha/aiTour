@@ -1771,12 +1771,23 @@
 <h2 id="_1">课程简介</h2>
 <ul>
 <li><strong>先修要求</strong>：Python，微积分，线性代数，概率论，机器学习</li>
-<li><strong>主要内容</strong>：自然语言处理入门，涵盖了 word vector、dependency parsing、langguage model、machine translation、question answering、code generation 等应用场景。</li>
+<li><strong>主要内容</strong>：<ul>
+<li>NLP 基本概念，如 word vector, (sub)word model, prompting, pretraining 等</li>
+<li>几种常见网络，如 RNN (GRU, LSTM), attention, transformer, BERT 等</li>
+<li>一些 NLP 的应用场景，例如 dependency parsing, machine translation, natural language generation 等</li>
 </ul>
-<div class="admonition attention">
-<p class="admonition-title">Attention</p>
-<p>我正在学习这门课程，等到结束后再补齐这里的内容。</p>
-</div>
+</li>
+</ul>
+<p>这门课相对较基础，课程内容不算太多，不过足够带领你入门自然语言处理。个人认为有价值的部分在 5 个 assignments 和最后的那个 project 上。在 winter 2023 的课程中：</p>
+<ul>
+<li>Assignment 1：初步接触 word vector 的概念，形象化展示 word vector 在空间中的 embedding。</li>
+<li>Assignment 2：实现神经网络中一些简单的小部件，并训练一个 word2vec 模型。如果你早已熟悉，可以跳过这部分。</li>
+<li>Assignment 3：实现一个简单的 neural dependency parser。</li>
+<li>Assignment 4：基于 Seq2Seq 模型（LSTM + attention），实现一个汉译英的 neural machine translator，你会学习到 encoder、decoder 这种基本的架构。由于这个模型中涉及到诸多变量，你可能需要在充分熟悉模型架构后才能顺利完成。</li>
+<li>Assignment 5：实现一个 minGPT 模型，这个作业没有太多提示，大部分都要靠你思考完成。你会分析多头注意力机制的好处，比较模型在有/无 pretraining 时效果的巨大差异。</li>
+<li>Project：实现一个 minBERT 模型，进而利用 pretraining 来完成如 sentiment analysis、paraphrase detection、semantic textual similarity 等下游任务。你可能会感叹一个 BERT 便能将原本需要分别设计并训练若干个不同的模型，转化为“训练——微调”一个任务。</li>
+</ul>
+<p>不过，如果你想深入学习当下最火的大语言模型（LLM）的话，这门课可能并不能满足你，还需要继续扩展新的课程。</p>
 <h2 id="_2">相关链接</h2>
 <ol>
 <li>课程网站：<a href="https://web.stanford.edu/class/cs224n/">https://web.stanford.edu/class/cs224n/</a></li>
@@ -1802,7 +1813,7 @@
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">September 3, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">September 5, 2024</span>
   </span>
 
     
