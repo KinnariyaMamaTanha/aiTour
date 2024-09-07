@@ -12,26 +12,28 @@
         <meta name="author" content="Kinnariya Mama Tanha">
       
       
-        <link rel="canonical" href="https://aitour.icu/">
+        <link rel="canonical" href="https://aitour.icu/reinforcement-learning/CS285/">
       
       
+        <link rel="prev" href="../../deep-learning/kinnari%27s-deep-learning/">
       
-        <link rel="next" href="preparations/">
+      
+        <link rel="next" href="../mathematical-for-rl/">
       
       
-      <link rel="icon" href="images/logo.jpg">
+      <link rel="icon" href="../../images/logo.jpg">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
     
     
       
-        <title>aiTour</title>
+        <title>UCB CS285: Deep Reinforcement Learning - aiTour</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.35f28582.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.35f28582.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -50,13 +52,13 @@
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/interactive_graph.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/interactive_graph.css">
     
-      <link rel="stylesheet" href="assets/stylesheets/link.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/link.css">
     
-      <link rel="stylesheet" href="assets/stylesheets/customize.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/customize.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -82,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#ucb-cs285-deep-reinforcement-learning" class="md-skip">
           跳转至
         </a>
       
@@ -98,7 +100,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="页眉">
-    <a href="." title="aiTour" class="md-header__button md-logo" aria-label="aiTour" data-md-component="logo">
+    <a href="../.." title="aiTour" class="md-header__button md-logo" aria-label="aiTour" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -118,7 +120,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              序
+              UCB CS285: Deep Reinforcement Learning
             
           </span>
         </div>
@@ -238,7 +240,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="aiTour" class="md-nav__button md-logo" aria-label="aiTour" data-md-component="logo">
+    <a href="../.." title="aiTour" class="md-nav__button md-logo" aria-label="aiTour" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -265,30 +267,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    序
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -297,104 +279,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目录">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      关于这本书
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="关于这本书">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      这本书是/不是什么
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      这本书适合哪些人
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#todo-list" class="md-nav__link">
-    <span class="md-ellipsis">
-      TODO-List
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
-      建立交流群
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    <span class="md-ellipsis">
-      贡献者请看这里
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
-    <span class="md-ellipsis">
-      特别鸣谢
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
-    <span class="md-ellipsis">
-      请作者喝杯奶茶
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -406,7 +290,7 @@
   
   
     <li class="md-nav__item">
-      <a href="preparations/" class="md-nav__link">
+      <a href="../../preparations/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -461,7 +345,7 @@
   
   
     <li class="md-nav__item">
-      <a href="overview/course-overview/" class="md-nav__link">
+      <a href="../../overview/course-overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -482,7 +366,7 @@
   
   
     <li class="md-nav__item">
-      <a href="overview/good-books/" class="md-nav__link">
+      <a href="../../overview/good-books/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -545,7 +429,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tools/Magic/" class="md-nav__link">
+      <a href="../../tools/Magic/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -566,7 +450,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tools/Git/" class="md-nav__link">
+      <a href="../../tools/Git/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -587,7 +471,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tools/Vim/" class="md-nav__link">
+      <a href="../../tools/Vim/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -608,7 +492,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tools/Anaconda/" class="md-nav__link">
+      <a href="../../tools/Anaconda/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -629,7 +513,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tools/Docker/" class="md-nav__link">
+      <a href="../../tools/Docker/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -650,7 +534,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tools/WSL2/" class="md-nav__link">
+      <a href="../../tools/WSL2/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -671,7 +555,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tools/Scoop/" class="md-nav__link">
+      <a href="../../tools/Scoop/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -692,7 +576,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tools/LaTeX/" class="md-nav__link">
+      <a href="../../tools/LaTeX/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -713,7 +597,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tools/Obsidian/" class="md-nav__link">
+      <a href="../../tools/Obsidian/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -734,7 +618,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tools/gadgets/" class="md-nav__link">
+      <a href="../../tools/gadgets/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -797,7 +681,7 @@
   
   
     <li class="md-nav__item">
-      <a href="c%2B%2B/CS106B/" class="md-nav__link">
+      <a href="../../c%2B%2B/CS106B/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -860,7 +744,7 @@
   
   
     <li class="md-nav__item">
-      <a href="python/CS61a/" class="md-nav__link">
+      <a href="../../python/CS61a/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -881,7 +765,7 @@
   
   
     <li class="md-nav__item">
-      <a href="python/CS50P/" class="md-nav__link">
+      <a href="../../python/CS50P/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -944,7 +828,7 @@
   
   
     <li class="md-nav__item">
-      <a href="calculus/18.0x/" class="md-nav__link">
+      <a href="../../calculus/18.0x/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1007,7 +891,7 @@
   
   
     <li class="md-nav__item">
-      <a href="linear-algebra/MIT18.06/" class="md-nav__link">
+      <a href="../../linear-algebra/MIT18.06/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1070,7 +954,7 @@
   
   
     <li class="md-nav__item">
-      <a href="discrete-math/CS70/" class="md-nav__link">
+      <a href="../../discrete-math/CS70/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1091,7 +975,7 @@
   
   
     <li class="md-nav__item">
-      <a href="discrete-math/CS2501H/" class="md-nav__link">
+      <a href="../../discrete-math/CS2501H/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1112,7 +996,7 @@
   
   
     <li class="md-nav__item">
-      <a href="discrete-math/CS103/" class="md-nav__link">
+      <a href="../../discrete-math/CS103/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1175,7 +1059,7 @@
   
   
     <li class="md-nav__item">
-      <a href="probability/RES.6-012/" class="md-nav__link">
+      <a href="../../probability/RES.6-012/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1238,7 +1122,7 @@
   
   
     <li class="md-nav__item">
-      <a href="stochastic-processes/AI2613/" class="md-nav__link">
+      <a href="../../stochastic-processes/AI2613/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1301,7 +1185,7 @@
   
   
     <li class="md-nav__item">
-      <a href="optimization/EECS127-227A/" class="md-nav__link">
+      <a href="../../optimization/EECS127-227A/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1364,7 +1248,7 @@
   
   
     <li class="md-nav__item">
-      <a href="data-structure-and-algorithm/CS61b/" class="md-nav__link">
+      <a href="../../data-structure-and-algorithm/CS61b/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1385,7 +1269,7 @@
   
   
     <li class="md-nav__item">
-      <a href="data-structure-and-algorithm/CS161/" class="md-nav__link">
+      <a href="../../data-structure-and-algorithm/CS161/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1406,7 +1290,7 @@
   
   
     <li class="md-nav__item">
-      <a href="data-structure-and-algorithm/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%9A%E6%80%9D%E6%83%B3%E4%B8%8E%E5%AE%9E%E7%8E%B0/" class="md-nav__link">
+      <a href="../../data-structure-and-algorithm/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%9A%E6%80%9D%E6%83%B3%E4%B8%8E%E5%AE%9E%E7%8E%B0/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1469,7 +1353,7 @@
   
   
     <li class="md-nav__item">
-      <a href="machine-learning/CS229/" class="md-nav__link">
+      <a href="../../machine-learning/CS229/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1490,7 +1374,7 @@
   
   
     <li class="md-nav__item">
-      <a href="machine-learning/CS189/" class="md-nav__link">
+      <a href="../../machine-learning/CS189/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1553,7 +1437,7 @@
   
   
     <li class="md-nav__item">
-      <a href="deep-learning/CS230/" class="md-nav__link">
+      <a href="../../deep-learning/CS230/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1574,7 +1458,7 @@
   
   
     <li class="md-nav__item">
-      <a href="deep-learning/%E6%9D%8E%E5%AE%8F%E6%AF%85%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" class="md-nav__link">
+      <a href="../../deep-learning/%E6%9D%8E%E5%AE%8F%E6%AF%85%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1595,7 +1479,7 @@
   
   
     <li class="md-nav__item">
-      <a href="deep-learning/dive-into-deep-learning/" class="md-nav__link">
+      <a href="../../deep-learning/dive-into-deep-learning/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1616,7 +1500,7 @@
   
   
     <li class="md-nav__item">
-      <a href="deep-learning/kinnari%27s-deep-learning/" class="md-nav__link">
+      <a href="../../deep-learning/kinnari%27s-deep-learning/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1641,17 +1525,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16" checked>
         
           
           <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="0">
@@ -1665,7 +1551,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_16">
             <span class="md-nav__icon md-icon"></span>
             强化学习
@@ -1676,10 +1562,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="reinforcement-learning/CS285/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    UCB CS285: Deep Reinforcement Learning
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -1688,6 +1594,44 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      课程简介
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      相关链接
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1700,7 +1644,7 @@
   
   
     <li class="md-nav__item">
-      <a href="reinforcement-learning/mathematical-for-rl/" class="md-nav__link">
+      <a href="../mathematical-for-rl/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1763,7 +1707,7 @@
   
   
     <li class="md-nav__item">
-      <a href="computer-vision/EECS498.008/" class="md-nav__link">
+      <a href="../../computer-vision/EECS498.008/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1826,7 +1770,7 @@
   
   
     <li class="md-nav__item">
-      <a href="natural-language-processing/CS224n/" class="md-nav__link">
+      <a href="../../natural-language-processing/CS224n/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1874,78 +1818,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      课程简介
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      关于这本书
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="关于这本书">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      这本书是/不是什么
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      这本书适合哪些人
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#todo-list" class="md-nav__link">
-    <span class="md-ellipsis">
-      TODO-List
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
-      建立交流群
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    <span class="md-ellipsis">
-      贡献者请看这里
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
-    <span class="md-ellipsis">
-      特别鸣谢
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
-    <span class="md-ellipsis">
-      请作者喝杯奶茶
+      相关链接
     </span>
   </a>
   
@@ -1969,55 +1853,21 @@
   
 
 
-<h1 id="_1">序</h1>
-<h2 id="_2">关于这本书</h2>
-<blockquote>
-<p>2024年1月11日 19 点 18 分，那时的我创建了这本书。</p>
-</blockquote>
-<p>2023 年可以说是人工智能爆火元年。从 ChatGPT 发布，到各地媒体广泛报道，世界各国 AI 公司奋起直追，众多国家将 AI 纳入国家重要战略，新的 AI 模型如雨后春笋般不断涌出。机器学习、深度学习、神经网络等专业词汇也似乎有渐渐走入公众的视野。</p>
-<p>但是，究竟什么是 AI ？现有的 AI 真的如媒体报道所言那般“强大”了吗？现有的 AI 相关的技术背后又是什么原理在支撑？……怀着这些疑问，我报考了人工智能专业，以期在未来将这些问题一一解决，踏上了我的 AI 学习之旅。</p>
-<p>可是我多希望这样美好的、怀揣着希望的出发，能够拥有一个明媚的旅途、一个至少令我满意的结局啊。现实一次又一次地无情地告诉我，我的愿望几乎不可能实现——老旧的教材、不合理的培养方案、一言难尽的授课质量、各式各样的杂乱活动，一个接一个的消磨我的内心，接着又遇到了一系列学院之间本不该发生的糟心事……</p>
-<p>我无意对这些发表更多的评论，只是每每都会想起上海交通大学生存手册中<a href="https://survivesjtu.gitbook.io/survivesjtumanual/li-zhi-pian/huan-ying-lai-dao-shang-hai-jiao-tong-da-xue">欢迎来到上海交通大学</a>一节的内容，如芒在背。</p>
-<blockquote>
-<p>我只是看到了无数充满求知欲、激情、与年轻梦想的同学们，将要把自己的四年青春，充满希望与信任地交给大学来塑造。这使我心中非常不安。</p>
-</blockquote>
-<p>所幸我在刚入学时能遇到 <a href="https://csdiy.wiki">csdiy</a> 这个宝藏网站，开始按照上面的课程介绍开始了我的自学生活。我感激所有无私做出分享的学长学姐，因为我无法想象，如果没有他们，接下来的本科四年，我将会在什么样的生活中度过。</p>
-<p>时间流逝得飞快，转眼就到了一学期结束，按照学校的要求，学生需要写下自己一学期的回顾与总结。在这个时候，我突然有了一个大胆的想法——为什么不把自己的学习过程记录下来做成一个 AI 相关的学习分享网站，像 csdiy 一样呢？我又搜索了国内是否有类似目标的网站，结果并未发现（不过现在发现了一些）。这更加激发了我建立一个 AI 相关的学习分享网站的念头。另一方面，在阅读 csdiy 时，我也感受到了一些小小的问题：</p>
+<h1 id="ucb-cs285-deep-reinforcement-learning">UCB CS285 Deep Reinforcement Learning</h1>
+<h2 id="_1">课程简介</h2>
 <ul>
-<li>目前无法仅靠 csdiy 构建出一个与 AI 相关成体系的课程网络，一些更深层次的 AI 课程、一些 AI 额外需要学习的数学课程、一些 AI 相关的工具还没有收录。我将在这个网站中进行补齐。</li>
-<li>csdiy 的作者并没有给出一个明确带有先修关系的 roadmap，这使我无法很快地安排出一条长期的学习路线，例如自学课程的先后关系，怎样安排能够顾及到大学本有的课程安排。因此我决定在我将建立的网站中添加一个 roadmap，不过由于每个人的情况不同，我没法给出一个适合所有人的学习路线，仅仅也只供参考。</li>
-<li>csdiy 中推荐了很多高质量的网课，但是并没有涉及到书籍的推荐。我认为阅读经典书籍同样是学习的重要环节，所以我也添加了书籍推荐，与课程推荐并行。</li>
+<li><strong>先修要求</strong>：随机过程，深度学习</li>
+<li><strong>主要内容</strong>：</li>
 </ul>
-<p>于是当天下午我就基于 <a href="https://squidfunk.github.io/mkdocs-material/">materials for mkdocs</a> 搭建起了这个学习网站，记录下我学习过程中所用到过的一些资料和心得体会，并整理出一条 AI 方向的学习路线，希望能给他人带去哪怕一点点帮助、哪怕一点点微不足道的启发。</p>
-<p>我会如实地记录下自己在人工智能的学习过程中所使用过的书籍、参考过的资料，以及自己的一些小小的学习体会（大多是自己思考过后得出的结论），当然，也正因为大多数观点都是我个人的，避免不了与他人的观点相冲突，所以如果我的一些观点与你的相左的话，希望能够得到你的谅解，更希望你能提出宝贵的建议！</p>
-<p>尽管我会提供一份可能的学习路线，但是我更提倡每个人都构建自己的学习路线，毕竟 "It's best only when it fits you"。</p>
-<p>特别地，我希望这本书能够给我 SJTU 的学弟学妹们带来一些帮助，算是我送给他们的一份小礼物吧。</p>
-<h3 id="_3">这本书是/不是什么</h3>
-<p>这本书是我的人工智能学习旅途上的记录，是我对一些精彩课程的分享，是我推荐使用的工具介绍。</p>
-<p>这本书不是详细的工具教程，更不是详细的课业辅导。</p>
-<h3 id="_4">这本书适合哪些人</h3>
-<p>如果你和我一样，也是人工智能专业或计算机科学与技术专业的本科学生，那么这本书应该非常适合你来读；如果你已经是研究生，那么这本书的后半部分内容（目前暂未写到）或许值得你看看；如果你已经工作，那么你或许可以从这本书中找到一些你所需要的内容。总而言之，由于本书的编排顺序，本书应该最适合那些立志于学习人工智能的学生，尤其是本科大一的学生。</p>
-<h3 id="todo-list">TODO-List</h3>
-<details>
-<summary>TODO list</summary>
-<ul>
-<li>优化理论</li>
-<li>语音处理</li>
-<li>强化学习</li>
-</ul>
-</details>
-<h2 id="_5">建立交流群</h2>
-<p>本书支持讨论功能，请在页面末尾的讨论区进行讨论，也可以选择自行组建群交流群。如果你想与作者联系，欢迎向作者<a href="mailto:jy_zhou@sjtu.edu.cn">发送邮件</a>！</p>
-<h2 id="_6">贡献者请看这里</h2>
-<p>我非常欢迎任何人做出贡献。更详细的说明，请参考仓库的 <a href="https://github.com/KinnariyaMamaTanha/aiTour">README 文件</a>。感谢您的贡献！</p>
-<h2 id="_7">特别鸣谢</h2>
-<p>在此特别感谢 csdiy 的作者（<a href="https://github.com/PKUFlyingPig">@PKUFlyingPig</a>）以及贡献者们，是 csdiy 这本书让我真正意识到自学的巨大威力，也是它让我产生了写下自己的一本书的想法，并提供了我无穷的动力。推荐所有学习计算机的人都去阅读 csdiy 这本书！</p>
-<p>我也要向所有学习资料和课程的创建者，向所有无私公开课程资源的教授们献上我最崇高的敬意！是他们的辛勤的付出和无私的品格，才让我们所有学生能够方便快捷地接触到世界上数不胜数优秀学习资源。再次感谢！</p>
-<h2 id="_8">请作者喝杯奶茶</h2>
-<p>这本书完全开源，如果你觉得我写得还行，或者这本书真真正正地帮助到了你，不妨为这个仓库点一个 star 或者请作者喝杯奶茶。</p>
-<figure>
-<p><img alt="Image title" src="images/payment.png" width="400" /></p>
-</figure>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>我正在学习这门课程，完成后会补齐这里的内容。</p>
+</div>
+<h2 id="_2">相关链接</h2>
+<ol>
+<li>课程网站：<a href="https://rail.eecs.berkeley.edu/deeprlcourse/">https://rail.eecs.berkeley.edu/deeprlcourse/</a></li>
+<li>课程视频：<a href="https://www.youtube.com/watch?v=JHrlF10v2Og&amp;list=PL_iWQOsE6TfX7MaC6C3HcdOf1g337dlC9&amp;index=2">Youtube</a></li>
+</ol>
 
 
 
@@ -2169,10 +2019,10 @@
       <div class="md-progress" data-md-component="progress" role="progressbar"></div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["header.autohide", "navigation.tracking", "navigation.top", "navigation.path", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "search.highlight", "search.share", "search.suggest", "content.code.annotate"], "search": "assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["header.autohide", "navigation.tracking", "navigation.top", "navigation.path", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "search.highlight", "search.share", "search.suggest", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
-      <script src="assets/javascripts/bundle.56dfad97.min.js"></script>
+      <script src="../../assets/javascripts/bundle.56dfad97.min.js"></script>
       
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
       
@@ -2184,7 +2034,7 @@
       
         <script src="https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
       
-        <script src="assets/javascripts/interactive_graph.js"></script>
+        <script src="../../assets/javascripts/interactive_graph.js"></script>
       
     
   </body>
