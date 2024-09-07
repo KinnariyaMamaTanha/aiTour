@@ -104,6 +104,9 @@ nav:
     - "国立台湾大学: 李宏毅机器学习": deep-learning/李宏毅机器学习.md
     - "动手学深度学习": deep-learning/dive-into-deep-learning.md
     - "个人学习路线": deep-learning/kinnari's-deep-learning.md
+  - 强化学习:
+    - "UCB CS285: Deep Reinforcement Learning": reinforcement-learning/CS285.md
+    - "西湖大学: 强化学习的数学原理": reinforcement-learning/mathematical-for-rl.md
   - 计算机视觉:
     - "UMich EECS 498.008/598.008: Deep Learning for Computer Vision": computer-vision/EECS498.008.md
   - 自然语言处理:
