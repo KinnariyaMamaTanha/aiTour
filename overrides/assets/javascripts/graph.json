@@ -7,188 +7,202 @@
             "value": "/"
         },
         {
-            "id": "A",
+            "id": "C++",
             "name": "C++",
             "symbolSize": 0.1,
-            "value": "/c++/CS106B"
+            "value": "/c++/CS106B/"
         },
         {
-            "id": "B",
+            "id": "Python",
             "name": "Python",
             "symbolSize": 0.1,
-            "value": "/python/CS61a"
+            "value": "/python/CS61a/"
         },
         {
-            "id": "C",
+            "id": "Calc",
             "name": "微积分",
             "symbolSize": 0.1,
-            "value": "/calculus/18.0x"
+            "value": "/calculus/18.0x/"
         },
         {
-            "id": "D1",
+            "id": "linalg",
             "name": "线性代数",
             "symbolSize": 0.1,
-            "value": "/linear-algebra/MIT18.06"
+            "value": "/linear-algebra/MIT18.06/"
         },
         {
-            "id": "E",
+            "id": "discrete-math",
             "name": "离散数学",
             "symbolSize": 0.1,
-            "value": "/discrete-math/CS2501H"
+            "value": "/discrete-math/CS2501H/"
         },
         {
-            "id": "F",
+            "id": "computer-architecture",
             "name": "计算机体系结构",
             "symbolSize": 0.1,
-            "value": "/computer-architecture/CS61c"
+            "value": "/computer-architecture/CS61c/"
         },
         {
-            "id": "G",
+            "id": "algo",
             "name": "数据结构与算法",
             "symbolSize": 0.1,
-            "value": "/data-structure-and-algorithm/CS61b"
+            "value": "/data-structure-and-algorithm/CS61b/"
         },
         {
-            "id": "H1",
+            "id": "Prob",
             "name": "概率论",
             "symbolSize": 0.1,
-            "value": "/probability/RES.6-012"
+            "value": "/probability/RES.6-012/"
         },
         {
-            "id": "H2",
+            "id": "stochastic-processes",
             "name": "随机过程",
             "symbolSize": 0.1,
-            "value": "/stochastic-processes/AI2613"
+            "value": "/stochastic-processes/AI2613/"
         },
         {
-            "id": "I1",
+            "id": "ML",
             "name": "机器学习",
             "symbolSize": 0.1,
-            "value": "/machine-learning/CS229"
+            "value": "/machine-learning/CS229/"
         },
         {
-            "id": "J1",
+            "id": "DL",
             "name": "深度学习",
             "symbolSize": 0.1,
-            "value": "/deep-learning/kinnari's-deep-learning"
+            "value": "/deep-learning/kinnari's-deep-learning/"
         },
         {
-            "id": "J2",
+            "id": "CV",
             "name": "计算机视觉",
             "symbolSize": 0.1,
-            "value": "/computer-vision/EECS498.008"
+            "value": "/computer-vision/EECS498.008/"
         },
         {
-            "id": "J3",
+            "id": "nlp",
             "name": "自然语言处理",
             "symbolSize": 0.1,
-            "value": "/natural-language-processing/CS224n"
+            "value": "/natural-language-processing/CS224n/"
         },
         {
-            "id": "J4",
+            "id": "slp",
             "name": "语音处理",
             "symbolSize": 0.1,
-            "value": "/speech-processing/CS224s"
+            "value": "/speech-processing/CS224s/"
         },
         {
-            "id": "K",
+            "id": "optim",
             "name": "优化理论",
             "symbolSize": 0.1,
-            "value": "/optimization/EECS127-227A"
+            "value": "/optimization/CMU10-725/"
+        },
+        {
+            "id": "RL",
+            "name": "强化学习",
+            "symbolSize": 0.1,
+            "value": "/reinforcement-learning/mathematical-for-rl/"
         }
     ],
     "links": [
         {
             "source": "aiTour",
-            "target": "D1"
+            "target": "linalg"
         },
         {
             "source": "aiTour",
-            "target": "C"
+            "target": "Calc"
         },
         {
             "source": "aiTour",
-            "target": "E"
+            "target": "discrete-math"
         },
         {
             "source": "aiTour",
-            "target": "B"
+            "target": "Python"
         },
         {
             "source": "aiTour",
-            "target": "A"
+            "target": "C++"
         },
         {
-            "source": "B",
-            "target": "G"
+            "source": "Python",
+            "target": "algo"
         },
         {
-            "source": "A",
-            "target": "F"
+            "source": "C++",
+            "target": "computer-architecture"
         },
         {
-            "source": "B",
-            "target": "I1"
+            "source": "Python",
+            "target": "ML"
         },
         {
-            "source": "C",
-            "target": "K"
+            "source": "Calc",
+            "target": "optim"
         },
         {
-            "source": "C",
-            "target": "H1"
+            "source": "Calc",
+            "target": "Prob"
         },
         {
-            "source": "D1",
-            "target": "K"
+            "source": "linalg",
+            "target": "optim"
         },
         {
-            "source": "E",
-            "target": "H1"
+            "source": "discrete-math",
+            "target": "Prob"
         },
         {
-            "source": "E",
-            "target": "G"
+            "source": "discrete-math",
+            "target": "algo"
         },
         {
-            "source": "G",
-            "target": "I1"
+            "source": "algo",
+            "target": "ML"
         },
         {
-            "source": "I1",
-            "target": "J1"
+            "source": "ML",
+            "target": "DL"
         },
         {
-            "source": "H1",
-            "target": "H2"
+            "source": "Prob",
+            "target": "stochastic-processes"
         },
         {
-            "source": "H1",
-            "target": "I1"
+            "source": "Prob",
+            "target": "ML"
         },
         {
-            "source": "J1",
-            "target": "J2"
+            "source": "DL",
+            "target": "CV"
         },
         {
-            "source": "J1",
-            "target": "J3"
+            "source": "DL",
+            "target": "nlp"
         },
         {
-            "source": "J3",
-            "target": "J4"
+            "source": "nlp",
+            "target": "slp"
         },
         {
-            "source": "H2",
-            "target": "J4"
+            "source": "stochastic-processes",
+            "target": "slp"
         },
         {
-            "source": "G",
-            "target": "K"
+            "source": "algo",
+            "target": "optim"
         },
         {
-            "source": "D1",
-            "target": "H2"
+            "source": "linalg",
+            "target": "stochastic-processes"
+        },
+        {
+            "source": "stochastic-processes",
+            "target": "RL"
+        },
+        {
+            "source": "DL",
+            "target": "RL"
         }
     ]
 }
