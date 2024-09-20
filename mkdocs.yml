@@ -96,6 +96,8 @@ nav:
     - "UCB CS61b: Data Structures": data-structure-and-algorithm/CS61b.md
     - "Stanford CS161: Design and Analysis of Algorithms": data-structure-and-algorithm/CS161.md
     - "数据结构：思想与实现": data-structure-and-algorithm/数据结构：思想与实现.md
+  - 计算机体系结构:
+    - "UCB CS61c: Great Ideas in Computer Architecture": computer-architecture/CS61c.md
   - 机器学习基础:
     - "Stanford CS229: Machine Learning": machine-learning/CS229.md
     - "UCB CS189/289A: Introduction to Machine Learning": machine-learning/CS189.md
@@ -109,8 +111,19 @@ nav:
     - "UCB CS285: Deep Reinforcement Learning": reinforcement-learning/CS285.md
   - 计算机视觉:
     - "UMich EECS 498.008/598.008: Deep Learning for Computer Vision": computer-vision/EECS498.008.md
+    - "Tuebingen ML 4360: Computer Vision": computer-vision/ML-4360.md
   - 自然语言处理:
     - "Stanford CS224n: Natural Language Processing with Deep Learning": natural-language-processing/CS224n.md
+  - 语音处理:
+    - "国立台湾大学 DLHLP: Deep Learning For Human Language Processing": speech-processing/李宏毅hlp.md
+  - 图神经网络:
+    - "Stanford CS224w: Machine Learning with Graphs": graphic-neural-network/CS224w.md
+  - 深度生成模型:
+    - "Stanford CS236: Deep Generative Model": deep-generative-model/CS236.md
+  - 深度学习系统:
+    - "CMU 10-414: Deep Learning System": deep-learning-system/CMU-10-414.md
+  - 科研:
+    - "GAMSE 003: 科研基本素养": research/GAMES003.md
 
 plugins:
   - search
