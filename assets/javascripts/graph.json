@@ -1,6 +1,12 @@
 {
     "nodes": [
         {
+            "id": "DGM",
+            "name": "深度生成模型",
+            "symbolSize": 0.1,
+            "value": "/deep-generative-model/CS236/"
+        },
+        {
             "id": "aiTour",
             "name": "aiTour",
             "symbolSize": 3,
@@ -88,7 +94,7 @@
             "id": "slp",
             "name": "语音处理",
             "symbolSize": 0.1,
-            "value": "/speech-processing/CS224s/"
+            "value": "/speech-processing/李宏毅hlp/"
         },
         {
             "id": "optim",
@@ -101,6 +107,24 @@
             "name": "强化学习",
             "symbolSize": 0.1,
             "value": "/reinforcement-learning/mathematical-for-rl/"
+        },
+        {
+            "id": "GNN",
+            "name": "图神经网络",
+            "symbolSize": 0.1,
+            "value": "/graphic-neural-network/CS224w/"
+        },
+        {
+            "id": "research",
+            "name": "科研",
+            "symbolSize": 1,
+            "value": "/research/GAMES003/"
+        },
+        {
+            "id": "DLS",
+            "name": "深度学习系统",
+            "symbolSize": 0.1,
+            "value": "/deep-learning-system/CMU-10-414/"
         }
     ],
     "links": [
@@ -203,6 +227,26 @@
         {
             "source": "DL",
             "target": "RL"
+        },
+        {
+            "source": "DL",
+            "target": "GNN"
+        },
+        {
+            "source": "computer-architecture",
+            "target": "DLS"
+        },
+        {
+            "source": "DL",
+            "target": "DLS"
+        },
+        {
+            "source": "aiTour",
+            "target": "research"
+        },
+        {
+            "source": "DL",
+            "target": "DGM"
         }
     ]
 }
