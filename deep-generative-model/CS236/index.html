@@ -22,7 +22,7 @@
       
       
       <link rel="icon" href="../../images/logo.jpg">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.35">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.37">
     
     
       
@@ -30,7 +30,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.35f28582.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8c3ca2c6.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
@@ -1185,11 +1185,53 @@
   
   
     <li class="md-nav__item">
+      <a href="../../optimization/CS439/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EPFL CS439: Optimization for Machine Learning - CS-439
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../optimization/EECS127-227A/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     UCB EECS 127-227A: Optimization Models in Engineering
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../optimization/EE364A/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Stanford EE364A: Convex Optimization
   </span>
   
 
@@ -2173,7 +2215,7 @@
         
   
   <span class="md-ellipsis">
-    GAMSE 003: 科研基本素养
+    GAMES 003: 科研基本素养
   </span>
   
 
@@ -2253,19 +2295,28 @@
 
 
 <h1 id="stanford-cs236-deep-generative-model">Stanford CS236: Deep Generative Model</h1>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>To be completed.</p>
-</div>
 <h2 id="_1">课程简介</h2>
 <ul>
-<li><strong>先修要求</strong>：深度学习</li>
-<li><strong>主要内容</strong></li>
+<li><strong>先修要求</strong>：深度学习，基础的随机过程，了解一点随机微分方程（SDE）和常微分方程（ODE）</li>
+<li><strong>参考教材</strong>：<a href="https://www.deeplearningbook.org/">Deep Learning</a></li>
+<li><strong>主要内容</strong>：<ul>
+<li>Autoregressive Model (AM)</li>
+<li>Variational AutoEncoder (VAE)</li>
+<li>Generative Adversarial Network (GAN)</li>
+<li>Energy-Based Model (EBM)</li>
+<li>Score-Based Model</li>
+<li>Diffusion Model</li>
 </ul>
+</li>
+</ul>
+<p>这门课主要聚焦于生成式模型的三个方面：如何表示概率分布、如何计算两个概率分布之间的距离、如何评估生成式模型。你可以了解到生成式模型在近十年来的整体发展脉络，梳理出不同的生成式模型之间的区别以及联系。</p>
+<p>这门课最大的优点在于前后的连贯性——我几乎是一气呵成的从 mixture Gaussian model 处“杀”到了 diffusion model。尽管在 <a href="../../computer-vision/EECS498.008/">Umich 的计算机视觉课程</a> 中，我已经接触过 VAE、GAN 等模型，但是直到这门课程，我才明白原来 VAE 可以看作 mixture Gaussian 的无穷分类情形、DDPM 逐步加噪声的 motivation 又是来自 score-based model 的 denoising score matching 技术、GAN 的对抗训练又可以怎样应用到其他模型中……</p>
+<p>不过，这门课的作业目前似乎只有 2018 版本的，最新的 2023 版本我暂未找到，如果你找到了，欢迎进行补充！</p>
 <h2 id="_2">相关链接</h2>
 <ol>
 <li>课程网站：<a href="https://deepgenerativemodels.github.io/">https://deepgenerativemodels.github.io/</a></li>
-<li>课程视频：<a href="https://www.youtube.com/watch?v=XZ0PMRWXBEU&amp;list=PLoROMvodv4rPOWA-omMM6STXaWW4FvJT8">https://www.youtube.com/watch?v=XZ0PMRWXBEU&amp;list=PLoROMvodv4rPOWA-omMM6STXaWW4FvJT8</a></li>
+<li>课程视频：<a href="https://www.youtube.com/watch?v=XZ0PMRWXBEU&amp;list=PLoROMvodv4rPOWA-omMM6STXaWW4FvJT8&gt;">Youtube</a></li>
+<li>课程作业：可在 GitHub 上找到 2018 年的作业（我暂时没有找到 2023 年的作业）</li>
 </ol>
 
 
@@ -2287,7 +2338,7 @@
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2024年9月20日</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2024年9月25日</span>
   </span>
 
     
@@ -2421,7 +2472,7 @@
     <script id="__config" type="application/json">{"base": "../..", "features": ["header.autohide", "navigation.tracking", "navigation.top", "navigation.path", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "search.highlight", "search.share", "search.suggest", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d6f25eb3.min.js"></script>
       
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
       
