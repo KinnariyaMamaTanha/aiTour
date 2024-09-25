@@ -91,7 +91,9 @@ nav:
   - 随机过程:
     - "SJTU AI2613: Stochastic Processes": stochastic-processes/AI2613.md
   - 优化理论:
+    - "EPFL CS439: Optimization for Machine Learning - CS-439": optimization/CS439.md
     - "UCB EECS 127-227A: Optimization Models in Engineering": optimization/EECS127-227A.md
+    - "Stanford EE364A: Convex Optimization": optimization/EE364A.md
   - 数据结构与算法:
     - "UCB CS61b: Data Structures": data-structure-and-algorithm/CS61b.md
     - "Stanford CS161: Design and Analysis of Algorithms": data-structure-and-algorithm/CS161.md
@@ -123,7 +125,7 @@ nav:
   - 深度学习系统:
     - "CMU 10-414: Deep Learning System": deep-learning-system/CMU-10-414.md
   - 科研:
-    - "GAMSE 003: 科研基本素养": research/GAMES003.md
+    - "GAMES 003: 科研基本素养": research/GAMES003.md
 
 plugins:
   - search
