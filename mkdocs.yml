@@ -62,6 +62,7 @@ nav:
   - 总览:
     - 课程总览: overview/course-overview.md
     - 好书推荐: overview/good-books.md
+    - 可能适合修读的课程清单: overview/possible-course-list.md
   - 实用工具:
     - Magic: tools/Magic.md
     - Git: tools/Git.md
@@ -86,7 +87,7 @@ nav:
     - "UCB CS70: discrete Math and probability theory": discrete-math/CS70.md
     - "SJTU CS2501H: Discrete Math(Honor)": discrete-math/CS2501H.md
     - "Stanford CS103: Mathematical Foundations of Computing": discrete-math/CS103.md
-  - 概率论:
+  - 概率统计:
     - "MIT RES.6-012: Introduction to Probability": probability/RES.6-012.md
   - 随机过程:
     - "SJTU AI2613: Stochastic Processes": stochastic-processes/AI2613.md

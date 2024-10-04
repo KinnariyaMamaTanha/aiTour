@@ -59,8 +59,6 @@
 6. 如果你贡献了一整个课程或书籍的话，记得在页面末尾以引用的方式注明贡献者，如 `> 本界面由 XXX 贡献`。
 7. 如果在其它网站上有相关的课程介绍的话，可以在末尾进行补充。
 
-此外，本书还有一份[未来规划](https://github.com/KinnariyaMamaTanha/aiTour/blob/main/future-plans.md)可供参考。
-
 ## Issues
 
 如果你发现本书的错误或者有改进意见，请尽情地提出 issue！我会尽可能快地修改（ddl 期间除外）。或者你也可以[向我发送邮件](mailto:jy_zhou@sjtu.edu.cn)！
