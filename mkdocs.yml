@@ -92,7 +92,7 @@ nav:
   - 随机过程:
     - "SJTU AI2613: Stochastic Processes": stochastic-processes/AI2613.md
   - 优化理论:
-    - "EPFL CS439: Optimization for Machine Learning - CS-439": optimization/CS439.md
+    - "EPFL CS439: Optimization for Machine Learning": optimization/CS439.md
     - "UCB EECS 127-227A: Optimization Models in Engineering": optimization/EECS127-227A.md
     - "Stanford EE364A: Convex Optimization": optimization/EE364A.md
   - 数据结构与算法:
@@ -123,7 +123,7 @@ nav:
     - "Stanford CS224w: Machine Learning with Graphs": graphic-neural-network/CS224w.md
   - 深度生成模型:
     - "Stanford CS236: Deep Generative Model": deep-generative-model/CS236.md
-  - 深度学习系统:
+  - 机器学习系统:
     - "CMU 10-414: Deep Learning System": deep-learning-system/CMU-10-414.md
   - 科研:
     - "GAMES 003: 科研基本素养": research/GAMES003.md

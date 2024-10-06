@@ -41,6 +41,7 @@
 16. <https://github.com/kmario23/deep-learning-drizzle> : 一份人工智能课程汇总
 17. <https://huggingface.co/learn> : Hugging Face 社区推出的开源课程
 18. <https://www.learnpytorch.io/> : Pytorch 教程。
+19. <https://edu.epfl.ch/studyplan/en/bachelor/computer-science/>: EPFL 每年开设的 CS 课程汇总
 
 此外还可以参考 csdiy 的[定制属于你的课程地图](https://csdiy.wiki/CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/)一节。
 
@@ -98,6 +99,8 @@
 1. <https://opencs.app>
 2. <https://global-cs-application.github.io>
 3. <https://www.1point3acres.com>
+4. <https://www.thegradcafe.com/>
+5. <https://www.gter.net/>
 
 ## 人工智能项目/框架
 

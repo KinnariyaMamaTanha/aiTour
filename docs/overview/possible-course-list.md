@@ -1,6 +1,6 @@
 # Possible Course List
 
-> 以下是我遇见的（但是并不一定学过或者了解过的）课程，一些已经列入正文部分的课程不会出现在这里。我不清楚授课质量如何、课程材料是否齐全等等信息，仅列在这里作为参考。如果你学习了其中的某些课程并愿意作出分享的话，我将不胜感激！
+> 以下是我遇见的（但是并不一定学过或者了解过的）课程，一些已经列入正文部分的课程不会出现在这里。**我不清楚授课质量如何、课程材料是否齐全等等信息**，仅列在这里作为参考。如果你学习了其中的某些课程并愿意作出分享的话，我将不胜感激！
 
 ## 编译原理
 
@@ -81,6 +81,7 @@
 
 ??? 生成式模型
     - Hugging Face Diffussion Course
+    - <https://speech.ee.ntu.edu.tw/~hylee/genai/2024-spring.php>
 
 ## 数据科学
 
@@ -96,23 +97,16 @@
     - MIT 15.070J Advanced Stochastic Processes
     - <https://services.math.duke.edu/~rtd/EOSP/EOSP2E.pdf>
 
-## 统计学
+## 概率统计
 
-??? 统计学
+??? 概率统计
     - <https://web.stanford.edu/~lmackey/stats300a/> (basic)
     - <https://egrcc.github.io/docs/math/all-of-statistics.pdf>
     - <https://www.stat.cmu.edu/~larry/=sml/> (stat with ML)
     - <https://stat210a.berkeley.edu/fall-2024/> (graduate)
     - <https://www.stat.berkeley.edu/~bartlett/courses/2013spring-stat210b/> (graduate)
     - <http://www.stat.ucla.edu/~arashamini/teaching/200b>
-
-## 优化理论
-
-??? 优化理论
-    - <https://www1.se.cuhk.edu.hk/~manchoso/2223/engg5501/>
-    - 最优化：建模，算法与理论，文再文等
-    - <https://zcrabbit.github.io/courses/btc-s22.html>
-    - <https://zcrabbit.github.io/courses/mcs-f19.html>
+    - <https://web.stanford.edu/class/stats310a/index.html>
 
 ## 推荐系统
 
@@ -125,10 +119,22 @@
     - <https://web.stanford.edu/class/ee276/>
     - <https://web.stanford.edu/class/stats311/>
     - <http://www.inference.org.uk/mackay/itila/>
+    - <https://web.stanford.edu/class/ee376a/>
+    - <https://ocw.mit.edu/courses/6-441-information-theory-spring-2016/pages/syllabus/>
+    - <https://ocw.mit.edu/courses/6-050j-information-and-entropy-spring-2008/>
 
-## 语音语言处理
+## 优化理论
 
-??? 语音语言处理
+??? 优化理论
+    - <https://www1.se.cuhk.edu.hk/~manchoso/2223/engg5501/>
+    - 最优化：建模，算法与理论，文再文等
+    - <https://zcrabbit.github.io/courses/btc-s22.html>
+    - <https://zcrabbit.github.io/courses/mcs-f19.html>
+    - UCB EE227C <https://ee227c.github.io/>
+
+## 语音处理
+
+??? 语音处理
     - Stanford CS224S: Spoken Language Processing
     - Hugging Face Audio Course: <https://huggingface.co/learn/audio-course/chapter0/introduction>
     - <https://www.cse.iitb.ac.in/~pjyothi/cs753/index.html>
