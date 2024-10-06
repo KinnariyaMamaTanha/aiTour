@@ -1,6 +1,36 @@
 {
     "nodes": [
         {
+            "id": "TML",
+            "name": "机器学习理论",
+            "symbolSize": 0.1,
+            "value": "/overview/possible-course-list/#_6"
+        },
+        {
+            "id": "LLM",
+            "name": "大语言模型",
+            "symbolSize": 0.1,
+            "value": "/overview/possible-course-list/#_3"
+        },
+        {
+            "id": "AI-Intro",
+            "name": "人工智能导论",
+            "symbolSize": 0.1,
+            "value": "/overview/possible-course-list/#_10"
+        },
+        {
+            "id": "PGM",
+            "name": "概率图模型",
+            "symbolSize": 0.1,
+            "value": "/overview/possible-course-list/#_4"
+        },
+        {
+            "id": "information-theory",
+            "name": "信息论",
+            "symbolSize": 0.1,
+            "value": "/overview/possible-course-list/#_18"
+        },
+        {
             "id": "DGM",
             "name": "深度生成模型",
             "symbolSize": 0.1,
@@ -76,7 +106,7 @@
             "id": "DL",
             "name": "深度学习",
             "symbolSize": 0.1,
-            "value": "/deep-learning/kinnari's-deep-learning/"
+            "value": "/deep-learning/李宏毅机器学习/"
         },
         {
             "id": "CV",
@@ -251,6 +281,34 @@
         {
             "source": "stochastic-processes",
             "target": "DGM"
+        },
+        {
+            "source": "Prob",
+            "target": "information-theory"
+        },
+        {
+            "source": "linalg",
+            "target": "ML"
+        },
+        {
+            "source": "ML",
+            "target": "PGM"
+        },
+        {
+            "source": "Prob",
+            "target": "AI-Intro"
+        },
+        {
+            "source": "algo",
+            "target": "AI-Intro"
+        },
+        {
+            "source": "nlp",
+            "target": "LLM"
+        },
+        {
+            "source": "ML",
+            "target": "TML"
         }
     ]
 }
