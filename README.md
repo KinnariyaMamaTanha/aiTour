@@ -12,7 +12,7 @@
 
 2024年5月14日，OpenAI 发布 GPT-4o……
 
-~~2024年10月8日，诺贝尔物理学奖颁发给 John J. Hopfield 和 Geoffrey E. Hinton，以表彰他们在人工神经网络方面作出的贡献。~~
+~~2024年10月8日，诺贝尔物理学奖颁发给 John J. Hopfield 和 Geoffrey E. Hinton，以表彰他们在人工神经网络方面作出的贡献。2024年10月9日，诺贝尔化学奖颁发给 David Baker 和 AlphaFold 开发者 Demis Hassabis、John M. Jumper ~~
 
 2023 年可以说是人工智能爆火元年。从 ChatGPT 发布，到各地媒体广泛报道，世界各国 AI 公司奋起直追，众多国家将 AI 纳入国家重要战略，新的 AI 模型如雨后春笋般不断涌出。机器学习、深度学习、神经网络等专业词汇也似乎有渐渐走入公众的视野。
 

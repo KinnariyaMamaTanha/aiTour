@@ -148,3 +148,9 @@
     - UCB CS 288 (Natural Language Processing) - covers techniques used to understand patterns and perform tasks on text. Also covers recent advances in language models.
     - Stanford CS224V Conversational Virtual Assistants with Deep Learning
     - UMass CS 685 Advanced Natural Language Processing
+
+## 多模态模型
+
+??? 多模态模型
+    - CMU 11-777
+    - CMSC848K <https://jbhuang0604.github.io/teaching/CMSC848K/>
