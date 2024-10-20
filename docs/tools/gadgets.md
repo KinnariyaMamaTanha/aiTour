@@ -77,6 +77,8 @@
 12. <https://jowus72zrc.feishu.cn/wiki/Khl9wKWO7iuKKpkTUEOcqRzvnVh> : HIT 自学组新人指引
 13. <https://feiyue.online> : 清华大学飞跃手册
 14. <https://docs.net9.org> : 清华大学计算机系学生科协技能引导文档
+15. <https://www.zhangzhenhu.com/> : 张振虎的博客，记录了很多人工智能相关的笔记。
+16. <https://kexue.fm/> : 苏剑林的科学空间，有非常高质量的博客分享，非常推荐订阅阅读。
 
 ## 导师评价
 

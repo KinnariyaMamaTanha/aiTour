@@ -70,7 +70,6 @@ nav:
     - Anaconda: tools/Anaconda.md
     - Docker: tools/Docker.md
     - WSL2: tools/WSL2.md
-    - Scoop: tools/Scoop.md
     - LaTeX: tools/LaTeX.md
     - Obsidian: tools/Obsidian.md
     - 小工具: tools/gadgets.md
