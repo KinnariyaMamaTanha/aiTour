@@ -45,6 +45,7 @@
 ## 机器学习系统
 
 ??? 机器学习系统
+    - <https://zhuanlan.zhihu.com/p/608318764>
     - Stanford CS 329S: Machine Learning Systems Design
     - Stanford Systems for Machine Learning <https://cs229s.stanford.edu/fall2023/>
     - Hardware Accelerators for Machine Learning - Stanford Online
@@ -59,6 +60,9 @@
 ??? 计算机视觉
     - <https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/computer-vision/>
     - UCB CS 280 (Computer Vision) - covers advances in the field of vision models in the past 20-30 years.
+    - <http://6.869.csail.mit.edu/sp22/>
+    - <https://web.stanford.edu/class/cs231a/>
+    - <http://vision.stanford.edu/teaching/cs131_fall2021/>
 
 ## 强化学习
 
@@ -154,3 +158,13 @@
 ??? 多模态模型
     - CMU 11-777
     - CMSC848K <https://jbhuang0604.github.io/teaching/CMSC848K/>
+
+## 机器学习
+
+??? 机器学习
+    - <https://inria.github.io/scikit-learn-mooc/>
+
+## AI4Science
+
+??? AI4Science
+    - [MIT Deep learning in Life Science](https://mit6874.github.io/)
