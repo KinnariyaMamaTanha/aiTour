@@ -96,6 +96,7 @@
 7. <https://paperswithcode.com> : 一个开源的论文网站，目标是 *create a free and open resource with Machine Learning papers, code, datasets, methods and evaluation tables*。你甚至可以为该网站的社区做出自己的贡献！详细介绍可以在 [About](https://paperswithcode.com/about) 界面查看
 8. <https://www.connectedpapers.com> : 以图形化的方式向你展示不同论文之间的联系
 9. <https://aclanthology.org/> : ACL anthology for NLP papers.
+10. <https://www.semanticscholar.org/>
 
 ## 留学
 

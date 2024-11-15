@@ -103,6 +103,7 @@ nav:
   - 机器学习基础:
     - "Stanford CS229: Machine Learning": machine-learning/CS229.md
     - "UCB CS189/289A: Introduction to Machine Learning": machine-learning/CS189.md
+    - "机器学习书": machine-learning/MLBook.md
   - 深度学习基础:
     - "Stanford CS230: Deep Learning": deep-learning/CS230.md
     - "国立台湾大学: 李宏毅机器学习": deep-learning/李宏毅机器学习.md
