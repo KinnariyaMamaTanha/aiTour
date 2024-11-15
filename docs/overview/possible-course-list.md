@@ -80,6 +80,8 @@
 ??? 深度学习
     - UCB CS 182 (Deep Learning) - covers more recent deep learning architectures in greater detail.
     - UCB CS 194 Full Stack Deep Learning
+    - <https://course.fast.ai/>
+
 
 ## 生成式模型
 
