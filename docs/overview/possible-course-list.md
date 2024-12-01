@@ -54,6 +54,7 @@
     - cornell ECE 5545 Machine Learning Hardware and Systems
     - <https://dlsyscourse.org/>
     - <https://mlc.ai/summer22-zh/>
+    - <https://github.com/microsoft/AI-System/>
 
 ## 计算机视觉
 
@@ -88,12 +89,12 @@
 ??? 生成式模型
     - Hugging Face Diffussion Course
     - <https://speech.ee.ntu.edu.tw/~hylee/genai/2024-spring.php>
+    - <https://stat.columbia.edu/~cunningham/teaching/GR8201/>
 
 ## 数据科学
 
 ??? 数据科学
     - UCB Data8
-    - UCB Data140
     - UCB Data100
 
 ## 随机过程
@@ -113,6 +114,9 @@
     - <https://www.stat.berkeley.edu/~bartlett/courses/2013spring-stat210b/> (graduate)
     - <http://www.stat.ucla.edu/~arashamini/teaching/200b>
     - <https://web.stanford.edu/class/stats310a/index.html>
+    - UCB Data140
+    - UCB Data102
+    - <https://www.probabilitycourse.com/>
 
 ## 推荐系统
 

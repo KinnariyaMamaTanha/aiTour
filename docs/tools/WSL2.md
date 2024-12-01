@@ -68,7 +68,7 @@
 在熟悉了 WSL2 的基本操作之后，就可以开始配置机器学习/深度学习的环境了，我的大致配置过程如下：
 
 1. 在 Windows 中安装 NVIDIA 驱动程序
-2. 在 WSL2 中安装 Anaconda / Miniconda，或使用 [Docker](./Docker.md)，但是 [Anaconda](./Anaconda.md) 的上手相对更简单一些
+2. 在 WSL2 中安装 Anaconda / Miniconda，或使用 [Docker](./Docker.md)，但是 [conda](./Conda.md) 的上手相对更简单一些
 3. 在 WSL2 中利用 conda 创建虚拟环境，并安装 Pytorch 等需要的包
 4. 按需安装 cuda-toolkit 和 cudnn。根据根据需求，决定是使用 conda 在特定深度学习环境中局部安装，还是为 WSL2 进行全局安装。
 5. 使用 VS Code 或 Pycharm 专业版等远程连接 WSL2（或者直接在 WSL2 中安装 IDE/编辑器，不太推荐），开始 coding。
