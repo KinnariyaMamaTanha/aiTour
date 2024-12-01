@@ -57,22 +57,21 @@ theme:
     - 404.html
 
 nav:
-  - 序: index.md
-  - 旅途前的准备: preparations.md
-  - 总览:
+  - "欢迎来到 aiTour !":
+    - 序: index.md
+    - 旅途前的准备: preparations.md
     - 课程总览: overview/course-overview.md
-    - 好书推荐: overview/good-books.md
     - 可能适合修读的课程清单: overview/possible-course-list.md
+    - 一些有用的网站: tools/useful-websites.md
   - 实用工具:
     - Magic: tools/Magic.md
     - Git: tools/Git.md
     - Vim: tools/Vim.md
-    - Anaconda: tools/Anaconda.md
+    - Conda: tools/Conda.md
     - Docker: tools/Docker.md
     - WSL2: tools/WSL2.md
     - LaTeX: tools/LaTeX.md
     - Obsidian: tools/Obsidian.md
-    - 小工具: tools/gadgets.md
   - C++:
     - "Stanford CS106B: Programming Abstractions": c++/CS106B.md
   - Python:
@@ -127,11 +126,16 @@ nav:
     - "CMU 10-414: Deep Learning System": deep-learning-system/CMU-10-414.md
   - 科研:
     - "GAMES 003: 科研基本素养": research/GAMES003.md
+  - 后记: afterword.md
 
 plugins:
   - search
   - git-revision-date-localized
   - obsidian-interactive-graph
+  - git-authors:
+      show_contribution: true
+      show_line_count: true
+
 
 extra:
   social:
