@@ -26,6 +26,6 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material mkdocs-git-revision-date-localized-plugin mkdocs-obsidian-interactive-graph-plugin mkdocs-git-authors-plugin mkdocs-changelog-plugin
+      - run: pip install mkdocs-material mkdocs-git-revision-date-localized-plugin mkdocs-obsidian-interactive-graph-plugin mkdocs-git-authors-plugin mkdocs-changelog-plugin mkdocs-statistics-plugin
       - run: pip cache purge
       - run: mkdocs gh-deploy --force
