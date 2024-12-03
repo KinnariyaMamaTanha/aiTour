@@ -52,11 +52,15 @@
       
     
     
+      <link rel="stylesheet" href="../css/timeline.css">
+    
       <link rel="stylesheet" href="../assets/stylesheets/interactive_graph.css">
     
       <link rel="stylesheet" href="../assets/stylesheets/link.css">
     
       <link rel="stylesheet" href="../assets/stylesheets/customize.css">
+    
+      <link rel="stylesheet" href="../assets/stylesheets/changelog.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -103,7 +107,7 @@
     <a href=".." title="aiTour" class="md-header__button md-logo" aria-label="aiTour" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 4v6l-2-2-2 2V4H9v16h10V4zM3 7V5h2V4a2 2 0 0 1 2-2h12c1.05 0 2 .95 2 2v16c0 1.05-.95 2-2 2H7c-1.05 0-2-.95-2-2v-1H3v-2h2v-4H3v-2h2V7zm2-2v2h2V5zm0 14h2v-2H5zm0-6h2v-2H5z"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -243,7 +247,7 @@
     <a href=".." title="aiTour" class="md-nav__button md-logo" aria-label="aiTour" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 4v6l-2-2-2 2V4H9v16h10V4zM3 7V5h2V4a2 2 0 0 1 2-2h12c1.05 0 2 .95 2 2v16c0 1.05-.95 2-2 2H7c-1.05 0-2-.95-2-2v-1H3v-2h2v-4H3v-2h2V7zm2-2v2h2V5zm0 14h2v-2H5zm0-6h2v-2H5z"/></svg>
 
     </a>
     aiTour
@@ -544,6 +548,27 @@
   
   <span class="md-ellipsis">
     Magic
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/Pytorch/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pytorch
   </span>
   
 
@@ -2268,6 +2293,26 @@
   
   
     <li class="md-nav__item">
+      <a href="../changelog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    更新日志
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../afterword/" class="md-nav__link">
         
   
@@ -2367,24 +2412,29 @@
                   
 
   
+    <a href="https://github.com/KinnariyaMamaTanha/aiTour/tree/main/docs/preparations.md" title="编辑此页" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75z"/></svg>
+    </a>
+  
   
 
 
-<h1 id="preparations">Preparations</h1>
+<h1 id="preparations">Preparations<a class="headerlink" href="#preparations" title="Permanent link">&para;</a></h1>
 <blockquote>
 <p>俗话说，磨刀不误砍柴工，在开始我们的 aiTour 之前，先做好一些准备工作吧！</p>
 </blockquote>
-<h2 id="_1">思维与心态</h2>
-<p>大学生活与高中生活截然不同，所以希望你能首先转变自己的思维与心态，这样才能更好地适应大学生活。请详细阅读<a href="https://survivesjtu.gitbook.io/survivesjtumanual">上海交通大学生存手册</a>，<a href="https://csdiy.wiki/">csdiy - 前言</a>，<a href="https://csdiy.wiki/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/">csdiy - 如何使用这本书</a>以及 <a href="https://wiki.0xffff.one/getting-started/mental-preparation">0xffff - 心态与方法上的准备</a>。不出意外的话，你会有较深的感触，并开始对国内大学怯魅。</p>
-<h2 id="_2">计算机概览</h2>
+<h2 id="_1">思维与心态<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>大学生活与高中生活截然不同，所以希望你能首先转变自己的思维与心态，这样才能更好地适应大学生活。请详细阅读<a href="https://survivesjtu.gitbook.io/survivesjtumanual">上海交通大学生存手册</a>，<a href="https://csdiy.wiki/">csdiy - 前言</a>，<a href="https://csdiy.wiki/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/">csdiy - 如何使用这本书</a>以及 <a href="https://wiki.0xffff.one/getting-started/mental-preparation">0xffff - 心态与方法上的准备</a>。不出意外的话，你会有较深的感触（，并开始对国内大学怯魅）。</p>
+<h2 id="_2">计算机概览<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <p>对于一些同学来说，计算机是一个以前从未真正接触过的新事物；即使早已接触，也可能只是使用过一些日常功能，所以，对计算机进行一个概览还是很有必要的。如果你早已熟悉计算机，那么请随意跳过这节。</p>
 <p>由于 <a href="https://cs-plan.com">cs-plan</a> 中已经有一部分计算机概览课程的介绍了，所以这里直接借用一下。请参考 cs-plan 中的计算机导论一节的两门课程 <a href="https://cs-plan.com/CS%E5%9F%BA%E7%A1%80/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA/%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%80%9F%E6%88%90%E8%AF%BE/">Crash Course Computer Science</a> 以及 <a href="https://cs-plan.com/CS%E5%9F%BA%E7%A1%80/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA/HarvardCS50/">Harvard CS50</a>。（在此感谢 cs-plan 的作者！<a href="https://github.com/MingLLuo">@MingLLuo</a>）</p>
-<h2 id="_3">提问的智慧</h2>
+<h2 id="_3">提问的智慧<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <p>在学习之中，我们不可避免地会在网络上向他人提问，所以，学会如何提问至关重要。一些计算机工作者时常会被认为傲慢且没有耐心，那多半是因为他们已经受够了来自其他人的愚蠢问题。</p>
 <p>请先阅读<a href="https://blog.arisa.moe/blog/2022/220428-how-to-ask-questions-like-a-retard">如何像弱智一样提问</a>，学习如何才能激怒你的回答者 or 成为一个弱智。</p>
 <p>然后再详细阅读<a href="https://lug.ustc.edu.cn/wiki/doc/smart-questions/">提问的智慧</a>中文版，学习如何才能不激怒你的回答者。</p>
 <p>现在，尽管对于上面两篇文章中的内容你可能云里雾里，但是你大概已经掌握提问的一些注意事项了，请在日后想要提问时重新看看。让我们继续吧。</p>
-<h2 id="_4">旅途路线规划</h2>
+<h2 id="_4">旅途路线规划<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
 <p>点击搜索栏旁图标可查看学习路线。如果想要获取课程的简短介绍的话，可以参考<a href="../overview/course-overview/">课程总览</a>。</p>
 <p>这份学习路线仅仅只是一个抛砖引玉——每个人都应该有自己独特的学习路线，而不是一味地照搬别人的。这里提供一个思路，以构建你自己的学习路线：</p>
 <div class="admonition note">
@@ -2399,7 +2449,7 @@
 <p>或者，你也可以参考 <a href="https://hkn.eecs.berkeley.edu/courseguides">UCB</a> 的课程地图。再或者，你也可以将上述思路运用到 <a href="https://csdiy.wiki">csdiy</a> 中。</p>
 <p>在确定好学习路线后，接着需要确定学习每门课程所用的资料。这个步骤只能按照你的个人喜好来实施。一般来说，所需的资料在网上应该是数不胜数的，你可以在各大网站平台上找到，例如 B 站、YouTube、GitHub、各大学的官方课程网站等。挑选时可以注意对应的先修要求、课程资料是否齐全（如课堂视频、notes、作业及解答、考试等）、哪个版本风评最好，以及是否有前人的踩坑经验等等。请按需挑选最符合你胃口的资料和课程。</p>
 <p>如果你所寻找的课程不再开放（例如 UCB 的部分课程），可以使用 <a href="https://web.archive.org/">Web Archive</a> 来寻找是否有网页存档可以使用，也可以寻找国内外交流群加入，说不定会有所发现。</p>
-<h2 id="_5">启航</h2>
+<h2 id="_5">启航<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
 <p>在做好这些准备工作之后，请开始你的 AI 学习之旅吧！</p>
 
 
@@ -2421,7 +2471,7 @@
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2024年12月1日</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2024年12月3日</span>
   </span>
 
     
@@ -2564,10 +2614,8 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
     
-    
-    <script id="__config" type="application/json">{"base": "..", "features": ["header.autohide", "navigation.tracking", "navigation.top", "navigation.path", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "search.highlight", "search.share", "search.suggest", "content.code.annotate"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["header.autohide", "navigation.tracking", "navigation.top", "navigation.path", "search.highlight", "search.share", "search.suggest", "content.code.annotate", "content.action.edit"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
       <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>

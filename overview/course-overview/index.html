@@ -52,11 +52,15 @@
       
     
     
+      <link rel="stylesheet" href="../../css/timeline.css">
+    
       <link rel="stylesheet" href="../../assets/stylesheets/interactive_graph.css">
     
       <link rel="stylesheet" href="../../assets/stylesheets/link.css">
     
       <link rel="stylesheet" href="../../assets/stylesheets/customize.css">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/changelog.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -103,7 +107,7 @@
     <a href="../.." title="aiTour" class="md-header__button md-logo" aria-label="aiTour" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 4v6l-2-2-2 2V4H9v16h10V4zM3 7V5h2V4a2 2 0 0 1 2-2h12c1.05 0 2 .95 2 2v16c0 1.05-.95 2-2 2H7c-1.05 0-2-.95-2-2v-1H3v-2h2v-4H3v-2h2V7zm2-2v2h2V5zm0 14h2v-2H5zm0-6h2v-2H5z"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -243,7 +247,7 @@
     <a href="../.." title="aiTour" class="md-nav__button md-logo" aria-label="aiTour" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 4v6l-2-2-2 2V4H9v16h10V4zM3 7V5h2V4a2 2 0 0 1 2-2h12c1.05 0 2 .95 2 2v16c0 1.05-.95 2-2 2H7c-1.05 0-2-.95-2-2v-1H3v-2h2v-4H3v-2h2V7zm2-2v2h2V5zm0 14h2v-2H5zm0-6h2v-2H5z"/></svg>
 
     </a>
     aiTour
@@ -598,24 +602,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#_19" class="md-nav__link">
-    <span class="md-ellipsis">
-      计算机体系结构
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_20" class="md-nav__link">
-    <span class="md-ellipsis">
-      机器学习系统
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -721,6 +707,27 @@
   
   <span class="md-ellipsis">
     Magic
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tools/Pytorch/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pytorch
   </span>
   
 
@@ -2445,6 +2452,26 @@
   
   
     <li class="md-nav__item">
+      <a href="../../changelog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    更新日志
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../afterword/" class="md-nav__link">
         
   
@@ -2688,24 +2715,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#_19" class="md-nav__link">
-    <span class="md-ellipsis">
-      计算机体系结构
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_20" class="md-nav__link">
-    <span class="md-ellipsis">
-      机器学习系统
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -2721,44 +2730,50 @@
                   
 
   
+    <a href="https://github.com/KinnariyaMamaTanha/aiTour/tree/main/docs/overview/course-overview.md" title="编辑此页" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75z"/></svg>
+    </a>
+  
   
 
 
-<h1 id="course-overview">Course Overview</h1>
-<h2 id="_1">数学基础</h2>
-<h3 id="_2">微积分</h3>
+<h1 id="course-overview">Course Overview<a class="headerlink" href="#course-overview" title="Permanent link">&para;</a></h1>
+<h2 id="_1">数学基础<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<h3 id="_2">微积分<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
 <p>梯度下降法几乎是所有深度学习算法的基础，而它使用的正是微积分中高维函数的导数的概念，并且在概率论、随机过程、优化理论等课程中也会大量使用微积分，所以熟练掌握它是必须的基本功之一。MIT 的 <a href="../../calculus/18.0x/">18.01 / 18.02</a> 课程非常适合用于入门，让你免于大量做题的头疼，专注于微积分的本质。</p>
-<h3 id="_3">线性代数</h3>
-<p>线性代数是人工智能中相当重要的一部分，因此我花了大量的时间进行学习。你可以聆听 Strang 老教授的 <a href="../../linear-algebra/MIT18.06/">MIT 18.06</a> 课程，以著名的 <em>Introduction to Linear Algebra</em> 为教材来学习线性代数。</p>
-<h3 id="_4">离散数学</h3>
+<h3 id="_3">线性代数<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<p>线性代数是人工智能中相当重要的一部分，因此我花了较多时间进行学习。你可以聆听 Strang 老教授的 <a href="../../linear-algebra/MIT18.06/">MIT 18.06</a> 课程，以著名的 <em>Introduction to Linear Algebra</em> 为教材来学习线性代数。</p>
+<h3 id="_4">离散数学<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
 <p>集合论、数理逻辑基础、图论基础都是接下来的学习中所必须的知识，在这门课程中，你可以将它们一网打尽！我所采用的资料是<a href="https://xiangyin.sjtu.edu.cn/index.html">上海交大殷翔老师</a>的<a href="https://xiangyin.sjtu.edu.cn/teaching.html">讲义</a>，不过由于版权原因，我并不能放出这门课的作业和考试试题，所以你也可以选择斯坦福大学的 <a href="../../discrete-math/CS103/">CS103</a> 课程，这门课的内容是上述讲义的超集，也很值得一听；又或者同时讲授了离散数学和概率论的 <a href="../../discrete-math/CS70/">UCB CS70</a>？</p>
-<h2 id="_5">数学进阶</h2>
-<h3 id="_6">概率统计</h3>
+<h2 id="_5">数学进阶<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<h3 id="_6">概率统计<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
 <p>概率统计也是人工智能的重要基础课程之一，因此非常有必要认真学习。我使用了 MIT 的 <a href="../../probability/RES.6-012/">RES.6-012: Introduction to Probability</a> 这门课程进行概率论方面的学习。</p>
-<h3 id="_7">随机过程</h3>
-<p>近几年流行的 diffusion model 就使用了一种特殊的随机过程“扩散”（diffusion），如果你对这方面感兴趣的话，随机过程也是绕不开的一门数学课。不过我也没找到适合计算机专业的课程，只找到了上海交大开设的一门偏向数学的课程 <a href="../../stochastic-processes/AI2613/">AI2613</a>。</p>
-<h3 id="_8">优化理论</h3>
-<h2 id="_9">编程基础</h2>
-<h3 id="python">Python</h3>
+<h3 id="_7">随机过程<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<p>近几年流行的 diffusion model 就使用了一种特殊的随机过程“扩散”（diffusion），如果你想深入研究这方面的话，随机过程也是绕不开的一门数学课。不过我也没找到适合计算机专业的课程，只找到了上海交大开设的一门偏向数学的课程 <a href="../../stochastic-processes/AI2613/">AI2613</a>。</p>
+<h3 id="_8">优化理论<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<h2 id="_9">编程基础<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
+<h3 id="python">Python<a class="headerlink" href="#python" title="Permanent link">&para;</a></h3>
 <p>如今几乎所有的人工智能代码都使用了 Python 作为编程语言，因此熟练地掌握 Python 是每一个学习 AI 的学生必备的技能，强烈推荐 <a href="../../python/CS61a/">CS61a</a> 来进行学习，不过对这门课来说，拥有了一定的代码基础后再来学习可能效果更佳吧，比方说先学学 <a href="../../python/CS50P/">CS50P</a>？</p>
-<h3 id="c">C++</h3>
-<p>虽说现在的 AI 领域，Python 占据了几乎全部江山，但在人工智能库的一些底层代码中，仍然使用的是 C 或 C++ 语言（以提高运行速度，例如 Pytorch 的底层代码就是由 C++ 实现），因此也需要进行 C 和 C++ 的学习。斯坦福大学的 <a href="../../c%2B%2B/CS106B/">CS106B</a> 是一个比较好的选择。</p>
-<h2 id="_10">数据结构与算法</h2>
+<h3 id="c">C++<a class="headerlink" href="#c" title="Permanent link">&para;</a></h3>
+<p>虽说现在的 AI 领域，Python 占据了几乎全部江山，但在人工智能库的一些底层代码中，仍然使用的是 C 或 C++ 语言（以提高运行速度，例如 Pytorch 的底层代码就是由 C++ 实现），因此也需要进行 C 和 C++ 的学习。如果你想从事 AI infra 相关的工作的话，也需要学习一下这两门语言。斯坦福大学的 <a href="../../c%2B%2B/CS106B/">CS106B</a> 是一个比较好的选择，而 C 语言则可以在 <a href="../../computer-architecture/CS61c/">CS61c</a> 中进行学习。</p>
+<h2 id="_10">数据结构与算法<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h2>
 <p>虽说人工智能领域涌现出了大量的新算法，但是掌握传统的算法仍然非常有必要，它们可以帮助你更好地分析、设计、改进新的算法，让你面对 AI 算法时不至于一头雾水。我使用伯努利大学的 <a href="../../data-structure-and-algorithm/CS61b/">CS61b</a>、斯坦福大学的 <a href="../../data-structure-and-algorithm/CS161/">CS161</a> 两门课程进行学习，同时参考了<a href="https://www.cs.sjtu.edu.cn/PeopleDetail.aspx?id=75">俞勇教授</a>和<a href="https://cs.sjtu.edu.cn/PeopleDetail.aspx?id=78">翁惠玉教授</a>所写的<a href="../../data-structure-and-algorithm/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%9A%E6%80%9D%E6%83%B3%E4%B8%8E%E5%AE%9E%E7%8E%B0/">《数据结构：思想与实现》</a>，以及<a href="https://book.douban.com/subject/20432061/">《算法导论》</a>这两本书。</p>
-<h2 id="_11">机器学习</h2>
-<h3 id="_12">机器学习基础</h3>
+<h2 id="_11">机器学习<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h2>
+<h3 id="_12">机器学习基础<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
 <p><a href="../../machine-learning/CS229/">Stanford CS229</a> 这门课由吴恩达教授讲授，质量上乘，我跟随它学完了基础的机器学习算法，同时又参考 <a href="../../machine-learning/CS189/">CS 189/289A</a> 中的内容进行了补充，口感甚佳。</p>
-<h2 id="_13">深度学习</h2>
-<p>这几年深度学习如火如荼，以至于提到人工智能大家就会想到深度学习。你可以选择学习 <a href="../../deep-learning/CS230/">Stanford CS230</a>，<a href="../../deep-learning/%E6%9D%8E%E5%AE%8F%E6%AF%85%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">李宏毅机器学习</a>或者<a href="../../deep-learning/dive-into-deep-learning/">动手学深度学习</a>这几门课程来进行入门。另外，我在大一下学期加入了实验室进行学习，师兄们为我推荐了许多深度学习相关的博客、教程。我将这些内容整理后梳理出了一条独特的深度学习入门路线，也许并不适合所有同学，故仅仅作为一个参考。</p>
-<h2 id="_14">计算机视觉</h2>
+<h2 id="_13">深度学习<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h2>
+<p>这几年深度学习如火如荼，以至于提到人工智能大家就会想到深度学习。你可以选择学习 <a href="../../deep-learning/CS230/">Stanford CS230</a>，<a href="../../deep-learning/%E6%9D%8E%E5%AE%8F%E6%AF%85%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">李宏毅机器学习</a>或者<a href="../../deep-learning/dive-into-deep-learning/">动手学深度学习</a>这几门课程来进行入门。前两门课程偏重与理论，而动手学深度学习则更偏向于代码层面的应用。</p>
+<h2 id="_14">计算机视觉<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h2>
 <p>怎么让计算机“看懂”照片上的内容？人脸识别是怎么实现的？图片生成又是怎么一回事？<a href="../../computer-vision/EECS498.008/">Umich 大学的计算机视觉课程</a> 可以为你部分解决这些问题。这门课同时也是很好的 <a href="https://pytorch.org/">Pytorch</a> 教程，非常值得一看。</p>
-<h2 id="_15">自然语言处理</h2>
+<h2 id="_15">自然语言处理<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h2>
 <p>23 年大火的 GPT 系列模型着实让人震惊，这背后也少不了自然语言处理（nlp）的功劳。斯坦福大学的 <a href="../../natural-language-processing/CS224n/">CS224n</a> 是一门较好的 nlp 入门课程，不过它假定你已经掌握了 Pytorch 的使用，需要先了解 Pytorch 基本用法后才能学习。</p>
-<h2 id="_16">语音处理</h2>
-<h2 id="_17">深度生成模型</h2>
-<h2 id="_18">强化学习</h2>
-<h2 id="_19">计算机体系结构</h2>
-<h2 id="_20">机器学习系统</h2>
+<h2 id="_16">语音处理<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h2>
+<p>想要为自己设计一个专属的变音器吗？想“克隆”你喜欢的明星/二次元角色的声线来生成一些有趣的对话吗？想要做出自己的 AI 翻唱吗？学习语音处理就可以（部分）实现你的愿望。</p>
+<h2 id="_17">深度生成模型<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h2>
+<p>这两年引人注目的 AI 绘画生成，以及 ChatGPT 都是生成式模型的应用，它们带来的震撼也是大家有目共睹的。你可以通过学习 <a href="../../deep-generative-model/CS236/">CS236</a> 这门课程了解它们的理论基础，特别是不同模型之间的来龙去脉。不过必要的代码练习也是必需的，建议在 GitHub 上寻找源码实现进行学习。</p>
+<h2 id="_18">强化学习<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h2>
+<p>AlphaGo 在围棋方面打败了围棋世界冠军，表明在一些任务上强化学习（RL）可以达到媲美甚至超越人类的水平。当然强化学习不止可以用来下围棋，你还可以用它来玩一些 MOBA 类游戏（例如 DOTA）以及沙盒游戏（例如 Ninecraft）。UCB 的 <a href="../../reinforcement-learning/CS285/">CS285</a> 提供了一个很好的 RL 教程，而<a href="../../reinforcement-learning/mathematical-for-rl/">西湖大学的公开课程</a> 则会向你介绍 RL 的基本数学原理。</p>
 
 
 
@@ -2779,7 +2794,7 @@
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2024年10月6日</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2024年12月3日</span>
   </span>
 
     
@@ -2922,10 +2937,8 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
     
-    
-    <script id="__config" type="application/json">{"base": "../..", "features": ["header.autohide", "navigation.tracking", "navigation.top", "navigation.path", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "search.highlight", "search.share", "search.suggest", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["header.autohide", "navigation.tracking", "navigation.top", "navigation.path", "search.highlight", "search.share", "search.suggest", "content.code.annotate", "content.action.edit"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
