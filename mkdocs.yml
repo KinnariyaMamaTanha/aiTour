@@ -5,6 +5,7 @@ site_description: >-
   AI学习之旅
 repo_url: https://github.com/KinnariyaMamaTanha/aiTour/
 repo_name: aiTour
+edit_uri: tree/main/docs
 
 theme:
   name: material
@@ -16,13 +17,14 @@ theme:
     - navigation.tracking
     - navigation.top
     - navigation.path
-    - navigation.instant
-    - navigation.instant.prefetch
-    - navigation.instant.progress
+    # - navigation.instant # This will cause LaTeX render fail at the first try.
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
     - search.highlight
     - search.share
     - search.suggest
     - content.code.annotate
+    - content.action.edit
 
   palette:
     # Dark mode
@@ -51,7 +53,9 @@ theme:
   favicon: images/logo.jpg
 
   icon:
+    logo: material/notebook-outline
     repo: fontawesome/brands/git-alt
+    edit: material/pencil
 
   static_templates:
     - 404.html
@@ -65,6 +69,7 @@ nav:
     - 一些有用的网站: tools/useful-websites.md
   - 实用工具:
     - Magic: tools/Magic.md
+    - Pytorch: tools/Pytorch.md
     - Git: tools/Git.md
     - Vim: tools/Vim.md
     - Conda: tools/Conda.md
@@ -126,11 +131,15 @@ nav:
     - "CMU 10-414: Deep Learning System": deep-learning-system/CMU-10-414.md
   - 科研:
     - "GAMES 003: 科研基本素养": research/GAMES003.md
+  - 更新日志: changelog.md
   - 后记: afterword.md
 
 plugins:
   - search
-  - git-revision-date-localized
+  - changelog
+  - git-revision-date-localized:
+      timezone: Asia/Shanghai
+      locale: zh
   - obsidian-interactive-graph
   - git-authors:
       show_contribution: true
@@ -147,6 +156,10 @@ extra:
       link: mailto:2823324228@qq.com
 
 markdown_extensions:
+  - toc:
+      permalink: true
+      toc_depth: 4
+  - meta
   - attr_list
   - md_in_html
   - footnotes
@@ -155,6 +168,9 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.arithmatex:  # latex支持
       generic: true
   - pymdownx.highlight: # 代码块高亮
@@ -179,5 +195,6 @@ extra_css:
   - assets/stylesheets/interactive_graph.css
   - assets/stylesheets/link.css
   - assets/stylesheets/customize.css
+  - assets/stylesheets/changelog.css
 
 copyright: Copyright &copy; 2024 - present KinnariyaMamaTanha

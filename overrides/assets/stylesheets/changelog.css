@@ -1,0 +1,32 @@
+.timeline-card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #F1F0E8;
+    background-clip: border-box;
+    border-radius: .25rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+.timeline-content::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    background-color: #E5E1DA;
+    left: -10px;
+    top: calc(50% - 10px);
+}
+.changelog-type-bugfix {
+    background-color: #c63f94b0;
+}
+.changelog-type-bugfix::before {
+    content: "问题修复";
+}
