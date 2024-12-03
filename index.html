@@ -2503,6 +2503,9 @@
 
 
 <h1 id="_1">序<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<div style="margin-top: -30px; font-size: 0.75em; opacity: 0.7;">
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10h-2a8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8zm6.78 1a.7.7 0 0 0-.48.2l-1.22 1.21 2.5 2.5L20.8 5.7c.26-.26.26-.7 0-.95L19.25 3.2c-.13-.13-.3-.2-.47-.2m-2.41 2.12L9 12.5V15h2.5l7.37-7.38z"/></svg></span> 约 2662 个字 <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 17H7V3h14m0-2H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2M3 5H1v16a2 2 0 0 0 2 2h16v-2H3m12.96-10.71-2.75 3.54-1.96-2.36L8.5 15h11z"/></svg></span> 1 张图片 <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20c4.42 0 8-3.58 8-8s-3.58-8-8-8-8 3.58-8 8 3.58 8 8 8m0-18c5.5 0 10 4.5 10 10s-4.5 10-10 10C6.47 22 2 17.5 2 12S6.5 2 12 2m.5 11H11V7h1.5v4.26l3.7-2.13.75 1.3z"/></svg></span> 预计阅读时间 13 分钟</p>
+</div>
 <details class="note">
 <summary>TL;DR</summary>
 <p>此书是笔者不满于自己所接受的人工智能专业教学质量而创建的，主要记录了一些国内外优秀公开课程，希望能够为后来的同学提供经验与帮助。如果没有其他疑问，可以直接<del>给仓库点 star</del>跳到“一种可能的食用姿势”一节。</p>
@@ -2572,6 +2575,46 @@
 <figure>
 <p><img alt="Image title" src="images/payment.png" width="400" /></p>
 </figure>
+<p><a href="javascript:toggle_statistics();"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16 11.78 4.24-7.33 1.73 1-5.23 9.05-6.51-3.75L5.46 19H22v2H2V3h2v14.54L9.5 8z"/></svg></span> 站点统计</a></p>
+<div class="card" id="statistics" style="width: 27em; border-color: transparent; opacity: 0; font-size: 75%">
+<div style="padding-left: 1em;">
+<p>页面总数：50</p>
+<p>总字数：24133</p>
+<p>网站运行时间：<span id="web-time"></span></p>
+<p><span id="busuanzi_container_site_uv">访客总人数：<span id="busuanzi_value_site_uv"></span>人</p>
+<p><span id="busuanzi_container_site_pv">总访问次数：<span id="busuanzi_value_site_pv"></span>次</p>
+</div>
+</div>
+<script>
+function updateTime() {
+    var date = new Date();
+    var now = date.getTime();
+    var startDate = new Date("2024/01/11 19:18:00");
+    var start = startDate.getTime();
+    var diff = now - start;
+    var y, d, h, m;
+    y = Math.floor(diff / (365 * 24 * 3600 * 1000));
+    diff -= y * 365 * 24 * 3600 * 1000;
+    d = Math.floor(diff / (24 * 3600 * 1000));
+    h = Math.floor(diff / (3600 * 1000) % 24);
+    m = Math.floor(diff / (60 * 1000) % 60);
+    if (y == 0) {
+        document.getElementById("web-time").innerHTML = d + "天" + h + "小时" + m + "分钟";
+    } else {
+        document.getElementById("web-time").innerHTML = y + "年" + d + "天" + h + "小时" + m + "分钟";
+    }
+    setTimeout(updateTime, 1000 * 60);
+}
+updateTime();
+function toggle_statistics() {
+    var statistics = document.getElementById("statistics");
+    if (statistics.style.opacity == 0) {
+        statistics.style.opacity = 1;
+    } else {
+        statistics.style.opacity = 0;
+    }
+}
+</script>
 
 
 
@@ -2750,6 +2793,8 @@
         <script src="https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
       
         <script src="https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+      
+        <script src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
       
         <script src="assets/javascripts/interactive_graph.js"></script>
       
