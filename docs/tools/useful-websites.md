@@ -1,6 +1,4 @@
-# Gadgets
-
-> 本界面将介绍一些有用的小工具及网站，不过质量并不作较高保证。
+# 一些有用的网站
 
 ## GPU/服务器租用
 
@@ -48,6 +46,7 @@
 3. <https://www.connectedpapers.com> : 以图形化的方式向你展示不同论文之间的联系，相较于谷歌学术手动查找相关论文更为方便
 4. <https://paperswithcode.com> : 集合了论文、代码、数据集、SOTA 的网站，非常实用。
 5. <https://www.semanticscholar.org/>
+6. <https://aideadlin.es/> : 顶会 ddl
 
 ## 留学
 

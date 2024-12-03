@@ -4,7 +4,7 @@
 
 ## 思维与心态
 
-大学生活与高中生活截然不同，所以希望你能首先转变自己的思维与心态，这样才能更好地适应大学生活。请详细阅读[上海交通大学生存手册](https://survivesjtu.gitbook.io/survivesjtumanual)，[csdiy - 前言](https://csdiy.wiki/)，[csdiy - 如何使用这本书](https://csdiy.wiki/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/)以及 [0xffff - 心态与方法上的准备](https://wiki.0xffff.one/getting-started/mental-preparation)。不出意外的话，你会有较深的感触，并开始对国内大学怯魅。
+大学生活与高中生活截然不同，所以希望你能首先转变自己的思维与心态，这样才能更好地适应大学生活。请详细阅读[上海交通大学生存手册](https://survivesjtu.gitbook.io/survivesjtumanual)，[csdiy - 前言](https://csdiy.wiki/)，[csdiy - 如何使用这本书](https://csdiy.wiki/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/)以及 [0xffff - 心态与方法上的准备](https://wiki.0xffff.one/getting-started/mental-preparation)。不出意外的话，你会有较深的感触（，并开始对国内大学怯魅）。
 
 ## 计算机概览
 
