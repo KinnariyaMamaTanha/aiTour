@@ -136,6 +136,10 @@ nav:
 
 plugins:
   - search
+  - statistics:
+      page_statistics: true
+      page_check_metadata: "statistics"
+      words_per_minute: 200
   - changelog
   - git-revision-date-localized:
       timezone: Asia/Shanghai
@@ -189,6 +193,7 @@ extra_javascript:
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
   - https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js
   - https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js
+  - https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
   - assets/javascripts/interactive_graph.js
 
 extra_css:

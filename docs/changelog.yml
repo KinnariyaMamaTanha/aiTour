@@ -1,6 +1,11 @@
 # See https://github.com/TonyCrane/mkdocs-changelog-plugin
 - "ALL":
   - "2024-12-3":
+    - function: "添加站点统计"
+    - pageupdate:
+        text: "更新 discrete math > CS2501H"
+        href: /discrete-math/CS2501H
+  - "2024-12-3":
     - function: "添加更新日志功能"
     - function: "添加编辑页面功能"
     - newpage:

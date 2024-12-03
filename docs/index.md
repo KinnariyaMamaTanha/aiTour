@@ -1,3 +1,6 @@
+---
+statistics: True
+---
 # 序
 
 ??? note "TL;DR"
@@ -93,3 +96,50 @@
 <figure markdown>
   ![Image title](./images/payment.png){ width="400" }
 </figure>
+
+[:material-chart-line: 站点统计](javascript:toggle_statistics();)
+
+<div id="statistics" markdown="1" class="card" style="width: 27em; border-color: transparent; opacity: 0; font-size: 75%">
+<div style="padding-left: 1em;" markdown="1">
+页面总数：{{ pages }}
+
+总字数：{{ words }}
+
+网站运行时间：<span id="web-time"></span>
+
+<span id="busuanzi_container_site_uv">访客总人数：<span id="busuanzi_value_site_uv"></span>人
+
+<span id="busuanzi_container_site_pv">总访问次数：<span id="busuanzi_value_site_pv"></span>次
+</div>
+</div>
+
+<script>
+function updateTime() {
+    var date = new Date();
+    var now = date.getTime();
+    var startDate = new Date("2024/01/11 19:18:00");
+    var start = startDate.getTime();
+    var diff = now - start;
+    var y, d, h, m;
+    y = Math.floor(diff / (365 * 24 * 3600 * 1000));
+    diff -= y * 365 * 24 * 3600 * 1000;
+    d = Math.floor(diff / (24 * 3600 * 1000));
+    h = Math.floor(diff / (3600 * 1000) % 24);
+    m = Math.floor(diff / (60 * 1000) % 60);
+    if (y == 0) {
+        document.getElementById("web-time").innerHTML = d + "天" + h + "小时" + m + "分钟";
+    } else {
+        document.getElementById("web-time").innerHTML = y + "年" + d + "天" + h + "小时" + m + "分钟";
+    }
+    setTimeout(updateTime, 1000 * 60);
+}
+updateTime();
+function toggle_statistics() {
+    var statistics = document.getElementById("statistics");
+    if (statistics.style.opacity == 0) {
+        statistics.style.opacity = 1;
+    } else {
+        statistics.style.opacity = 0;
+    }
+}
+</script>
