@@ -1,6 +1,8 @@
 # See https://github.com/TonyCrane/mkdocs-changelog-plugin
 - "ALL":
   - "2024-12-3":
+    - bugfix: "修复更新日志界面暗色模式下不易阅读的问题"
+  - "2024-12-3":
     - function: "添加站点统计"
     - pageupdate:
         text: "更新 discrete math > CS2501H"
