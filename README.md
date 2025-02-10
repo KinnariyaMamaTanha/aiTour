@@ -1,5 +1,3 @@
-TODO: @Kinnari 关于 ML 基础的课程 https://intro2ml.pages.doc.ic.ac.uk/autumn2024/; 发现一个很好的课程主页，讲机器学习统计方法的：https://duvenaud.github.io/sta414/
-
 # aiTour
 
 [![License](https://img.shields.io/github/license/KinnariyaMamaTanha/aiTour)](https://github.com/KinnariyaMamaTanha/aiTour/blob/main/LICENSE)
