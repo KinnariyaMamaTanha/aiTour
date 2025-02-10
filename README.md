@@ -1,3 +1,5 @@
+TODO: @Kinnari 关于 ML 基础的课程 https://intro2ml.pages.doc.ic.ac.uk/autumn2024/; 发现一个很好的课程主页，讲机器学习统计方法的：https://duvenaud.github.io/sta414/
+
 # aiTour
 
 [![License](https://img.shields.io/github/license/KinnariyaMamaTanha/aiTour)](https://github.com/KinnariyaMamaTanha/aiTour/blob/main/LICENSE)
@@ -13,6 +15,8 @@
 2024年5月14日，OpenAI 发布 GPT-4o……
 
 ~~2024年10月8日，诺贝尔物理学奖颁发给 John J. Hopfield 和 Geoffrey E. Hinton，以表彰他们在人工神经网络方面作出的贡献。2024年10月9日，诺贝尔化学奖颁发给 David Baker 和 AlphaFold 开发者 Demis Hassabis、John M. Jumper~~
+
+2025年1月20日，幻方旗下公司深度求索发布世界首个完全开源的推理模型 DeepSeek-R1，被称为当时最为先进的大语言模型。
 
 2023 年可以说是人工智能爆火元年。从 ChatGPT 发布，到各地媒体广泛报道，世界各国 AI 公司奋起直追，众多国家将 AI 纳入国家重要战略，新的 AI 模型如雨后春笋般不断涌出。机器学习、深度学习、神经网络等专业词汇也似乎有渐渐走入公众的视野。
 

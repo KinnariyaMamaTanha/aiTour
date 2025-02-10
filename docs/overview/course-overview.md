@@ -38,7 +38,7 @@
 
 ## 数据结构与算法
 
-虽说人工智能领域涌现出了大量的新算法，但是掌握传统的算法仍然非常有必要，它们可以帮助你更好地分析、设计、改进新的算法，让你面对 AI 算法时不至于一头雾水。我使用伯努利大学的 [CS61b](../data-structure-and-algorithm/CS61b.md)、斯坦福大学的 [CS161](../data-structure-and-algorithm/CS161.md) 两门课程进行学习，同时参考了[俞勇教授](https://www.cs.sjtu.edu.cn/PeopleDetail.aspx?id=75)和[翁惠玉教授](https://cs.sjtu.edu.cn/PeopleDetail.aspx?id=78)所写的[《数据结构：思想与实现》](../data-structure-and-algorithm/数据结构：思想与实现.md)，以及[《算法导论》](https://book.douban.com/subject/20432061/)这两本书。
+虽说人工智能领域涌现出了大量的新算法，但是掌握传统的算法仍然非常有必要，它们可以帮助你更好地分析、设计、改进新的算法，让你面对 AI 算法时不至于一头雾水。我使用伯努利大学的 [CS61b](../data-structure-and-algorithm/CS61b.md)、斯坦福大学的 [CS161](../data-structure-and-algorithm/CS161.md) 两门课程进行学习，同时参考[《算法导论》](https://book.douban.com/subject/20432061/)这本书。
 
 ## 机器学习
 

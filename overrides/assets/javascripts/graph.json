@@ -1,324 +1,340 @@
 {
-    "nodes": [
-        {
-            "id": "MMML",
-            "name": "多模态模型",
-            "symbolSize": 0.1,
-            "value": "/overview/possible-course-list/#_21"
-        },
-        {
-            "id": "TML",
-            "name": "机器学习理论",
-            "symbolSize": 0.1,
-            "value": "/overview/possible-course-list/#_6"
-        },
-        {
-            "id": "LLM",
-            "name": "大语言模型",
-            "symbolSize": 0.1,
-            "value": "/overview/possible-course-list/#_3"
-        },
-        {
-            "id": "AI-Intro",
-            "name": "人工智能导论",
-            "symbolSize": 0.1,
-            "value": "/overview/possible-course-list/#_10"
-        },
-        {
-            "id": "PGM",
-            "name": "概率图模型",
-            "symbolSize": 0.1,
-            "value": "/overview/possible-course-list/#_4"
-        },
-        {
-            "id": "information-theory",
-            "name": "信息论",
-            "symbolSize": 0.1,
-            "value": "/overview/possible-course-list/#_18"
-        },
-        {
-            "id": "DGM",
-            "name": "深度生成模型",
-            "symbolSize": 0.1,
-            "value": "/deep-generative-model/CS236/"
-        },
-        {
-            "id": "aiTour",
-            "name": "aiTour",
-            "symbolSize": 3,
-            "value": "/"
-        },
-        {
-            "id": "C++",
-            "name": "C++",
-            "symbolSize": 0.1,
-            "value": "/c++/CS106B/"
-        },
-        {
-            "id": "Python",
-            "name": "Python",
-            "symbolSize": 0.1,
-            "value": "/python/CS61a/"
-        },
-        {
-            "id": "Calc",
-            "name": "微积分",
-            "symbolSize": 0.1,
-            "value": "/calculus/18.0x/"
-        },
-        {
-            "id": "linalg",
-            "name": "线性代数",
-            "symbolSize": 0.1,
-            "value": "/linear-algebra/MIT18.06/"
-        },
-        {
-            "id": "discrete-math",
-            "name": "离散数学",
-            "symbolSize": 0.1,
-            "value": "/discrete-math/CS2501H/"
-        },
-        {
-            "id": "computer-architecture",
-            "name": "计算机体系结构",
-            "symbolSize": 0.1,
-            "value": "/computer-architecture/CS61c/"
-        },
-        {
-            "id": "algo",
-            "name": "数据结构与算法",
-            "symbolSize": 0.1,
-            "value": "/data-structure-and-algorithm/CS61b/"
-        },
-        {
-            "id": "Prob",
-            "name": "概率统计",
-            "symbolSize": 0.1,
-            "value": "/probability/RES.6-012/"
-        },
-        {
-            "id": "stochastic-processes",
-            "name": "随机过程",
-            "symbolSize": 0.1,
-            "value": "/stochastic-processes/AI2613/"
-        },
-        {
-            "id": "ML",
-            "name": "机器学习",
-            "symbolSize": 0.1,
-            "value": "/machine-learning/CS229/"
-        },
-        {
-            "id": "DL",
-            "name": "深度学习",
-            "symbolSize": 0.1,
-            "value": "/deep-learning/李宏毅机器学习/"
-        },
-        {
-            "id": "CV",
-            "name": "计算机视觉",
-            "symbolSize": 0.1,
-            "value": "/computer-vision/EECS498.008/"
-        },
-        {
-            "id": "nlp",
-            "name": "自然语言处理",
-            "symbolSize": 0.1,
-            "value": "/natural-language-processing/CS224n/"
-        },
-        {
-            "id": "slp",
-            "name": "语音处理",
-            "symbolSize": 0.1,
-            "value": "/speech-processing/李宏毅hlp/"
-        },
-        {
-            "id": "optim",
-            "name": "优化理论",
-            "symbolSize": 0.1,
-            "value": "/optimization/CMU10-725/"
-        },
-        {
-            "id": "RL",
-            "name": "强化学习",
-            "symbolSize": 0.1,
-            "value": "/reinforcement-learning/mathematical-for-rl/"
-        },
-        {
-            "id": "GNN",
-            "name": "图神经网络",
-            "symbolSize": 0.1,
-            "value": "/graphic-neural-network/CS224w/"
-        },
-        {
-            "id": "research",
-            "name": "科研素养",
-            "symbolSize": 1,
-            "value": "/research/GAMES003/"
-        },
-        {
-            "id": "DLS",
-            "name": "机器学习系统",
-            "symbolSize": 0.1,
-            "value": "/deep-learning-system/CMU-10-414/"
-        }
-    ],
-    "links": [
-        {
-            "source": "aiTour",
-            "target": "linalg"
-        },
-        {
-            "source": "aiTour",
-            "target": "Calc"
-        },
-        {
-            "source": "aiTour",
-            "target": "discrete-math"
-        },
-        {
-            "source": "aiTour",
-            "target": "Python"
-        },
-        {
-            "source": "aiTour",
-            "target": "C++"
-        },
-        {
-            "source": "Python",
-            "target": "algo"
-        },
-        {
-            "source": "C++",
-            "target": "computer-architecture"
-        },
-        {
-            "source": "Python",
-            "target": "ML"
-        },
-        {
-            "source": "Calc",
-            "target": "optim"
-        },
-        {
-            "source": "Calc",
-            "target": "Prob"
-        },
-        {
-            "source": "linalg",
-            "target": "optim"
-        },
-        {
-            "source": "discrete-math",
-            "target": "Prob"
-        },
-        {
-            "source": "discrete-math",
-            "target": "algo"
-        },
-        {
-            "source": "algo",
-            "target": "ML"
-        },
-        {
-            "source": "ML",
-            "target": "DL"
-        },
-        {
-            "source": "Prob",
-            "target": "stochastic-processes"
-        },
-        {
-            "source": "Prob",
-            "target": "ML"
-        },
-        {
-            "source": "DL",
-            "target": "CV"
-        },
-        {
-            "source": "DL",
-            "target": "nlp"
-        },
-        {
-            "source": "nlp",
-            "target": "slp"
-        },
-        {
-            "source": "stochastic-processes",
-            "target": "slp"
-        },
-        {
-            "source": "algo",
-            "target": "optim"
-        },
-        {
-            "source": "stochastic-processes",
-            "target": "RL"
-        },
-        {
-            "source": "DL",
-            "target": "RL"
-        },
-        {
-            "source": "DL",
-            "target": "GNN"
-        },
-        {
-            "source": "computer-architecture",
-            "target": "DLS"
-        },
-        {
-            "source": "DL",
-            "target": "DLS"
-        },
-        {
-            "source": "aiTour",
-            "target": "research"
-        },
-        {
-            "source": "DL",
-            "target": "DGM"
-        },
-        {
-            "source": "stochastic-processes",
-            "target": "DGM"
-        },
-        {
-            "source": "Prob",
-            "target": "information-theory"
-        },
-        {
-            "source": "linalg",
-            "target": "Prob"
-        },
-        {
-            "source": "ML",
-            "target": "PGM"
-        },
-        {
-            "source": "Prob",
-            "target": "AI-Intro"
-        },
-        {
-            "source": "algo",
-            "target": "AI-Intro"
-        },
-        {
-            "source": "nlp",
-            "target": "LLM"
-        },
-        {
-            "source": "ML",
-            "target": "TML"
-        },
-        {
-            "source": "CV",
-            "target": "MMML"
-        },
-        {
-            "source": "nlp",
-            "target": "MMML"
-        }
-    ]
+  "nodes": [
+    {
+      "id": "parallel-and-distribute",
+      "name": "并行与分布式系统",
+      "symbolSize": 0.1,
+      "value": "/overview/possible-course-list/#_2"
+    },
+    {
+      "id": "os",
+      "name": "操作系统",
+      "symbolSize": 0.1,
+      "value": "/overview/possible-course-list/#_23"
+    },
+    {
+      "id": "MMML",
+      "name": "多模态模型",
+      "symbolSize": 0.1,
+      "value": "/overview/possible-course-list/#_21"
+    },
+    {
+      "id": "TML",
+      "name": "机器学习理论",
+      "symbolSize": 0.1,
+      "value": "/overview/possible-course-list/#_6"
+    },
+    {
+      "id": "LLM",
+      "name": "大语言模型",
+      "symbolSize": 0.1,
+      "value": "/overview/possible-course-list/#_3"
+    },
+    {
+      "id": "AI-Intro",
+      "name": "人工智能导论",
+      "symbolSize": 0.1,
+      "value": "/overview/possible-course-list/#_10"
+    },
+    {
+      "id": "PGM",
+      "name": "概率图模型",
+      "symbolSize": 0.1,
+      "value": "/overview/possible-course-list/#_4"
+    },
+    {
+      "id": "information-theory",
+      "name": "信息论",
+      "symbolSize": 0.1,
+      "value": "/overview/possible-course-list/#_18"
+    },
+    {
+      "id": "DGM",
+      "name": "深度生成模型",
+      "symbolSize": 0.1,
+      "value": "/deep-generative-model/CS236/"
+    },
+    {
+      "id": "aiTour",
+      "name": "aiTour",
+      "symbolSize": 3,
+      "value": "/"
+    },
+    {
+      "id": "C++",
+      "name": "C++",
+      "symbolSize": 0.1,
+      "value": "/c++/CS106B/"
+    },
+    {
+      "id": "Python",
+      "name": "Python",
+      "symbolSize": 0.1,
+      "value": "/python/CS61a/"
+    },
+    {
+      "id": "Calc",
+      "name": "微积分",
+      "symbolSize": 0.1,
+      "value": "/calculus/18.0x/"
+    },
+    {
+      "id": "linalg",
+      "name": "线性代数",
+      "symbolSize": 0.1,
+      "value": "/linear-algebra/MIT18.06/"
+    },
+    {
+      "id": "discrete-math",
+      "name": "离散数学",
+      "symbolSize": 0.1,
+      "value": "/discrete-math/CS2501H/"
+    },
+    {
+      "id": "computer-architecture",
+      "name": "计算机体系结构",
+      "symbolSize": 0.1,
+      "value": "/computer-architecture/CS61c/"
+    },
+    {
+      "id": "algo",
+      "name": "数据结构与算法",
+      "symbolSize": 0.1,
+      "value": "/data-structure-and-algorithm/CS61b/"
+    },
+    {
+      "id": "Prob",
+      "name": "概率统计",
+      "symbolSize": 0.1,
+      "value": "/probability/RES.6-012/"
+    },
+    {
+      "id": "stochastic-processes",
+      "name": "随机过程",
+      "symbolSize": 0.1,
+      "value": "/stochastic-processes/AI2613/"
+    },
+    {
+      "id": "ML",
+      "name": "机器学习",
+      "symbolSize": 0.1,
+      "value": "/machine-learning/CS229/"
+    },
+    {
+      "id": "DL",
+      "name": "深度学习",
+      "symbolSize": 0.1,
+      "value": "/deep-learning/李宏毅机器学习/"
+    },
+    {
+      "id": "CV",
+      "name": "计算机视觉",
+      "symbolSize": 0.1,
+      "value": "/computer-vision/EECS498.008/"
+    },
+    {
+      "id": "nlp",
+      "name": "自然语言处理",
+      "symbolSize": 0.1,
+      "value": "/natural-language-processing/CS224n/"
+    },
+    {
+      "id": "slp",
+      "name": "语音处理",
+      "symbolSize": 0.1,
+      "value": "/speech-processing/李宏毅hlp/"
+    },
+    {
+      "id": "optim",
+      "name": "优化理论",
+      "symbolSize": 0.1,
+      "value": "/optimization/CMU10-725/"
+    },
+    {
+      "id": "RL",
+      "name": "强化学习",
+      "symbolSize": 0.1,
+      "value": "/reinforcement-learning/mathematical-for-rl/"
+    },
+    {
+      "id": "GNN",
+      "name": "图神经网络",
+      "symbolSize": 0.1,
+      "value": "/graphic-neural-network/CS224w/"
+    },
+    {
+      "id": "research",
+      "name": "科研素养",
+      "symbolSize": 1,
+      "value": "/research/GAMES003/"
+    },
+    {
+      "id": "DLS",
+      "name": "机器学习系统",
+      "symbolSize": 0.1,
+      "value": "/deep-learning-system/CMU-10-414/"
+    }
+  ],
+  "links": [
+    {
+      "source": "aiTour",
+      "target": "linalg"
+    },
+    {
+      "source": "aiTour",
+      "target": "Calc"
+    },
+    {
+      "source": "aiTour",
+      "target": "discrete-math"
+    },
+    {
+      "source": "aiTour",
+      "target": "Python"
+    },
+    {
+      "source": "aiTour",
+      "target": "C++"
+    },
+    {
+      "source": "Python",
+      "target": "algo"
+    },
+    {
+      "source": "C++",
+      "target": "computer-architecture"
+    },
+    {
+      "source": "Python",
+      "target": "ML"
+    },
+    {
+      "source": "Calc",
+      "target": "optim"
+    },
+    {
+      "source": "Calc",
+      "target": "Prob"
+    },
+    {
+      "source": "linalg",
+      "target": "optim"
+    },
+    {
+      "source": "discrete-math",
+      "target": "Prob"
+    },
+    {
+      "source": "discrete-math",
+      "target": "algo"
+    },
+    {
+      "source": "algo",
+      "target": "ML"
+    },
+    {
+      "source": "ML",
+      "target": "DL"
+    },
+    {
+      "source": "Prob",
+      "target": "stochastic-processes"
+    },
+    {
+      "source": "Prob",
+      "target": "ML"
+    },
+    {
+      "source": "DL",
+      "target": "CV"
+    },
+    {
+      "source": "DL",
+      "target": "nlp"
+    },
+    {
+      "source": "nlp",
+      "target": "slp"
+    },
+    {
+      "source": "stochastic-processes",
+      "target": "slp"
+    },
+    {
+      "source": "stochastic-processes",
+      "target": "RL"
+    },
+    {
+      "source": "DL",
+      "target": "RL"
+    },
+    {
+      "source": "DL",
+      "target": "GNN"
+    },
+    {
+      "source": "os",
+      "target": "DLS"
+    },
+    {
+      "source": "DL",
+      "target": "DLS"
+    },
+    {
+      "source": "aiTour",
+      "target": "research"
+    },
+    {
+      "source": "DL",
+      "target": "DGM"
+    },
+    {
+      "source": "stochastic-processes",
+      "target": "DGM"
+    },
+    {
+      "source": "Prob",
+      "target": "information-theory"
+    },
+    {
+      "source": "linalg",
+      "target": "Prob"
+    },
+    {
+      "source": "ML",
+      "target": "PGM"
+    },
+    {
+      "source": "Prob",
+      "target": "AI-Intro"
+    },
+    {
+      "source": "algo",
+      "target": "AI-Intro"
+    },
+    {
+      "source": "nlp",
+      "target": "LLM"
+    },
+    {
+      "source": "ML",
+      "target": "TML"
+    },
+    {
+      "source": "CV",
+      "target": "MMML"
+    },
+    {
+      "source": "nlp",
+      "target": "MMML"
+    },
+    {
+      "source": "computer-architecture",
+      "target": "os"
+    },
+    {
+      "source": "os",
+      "target": "parallel-and-distribute"
+    }
+  ]
 }

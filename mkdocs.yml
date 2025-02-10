@@ -45,7 +45,6 @@ theme:
         icon: material/brightness-7
         name: Switch to dark mode
 
-
   font:
     text: Roboto
     code: Roboto Mono
@@ -62,76 +61,73 @@ theme:
 
 nav:
   - "欢迎来到 aiTour !":
-    - 序: index.md
-    - 旅途前的准备: preparations.md
-    - 课程总览: overview/course-overview.md
-    - 可能适合修读的课程清单: overview/possible-course-list.md
-    - 一些有用的网站: tools/useful-websites.md
+      - 序: index.md
+      - 旅途前的准备: preparations.md
+      - 课程总览: overview/course-overview.md
+      - 可能适合修读的课程清单: overview/possible-course-list.md
+      - 一些有用的网站: tools/useful-websites.md
   - 实用工具:
-    - Magic: tools/Magic.md
-    - Pytorch: tools/Pytorch.md
-    - Git: tools/Git.md
-    - Vim: tools/Vim.md
-    - Conda: tools/Conda.md
-    - Docker: tools/Docker.md
-    - WSL2: tools/WSL2.md
-    - LaTeX: tools/LaTeX.md
-    - Obsidian: tools/Obsidian.md
+      - Magic: tools/Magic.md
+      - Pytorch: tools/Pytorch.md
+      - Git: tools/Git.md
+      - Vim: tools/Vim.md
+      - Conda: tools/Conda.md
+      - Docker: tools/Docker.md
+      - WSL2: tools/WSL2.md
+      - LaTeX: tools/LaTeX.md
+      - Obsidian: tools/Obsidian.md
   - C++:
-    - "Stanford CS106B: Programming Abstractions": c++/CS106B.md
+      - "Stanford CS106B: Programming Abstractions": c++/CS106B.md
   - Python:
-    - "UCB CS61a: Structure and Interpretation of Computer Programs": python/CS61a.md
-    - "Harvard CS50p: Introduction to Programming with Python": python/CS50P.md
+      - "UCB CS61a: Structure and Interpretation of Computer Programs": python/CS61a.md
+      - "Harvard CS50p: Introduction to Programming with Python": python/CS50P.md
   - 微积分:
-    - "MIT 18.01/18.02": calculus/18.0x.md
+      - "MIT 18.01/18.02": calculus/18.0x.md
   - 线性代数:
-    - "MIT 18.06: Linear Algebra": linear-algebra/MIT18.06.md
+      - "MIT 18.06: Linear Algebra": linear-algebra/MIT18.06.md
   - 离散数学:
-    - "UCB CS70: discrete Math and probability theory": discrete-math/CS70.md
-    - "SJTU CS2501H: Discrete Math(Honor)": discrete-math/CS2501H.md
-    - "Stanford CS103: Mathematical Foundations of Computing": discrete-math/CS103.md
+      - "UCB CS70: discrete Math and probability theory": discrete-math/CS70.md
+      - "SJTU CS2501H: Discrete Math(Honor)": discrete-math/CS2501H.md
+      - "Stanford CS103: Mathematical Foundations of Computing": discrete-math/CS103.md
   - 概率统计:
-    - "MIT RES.6-012: Introduction to Probability": probability/RES.6-012.md
+      - "MIT RES.6-012: Introduction to Probability": probability/RES.6-012.md
   - 随机过程:
-    - "SJTU AI2613: Stochastic Processes": stochastic-processes/AI2613.md
+      - "SJTU AI2613: Stochastic Processes": stochastic-processes/AI2613.md
   - 优化理论:
-    - "EPFL CS439: Optimization for Machine Learning": optimization/CS439.md
-    - "UCB EECS 127-227A: Optimization Models in Engineering": optimization/EECS127-227A.md
-    - "Stanford EE364A: Convex Optimization": optimization/EE364A.md
+      - "EPFL CS439: Optimization for Machine Learning": optimization/CS439.md
+      - "Stanford EE364A: Convex Optimization": optimization/EE364A.md
   - 数据结构与算法:
-    - "UCB CS61b: Data Structures": data-structure-and-algorithm/CS61b.md
-    - "Stanford CS161: Design and Analysis of Algorithms": data-structure-and-algorithm/CS161.md
-    - "数据结构：思想与实现": data-structure-and-algorithm/数据结构：思想与实现.md
+      - "UCB CS61b: Data Structures": data-structure-and-algorithm/CS61b.md
+      - "Stanford CS161: Design and Analysis of Algorithms": data-structure-and-algorithm/CS161.md
   - 计算机体系结构:
-    - "UCB CS61c: Great Ideas in Computer Architecture": computer-architecture/CS61c.md
+      - "UCB CS61c: Great Ideas in Computer Architecture": computer-architecture/CS61c.md
   - 机器学习基础:
-    - "Stanford CS229: Machine Learning": machine-learning/CS229.md
-    - "UCB CS189/289A: Introduction to Machine Learning": machine-learning/CS189.md
-    - "机器学习书": machine-learning/MLBook.md
+      - "Stanford CS229: Machine Learning": machine-learning/CS229.md
+      - "UCB CS189/289A: Introduction to Machine Learning": machine-learning/CS189.md
+      - "机器学习书": machine-learning/MLBook.md
   - 深度学习基础:
-    - "Stanford CS230: Deep Learning": deep-learning/CS230.md
-    - "国立台湾大学: 李宏毅机器学习": deep-learning/李宏毅机器学习.md
-    - "动手学深度学习": deep-learning/dive-into-deep-learning.md
-    - "个人学习路线": deep-learning/kinnari's-deep-learning.md
+      - "Stanford CS230: Deep Learning": deep-learning/CS230.md
+      - "国立台湾大学: 李宏毅机器学习": deep-learning/李宏毅机器学习.md
+      - "动手学深度学习": deep-learning/dive-into-deep-learning.md
+      - "个人学习路线": deep-learning/kinnari's-deep-learning.md
   - 强化学习:
-    - "西湖大学: 强化学习的数学原理": reinforcement-learning/mathematical-for-rl.md
-    - "UCB CS285: Deep Reinforcement Learning": reinforcement-learning/CS285.md
+      - "西湖大学: 强化学习的数学原理": reinforcement-learning/mathematical-for-rl.md
+      - "UCB CS285: Deep Reinforcement Learning": reinforcement-learning/CS285.md
   - 计算机视觉:
-    - "UMich EECS 498.008/598.008: Deep Learning for Computer Vision": computer-vision/EECS498.008.md
-    - "Tuebingen ML 4360: Computer Vision": computer-vision/ML-4360.md
+      - "UMich EECS 498.008/598.008: Deep Learning for Computer Vision": computer-vision/EECS498.008.md
+      - "Tuebingen ML 4360: Computer Vision": computer-vision/ML-4360.md
   - 自然语言处理:
-    - "Stanford CS224n: Natural Language Processing with Deep Learning": natural-language-processing/CS224n.md
+      - "Stanford CS224n: Natural Language Processing with Deep Learning": natural-language-processing/CS224n.md
   - 语音处理:
-    - "国立台湾大学 DLHLP: Deep Learning For Human Language Processing": speech-processing/李宏毅hlp.md
+      - "国立台湾大学 DLHLP: Deep Learning For Human Language Processing": speech-processing/李宏毅hlp.md
   - 图神经网络:
-    - "Stanford CS224w: Machine Learning with Graphs": graphic-neural-network/CS224w.md
+      - "Stanford CS224w: Machine Learning with Graphs": graphic-neural-network/CS224w.md
   - 深度生成模型:
-    - "Stanford CS236: Deep Generative Model": deep-generative-model/CS236.md
+      - "Stanford CS236: Deep Generative Model": deep-generative-model/CS236.md
   - 机器学习系统:
-    - "CMU 10-414: Deep Learning System": deep-learning-system/CMU-10-414.md
+      - "CMU 10-414: Deep Learning System": deep-learning-system/CMU-10-414.md
   - 科研:
-    - "GAMES 003: 科研基本素养": research/GAMES003.md
-  - 更新日志: changelog.md
+      - "GAMES 003: 科研基本素养": research/GAMES003.md
   - 后记: afterword.md
 
 plugins:
@@ -140,15 +136,14 @@ plugins:
       page_statistics: true
       page_check_metadata: "statistics"
       words_per_minute: 200
-  - changelog
   - git-revision-date-localized:
       timezone: Asia/Shanghai
       locale: zh
   - obsidian-interactive-graph
+  - callouts
   - git-authors:
       show_contribution: true
       show_line_count: true
-
 
 extra:
   social:
@@ -175,7 +170,7 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.arithmatex:  # latex支持
+  - pymdownx.arithmatex: # latex支持
       generic: true
   - pymdownx.highlight: # 代码块高亮
       anchor_linenums: true
@@ -198,8 +193,9 @@ extra_javascript:
 
 extra_css:
   - assets/stylesheets/interactive_graph.css
+  - https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
+  - https://gcore.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
   - assets/stylesheets/link.css
   - assets/stylesheets/customize.css
-  - assets/stylesheets/changelog.css
 
 copyright: Copyright &copy; 2024 - present KinnariyaMamaTanha

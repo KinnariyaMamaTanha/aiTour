@@ -15,7 +15,7 @@
 首先，按照个人喜好，你应该决定是使用本地编译 tex 文件，还是线上编译。
 
 1. 对于本地编译，推荐使用 [texlive](https://tug.org/texlive/) + vscode 的方式，因为这样配置消耗的时间会相对少一些。具体的安装教程，可以查看[这篇文档](https://tug.ctan.org/info/install-latex-guide-zh-cn/install-latex-guide-zh-cn.pdf)或者[这篇教程](https://www.cnblogs.com/eslzzyl/p/17358405.html)。
-2. 对于线上编译，推荐使用 [Overleaf](https://www.overleaf.com/)，相比于本地，可以剩下不少安装和配置的麻烦。
+2. 对于线上编译，推荐使用 [Overleaf](https://www.overleaf.com/)，相比于本地，可以剩下不少安装和配置的麻烦，另外，vscode 中有一个 [Overleaf Workshop](https://marketplace.visualstudio.com/items?itemName=iamhyc.overleaf-workshop) 的插件可以实现 vscode 和 overleaf 的无缝衔接，也是一个不错的选择。
 
 此外，对于使用 Windows 系统的同学，我推荐使用 [WSL2](./WSL2.md) 来配置 texlive，原因是 WSL2 中的编译速度几乎比 Windows 中快了一倍，而且安装配置更省心一些。
 
