@@ -1,12 +1,9 @@
 # UCB CS61c: Greate Ideas in Computer Architecture
 
-!!! warning
-    To be completed.
-
 ## 课程简介
 
-- **先修要求**：一门编程语言（Python 或 C++）
-- **主要内容**
+- **先修要求**：[CS61a](../python/CS61a.md)
+- **主要内容**：
 
 ## 相关链接
 

@@ -3,36 +3,6 @@
   --base-border-radius: 0.5rem;
 }
 
-/* Change font family of filename present on top of code block. */
-/* .highlight span.filename {
-  border-bottom: none;
-  border-radius: var(--base-border-radius);
-  display: inline;
-  font-family: var(--md-code-font-family);
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-  margin-bottom: 5px;
-  text-align: center;
-}
-.highlight span.filename + pre > code {
-  border-radius: var(--base-border-radius);
-  border-top-left-radius: 0;
-}
-.md-typeset pre > code {
-  border-radius: var(--base-border-radius);
-} */
-
-/* Customize admonition layout */
-/* .md-typeset .admonition {
-  border-width: 0px;
-  border-left-width: var(--admonition-border-left-width);
-}
-
-[dir="ltr"] .md-typeset blockquote {
-  border-radius: 0.2rem;
-  border-left-width: var(--admonition-border-left-width);
-} */
-
 /* Grid Cards */
 .md-typeset .grid.cards > ul > li {
   border-radius: var(--base-border-radius);

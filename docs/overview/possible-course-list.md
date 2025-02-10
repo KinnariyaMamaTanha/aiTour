@@ -16,12 +16,18 @@
 ## 大语言模型
 
 ??? 大语言模型
+    - [(Stanford) The Annotated Transformer](https://nlp.seas.harvard.edu/annotated-transformer/)
+    - [llama3 from scratch](https://github.com/naklecha/llama3-from-scratch)
     - Stanford CS324 <https://stanford-cs324.github.io/winter2022>
     - <https://github.com/mlabonne/llm-course>
-    - 推理模型加速 <https://hanlab.mit.edu/courses/2024-fall-65940>
     - Princeton <https://www.cs.princeton.edu/courses/archive/fall22/cos597G/>
     - <https://rycolab.io/classes/llm-s24/>
     - <https://wing-nus.github.io/cs6101/>
+    - [CS25: Transformers United V4](https://web.stanford.edu/class/cs25/index.html)
+    - [CMU 11-711 ANLP](https://phontron.com/class/anlp2024/)
+    - [CS 601.471/671 NLP: Self-supervised Models](https://self-supervised.cs.jhu.edu/sp2024/)
+    - [COS 597G (Fall 2022): Understanding Large Language Models](https://www.cs.princeton.edu/courses/archive/fall22/cos597G/)
+
 
 ## 概率图模型
 
@@ -46,7 +52,7 @@
 
 ??? 机器学习系统
     - <https://zhuanlan.zhihu.com/p/608318764>
-    - Stanford CS 329S: Machine Learning Systems Design
+    - [Stanford CS 329S: Machine Learning Systems Design](https://stanford-cs329s.github.io/)
     - Stanford Systems for Machine Learning <https://cs229s.stanford.edu/fall2023/>
     - Hardware Accelerators for Machine Learning - Stanford Online
     - 6.5930/1 Hardware Architecture for Deep Learning - MIT
@@ -55,6 +61,9 @@
     - <https://dlsyscourse.org/>
     - <https://mlc.ai/summer22-zh/>
     - <https://github.com/microsoft/AI-System/>
+    - [CMU 6.5940 TinyML and Efficient Deep Learning Computing](https://hanlab.mit.edu/courses/2024-fall-65940)
+    - [CMU 15-849: Machine Learning Systems](https://www.cs.cmu.edu/~zhihaoj2/15-849/)
+    - [UCB 294-162 AI-Systems (LLM Edition)](https://learning-systems.notion.site/AI-Systems-LLM-Edition-294-162-Fall-2023-661887583bd340fa851e6a8da8e29abb)
 
 ## 计算机视觉
 
@@ -84,7 +93,7 @@
     - <https://course.fast.ai/>
 
 
-## 生成式模型
+## AIGC
 
 ??? 生成式模型
     - Hugging Face Diffussion Course
@@ -148,6 +157,7 @@
     - Stanford CS224S: Spoken Language Processing
     - Hugging Face Audio Course: <https://huggingface.co/learn/audio-course/chapter0/introduction>
     - <https://www.cse.iitb.ac.in/~pjyothi/cs753/index.html>
+    - [Stanford Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/)
 
 ## 自然语言处理
 
@@ -162,8 +172,11 @@
 ## 多模态模型
 
 ??? 多模态模型
-    - CMU 11-777
+    - [CMU 11-777 fa22](https://cmu-multicomp-lab.github.io/mmml-course/fall2022/)
     - CMSC848K <https://jbhuang0604.github.io/teaching/CMSC848K/>
+    - [CSCI-GA.3033-102](https://www.sainingxie.com/llvm-fall23/)
+    - [CMU Tutorial on MultiModal Machine Learning](https://cmu-multicomp-lab.github.io/mmml-tutorial/icml2023/)
+    - [CMU 11-877 AMML](https://cmu-multicomp-lab.github.io/adv-mmml-course/spring2022/)
 
 ## 机器学习
 
@@ -174,3 +187,8 @@
 
 ??? AI4Science
     - [MIT Deep learning in Life Science](https://mit6874.github.io/)
+
+## 操作系统
+
+> [!note]- 操作系统
+> - [MIT 6/s081](https://pdos.csail.mit.edu/6.S081/2021/schedule.html)
