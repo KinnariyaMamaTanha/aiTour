@@ -10,7 +10,7 @@ $('.md-search').before('<form class="md-header__option"> \
 
 // add a div to html in which the graph will be drawn
 function add_graph_div(params) {
-    $('.md-sidebar--secondary').each(function() {
+    $('.md-sidebar--secondary').each(function () {
         $(this).contents().append('<div id="graph" class="graph"></div>');
     });
 };
@@ -33,7 +33,7 @@ function draw_graph(myChart) {
 
     // add click event for nodes
     myChart.on('click', function (params) {
-        if(params.dataType == "node") {
+        if (params.dataType == "node") {
             window.location = params.value;
         }
     });
@@ -85,14 +85,10 @@ $.getJSON(document.currentScript.src + '/../graph.json', function (graph) {
                 name: 'aiTour Roadmap',
                 type: 'graph',
                 layout: 'force',
-                //force: {
-                    //repulsion: 50,
-                    //edgeLength: 15
-                //},
                 data: graph.nodes,
                 links: graph.links,
                 categories: [],
-                zoom: 4,
+                zoom: 3.5,
                 roam: true,
                 draggable: true,
                 label: {
@@ -126,12 +122,12 @@ $.getJSON(document.currentScript.src + '/../graph.json', function (graph) {
     };
 });
 
-$("#__palette_0").change(function(){
+$("#__palette_0").change(function () {
     option.backgroundColor = $("body").css("background-color");
     myChart.setOption(option);
     $('#graph').remove();
 });
-$("#__palette_1").change(function(){
+$("#__palette_1").change(function () {
     option.backgroundColor = $("body").css("background-color");
     myChart.setOption(option);
     $('#graph').remove();
@@ -142,7 +138,7 @@ $('#graph_button').on('click', function (params) {
     $('#graph').remove();
     $('<div id="modal_background"><div id="graph" class="modal_graph"></div></div>').appendTo('body');
     $('#modal_background').on('click', function (params) {
-        if(params.target === this) {
+        if (params.target === this) {
             $("body").css({ overflow: "", position: "" });
             $('#graph').remove();
             $('#modal_background').remove();
