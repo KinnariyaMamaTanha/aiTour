@@ -293,6 +293,10 @@
       "target": "DGM"
     },
     {
+      "source": "optim",
+      "target": "information-theory"
+    },
+    {
       "source": "Prob",
       "target": "information-theory"
     },
