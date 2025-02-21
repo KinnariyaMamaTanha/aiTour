@@ -27,6 +27,7 @@
     - [CMU 11-711 ANLP](https://phontron.com/class/anlp2024/)
     - [CS 601.471/671 NLP: Self-supervised Models](https://self-supervised.cs.jhu.edu/sp2024/)
     - [COS 597G (Fall 2022): Understanding Large Language Models](https://www.cs.princeton.edu/courses/archive/fall22/cos597G/)
+    - [Huggingface Agent Course](https://github.com/huggingface/agents-course)
 
 
 ## 概率图模型
