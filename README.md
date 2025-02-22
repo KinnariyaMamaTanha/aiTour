@@ -14,7 +14,7 @@
 
 ~~2024年10月8日，诺贝尔物理学奖颁发给 John J. Hopfield 和 Geoffrey E. Hinton，以表彰他们在人工神经网络方面作出的贡献。2024年10月9日，诺贝尔化学奖颁发给 David Baker 和 AlphaFold 开发者 Demis Hassabis、John M. Jumper~~
 
-2025年1月20日，幻方旗下公司深度求索发布世界首个完全开源的推理模型 DeepSeek-R1，被称为当时最为先进的大语言模型。
+2025年1月20日，幻方旗下公司深度求索发布世界首个完全开源的推理模型 DeepSeek-R1，被称为当时最为先进的大语言推理模型。
 
 2023 年可以说是人工智能爆火元年。从 ChatGPT 发布，到各地媒体广泛报道，世界各国 AI 公司奋起直追，众多国家将 AI 纳入国家重要战略，新的 AI 模型如雨后春笋般不断涌出。机器学习、深度学习、神经网络等专业词汇也似乎有渐渐走入公众的视野。
 
@@ -60,7 +60,24 @@
    2. 如果是书籍推荐，中文书名使用 `《书名》` 的方式（如 《概率导论》），英文书名使用 `斜体书名`（如 *Linear Algebra Done Right*）
    3. 如果是工具推荐，使用 `工具名` 的方式（如 `LaTeX`）
 6. 如果在其它网站上有相关的课程介绍的话，可以在末尾进行补充。
-7. 在 `docs/changelog.yml` 文件中进行更新记录。
+
+另外，可以按照如下方式配置环境：
+
+```bash
+# fork aiTour to your repos
+# remember to change user name
+git clone https://github.com/KinnariyaMamaTanha/aiTour/
+
+# install conda before this step
+conda create -n aiTour python=3.10 -y
+conda activate aiTour
+
+# cd into the dir before this step
+pip install -r requirements.txt
+
+# begin serving
+mkdocs serve
+```
 
 ## Issues
 
