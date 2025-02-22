@@ -1,52 +1,70 @@
 {
   "nodes": [
     {
+      "id": "recommender-system",
+      "name": "推荐系统",
+      "symbolSize": 0.1,
+      "value": "/recommender-systems/resources/"
+    },
+    {
+      "id": "compiler",
+      "name": "编译原理",
+      "symbolSize": 0.1,
+      "value": "/compiler/resources/"
+    },
+    {
+      "id": "AI4science",
+      "name": "AI4science",
+      "symbolSize": 0.1,
+      "value": "/AI4science/resources/"
+    },
+    {
       "id": "parallel-and-distribute",
       "name": "并行与分布式系统",
       "symbolSize": 0.1,
-      "value": "/overview/possible-course-list/#_2"
+      "value": "https://csdiy.wiki/%E5%B9%B6%E8%A1%8C%E4%B8%8E%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/CS149/"
     },
     {
       "id": "os",
       "name": "操作系统",
       "symbolSize": 0.1,
-      "value": "/overview/possible-course-list/#_23"
+      "value": "/operating-system/6.s081/"
     },
     {
       "id": "MMML",
       "name": "多模态模型",
       "symbolSize": 0.1,
-      "value": "/overview/possible-course-list/#_21"
+      "value": "/multimodal/resources/"
     },
     {
       "id": "TML",
       "name": "机器学习理论",
       "symbolSize": 0.1,
-      "value": "/overview/possible-course-list/#_6"
+      "value": "/machine-learning-theory/resources/"
     },
     {
       "id": "LLM",
       "name": "大语言模型",
       "symbolSize": 0.1,
-      "value": "/overview/possible-course-list/#_3"
+      "value": "/llm/resources/"
     },
     {
       "id": "AI-Intro",
       "name": "人工智能导论",
       "symbolSize": 0.1,
-      "value": "/overview/possible-course-list/#_10"
+      "value": "/AI-introduction/resources/"
     },
     {
       "id": "PGM",
       "name": "概率图模型",
       "symbolSize": 0.1,
-      "value": "/overview/possible-course-list/#_4"
+      "value": "/probabilistic-graphical-models/resources/"
     },
     {
       "id": "information-theory",
       "name": "信息论",
       "symbolSize": 0.1,
-      "value": "/overview/possible-course-list/#_18"
+      "value": "/information-theory/resources/"
     },
     {
       "id": "DGM",
@@ -142,7 +160,7 @@
       "id": "slp",
       "name": "语音处理",
       "symbolSize": 0.1,
-      "value": "/speech-processing/李宏毅hlp/"
+      "value": "/speech-processing/resources/"
     },
     {
       "id": "optim",
@@ -172,7 +190,7 @@
       "id": "DLS",
       "name": "机器学习系统",
       "symbolSize": 0.1,
-      "value": "/deep-learning-system/CMU-10-414/"
+      "value": "/deep-learning-system/resources/"
     }
   ],
   "links": [
@@ -305,7 +323,11 @@
       "target": "Prob"
     },
     {
-      "source": "ML",
+      "source": "DL",
+      "target": "PGM"
+    },
+    {
+      "source": "RL",
       "target": "PGM"
     },
     {
@@ -337,8 +359,40 @@
       "target": "os"
     },
     {
+      "source": "algo",
+      "target": "os"
+    },
+    {
       "source": "os",
       "target": "parallel-and-distribute"
+    },
+    {
+      "source": "DL",
+      "target": "AI4science"
+    },
+    {
+      "source": "computer-architecture",
+      "target": "compiler"
+    },
+    {
+      "source": "algo",
+      "target": "compiler"
+    },
+    {
+      "source": "DL",
+      "target": "TML"
+    },
+    {
+      "source": "optim",
+      "target": "TML"
+    },
+    {
+      "source": "ML",
+      "target": "recommender-system"
+    },
+    {
+      "source": "DL",
+      "target": "recommender-system"
     }
   ]
 }
