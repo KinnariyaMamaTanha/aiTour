@@ -64,7 +64,6 @@ nav:
       - 序: index.md
       - 旅途前的准备: preparations.md
       - 课程总览: overview/course-overview.md
-      - 可能适合修读的课程清单: overview/possible-course-list.md
       - 一些有用的网站: tools/useful-websites.md
   - 实用工具:
       - Magic: tools/Magic.md
@@ -76,56 +75,86 @@ nav:
       - WSL2: tools/WSL2.md
       - LaTeX: tools/LaTeX.md
       - Obsidian: tools/Obsidian.md
-  - C++:
-      - "Stanford CS106B: Programming Abstractions": c++/CS106B.md
-  - Python:
-      - "UCB CS61a: Structure and Interpretation of Computer Programs": python/CS61a.md
-      - "Harvard CS50p: Introduction to Programming with Python": python/CS50P.md
-  - 微积分:
-      - "MIT 18.01/18.02": calculus/18.0x.md
-  - 线性代数:
-      - "MIT 18.06: Linear Algebra": linear-algebra/MIT18.06.md
-  - 离散数学:
-      - "UCB CS70: discrete Math and probability theory": discrete-math/CS70.md
-      - "SJTU CS2501H: Discrete Math(Honor)": discrete-math/CS2501H.md
-      - "Stanford CS103: Mathematical Foundations of Computing": discrete-math/CS103.md
-  - 概率统计:
-      - "MIT RES.6-012: Introduction to Probability": probability/RES.6-012.md
-  - 随机过程:
-      - "SJTU AI2613: Stochastic Processes": stochastic-processes/AI2613.md
-  - 优化理论:
-      - "EPFL CS439: Optimization for Machine Learning": optimization/CS439.md
-      - "Stanford EE364A: Convex Optimization": optimization/EE364A.md
-  - 数据结构与算法:
-      - "UCB CS61b: Data Structures": data-structure-and-algorithm/CS61b.md
-      - "Stanford CS161: Design and Analysis of Algorithms": data-structure-and-algorithm/CS161.md
-  - 计算机体系结构:
-      - "UCB CS61c: Great Ideas in Computer Architecture": computer-architecture/CS61c.md
-  - 机器学习基础:
+  - 编程基础:
+      - C++:
+          - "Stanford CS106B: Programming Abstractions": c++/CS106B.md
+      - Python:
+          - "UCB CS61a: Structure and Interpretation of Computer Programs": python/CS61a.md
+          - "Harvard CS50p: Introduction to Programming with Python": python/CS50P.md
+      - 数据结构与算法:
+          - "UCB CS61b: Data Structures": data-structure-and-algorithm/CS61b.md
+          - "Stanford CS161: Design and Analysis of Algorithms": data-structure-and-algorithm/CS161.md
+  - 数学基础:
+      - 微积分:
+          - "MIT 18.01/18.02": calculus/18.0x.md
+      - 线性代数:
+          - "MIT 18.06: Linear Algebra": linear-algebra/MIT18.06.md
+      - 离散数学:
+          - "UCB CS70: discrete Math and probability theory": discrete-math/CS70.md
+          - "SJTU CS2501H: Discrete Math(Honor)": discrete-math/CS2501H.md
+          - "Stanford CS103: Mathematical Foundations of Computing": discrete-math/CS103.md
+      - 概率统计:
+          - "MIT RES.6-012: Introduction to Probability": probability/RES.6-012.md
+  - 数学进阶:
+      - 随机过程:
+          - "SJTU AI2613: Stochastic Processes": stochastic-processes/AI2613.md
+          - "资源汇总": stochastic-processes/resources.md
+      - 优化理论:
+          - "EPFL CS439: Optimization for Machine Learning": optimization/CS439.md
+          - "Stanford EE364A: Convex Optimization": optimization/EE364A.md
+      - 信息论:
+          - "资源汇总": information-theory/resources.md
+  - 人工智能导论:
+      - "资源汇总": AI-introduction/resources.md
+  - 机器学习:
       - "Stanford CS229: Machine Learning": machine-learning/CS229.md
       - "UCB CS189/289A: Introduction to Machine Learning": machine-learning/CS189.md
       - "机器学习书": machine-learning/MLBook.md
+      - "资源汇总": machine-learning/resources.md
   - 深度学习:
       - "Stanford CS230: Deep Learning": deep-learning/CS230.md
       - "国立台湾大学: 李宏毅机器学习": deep-learning/李宏毅机器学习.md
       - "动手学深度学习": deep-learning/dive-into-deep-learning.md
-      - "其他资料": deep-learning/resources.md
+      - "资源汇总": deep-learning/resources.md
   - 强化学习:
       - "西湖大学: 强化学习的数学原理": reinforcement-learning/mathematical-for-rl.md
       - "UCB CS285: Deep Reinforcement Learning": reinforcement-learning/CS285.md
+      - "资源汇总": reinforcement-learning/resources.md
+  - 图神经网络:
+      - "Stanford CS224w: Machine Learning with Graphs": graphic-neural-network/CS224w.md
   - 计算机视觉:
       - "UMich EECS 498.008/598.008: Deep Learning for Computer Vision": computer-vision/EECS498.008.md
       - "Tuebingen ML 4360: Computer Vision": computer-vision/ML-4360.md
   - 自然语言处理:
       - "Stanford CS224n: Natural Language Processing with Deep Learning": natural-language-processing/CS224n.md
+      - "资源汇总": natural-language-processing/resources.md
   - 语音处理:
-      - "国立台湾大学 DLHLP: Deep Learning For Human Language Processing": speech-processing/李宏毅hlp.md
-  - 图神经网络:
-      - "Stanford CS224w: Machine Learning with Graphs": graphic-neural-network/CS224w.md
-  - 深度生成模型:
+      - "资源汇总": speech-processing/resources.md
+  - 生成式模型:
       - "Stanford CS236: Deep Generative Model": deep-generative-model/CS236.md
+      - "资源汇总": deep-generative-model/resources.md
+  - 大语言模型:
+      - "资源汇总": llm/resources.md
+  - 多模态:
+      - "资源汇总": multimodal/resources.md
+  - 推荐系统: 
+      - "资源汇总": recommender-system/resources.md
+  - AI4Science:
+      - "资源汇总": AI4science/resources.md
+  - 几何深度学习:
+      - "资源汇总": geometric-deep-learning/resources.md
+  - 概率图模型:
+      - "资源汇总": probabilistic-graphical-models/resources.md
+  - 机器学习理论:
+      - "资源汇总": machine-learning-theory/resources.md
+  - 计算机体系结构:
+      - "UCB CS61c: Great Ideas in Computer Architecture": computer-architecture/CS61c.md
+  - 操作系统:
+      - "MIT 6.s081: Operating System Engineering": operating-system/6.s081.md
+  - 编译原理:
+      - "资源汇总": compiler/resources.md
   - 机器学习系统:
-      - "CMU 10-414: Deep Learning System": deep-learning-system/CMU-10-414.md
+      - "CMU 10-414: Deep Learning System": machine-learning-system/resources.md
   - 科研:
       - "GAMES 003: 科研基本素养": research/GAMES003.md
   - 后记: afterword.md
