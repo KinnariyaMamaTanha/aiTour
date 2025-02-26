@@ -153,6 +153,8 @@ nav:
       - "MIT 6.s081: Operating System Engineering": operating-system/6.s081.md
   - 编译原理:
       - "资源汇总": compiler/resources.md
+  - CUDA 编程:
+      - "资源汇总": cuda-programming/resources.md
   - 机器学习系统:
       - "CMU 10-414: Deep Learning System": machine-learning-system/resources.md
   - 科研:
