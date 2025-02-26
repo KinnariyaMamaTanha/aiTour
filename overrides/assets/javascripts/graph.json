@@ -1,6 +1,12 @@
 {
   "nodes": [
     {
+      "id": "cuda",
+      "name": "CUDA 编程",
+      "symbolSize": 0.1,
+      "value": "/cuda-programming/resources/"
+    },
+    {
       "id": "recommender-system",
       "name": "推荐系统",
       "symbolSize": 0.1,
@@ -363,7 +369,7 @@
       "target": "os"
     },
     {
-      "source": "os",
+      "source": "computer-architecture",
       "target": "parallel-and-distribute"
     },
     {
@@ -393,6 +399,14 @@
     {
       "source": "DL",
       "target": "recommender-system"
+    },
+    {
+      "source": "parallel-and-distribute",
+      "target": "cuda"
+    },
+    {
+      "source": "linalg",
+      "target": "cuda"
     }
   ]
 }
