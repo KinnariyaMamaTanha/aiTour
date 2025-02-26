@@ -159,6 +159,7 @@ nav:
       - "CMU 10-414: Deep Learning System": machine-learning-system/resources.md
   - 科研:
       - "GAMES 003: 科研基本素养": research/GAMES003.md
+      - "资源汇总": research/resources.md
   - 后记: afterword.md
 
 plugins:
