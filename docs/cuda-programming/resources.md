@@ -15,5 +15,5 @@
 
 ## 书籍
 
-- [CUDA by Example: An Introduction to General-Purpose GPU Programming](https://link.zhihu.com/?target=https%3A//developer.nvidia.com/cuda-example)
+- [CUDA by Example: An Introduction to General-Purpose GPU Programming](https://developer.nvidia.com/cuda-example)
 - [NVIDIA 官方手册](https://docs.nvidia.com/cuda/cuda-c-programming-guide/)
