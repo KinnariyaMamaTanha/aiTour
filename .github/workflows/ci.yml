@@ -26,6 +26,9 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install -r requirements.txt
-      - run: pip cache purge
+      - run: curl -LsSf https://astral.sh/uv/install.sh | sh
+      - run: uv sync
       - run: mkdocs gh-deploy --force
+      # - run: pip install -r requirements.txt
+      # - run: pip cache purge
+      # - run: mkdocs gh-deploy --force

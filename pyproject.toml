@@ -1,0 +1,14 @@
+[project]
+name = "aitour"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10.0"
+dependencies = [
+    "mkdocs-callouts>=1.16.0",
+    "mkdocs-git-authors-plugin>=0.9.5",
+    "mkdocs-git-revision-date-localized-plugin>=1.4.5",
+    "mkdocs-material>=9.6.12",
+    "mkdocs-obsidian-interactive-graph-plugin>=0.3.0",
+    "mkdocs-statistics-plugin>=0.1.4",
+]
