@@ -17,9 +17,6 @@ theme:
     - navigation.tracking
     - navigation.top
     - navigation.path
-    # - navigation.instant # This will cause LaTeX render fail at the first try.
-    # - navigation.instant.prefetch
-    # - navigation.instant.progress
     - search.highlight
     - search.share
     - search.suggest
@@ -181,7 +178,7 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/KinnariyaMamaTanha
-      name: visit my GitHub profile
+      name: visit Author's GitHub profile
     - icon: /fontawesome/regular/envelope
       name: email to author
       link: mailto:2823324228@qq.com
@@ -190,14 +187,11 @@ markdown_extensions:
   - toc:
       permalink: true
       toc_depth: 4
-  - meta
   - attr_list
   - md_in_html
   - footnotes
   - admonition
-  - abbr
   - pymdownx.details
-  - pymdownx.superfences
   - tables
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
@@ -220,14 +214,11 @@ extra_javascript:
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
   - https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js
   - https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js
-  - https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
   - assets/javascripts/interactive_graph.js
 
 extra_css:
   - assets/stylesheets/interactive_graph.css
   - https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
   - https://gcore.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
-  - assets/stylesheets/link.css
-  - assets/stylesheets/customize.css
 
 copyright: Copyright &copy; 2024 - present KinnariyaMamaTanha
