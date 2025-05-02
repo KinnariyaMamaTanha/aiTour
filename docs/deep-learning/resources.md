@@ -3,6 +3,7 @@
 ## 公开课
 
 - [UCB CS W182/282A: Designing, Visualizing and Understanding Deep Neural Networks](https://cs182sp21.github.io/)
+- [UCB Data100: Principles and Techniques of Data Science](https://ds100.org/)
 
 ## 书籍
 

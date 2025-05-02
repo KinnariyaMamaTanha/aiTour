@@ -17,3 +17,7 @@
 
 - [CUDA by Example: An Introduction to General-Purpose GPU Programming](https://developer.nvidia.com/cuda-example)
 - [NVIDIA 官方手册](https://docs.nvidia.com/cuda/cuda-c-programming-guide/)
+
+## 公开课
+
+- [Penn CIS 5650 GPU Programming and Architecture](https://cis5650-fall-2024.github.io/syllabus/)
