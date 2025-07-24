@@ -131,11 +131,13 @@ nav:
       - "Stanford CS236: Deep Generative Model": deep-generative-model/CS236.md
       - "资源汇总": deep-generative-model/resources.md
   - 大语言模型:
+      - "Happy LLM": llm/happy-llm.md
       - "资源汇总": llm/resources.md
   - 多模态:
       - "资源汇总": multimodal/resources.md
   - 推荐系统:
-      - "资源汇总": recommender-system/resources.md
+      - "王树森推荐系统": recommend-system/王树森推荐系统.md
+      - "资源汇总": recommend-system/resources.md
   - AI4Science:
       - "资源汇总": AI4science/resources.md
   - 几何深度学习:

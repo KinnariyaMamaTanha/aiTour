@@ -78,13 +78,17 @@ pip install -r requirements.txt
 # begin serving
 mkdocs serve
 
-#### or you can use uv to get locked dependencies
+########### or you can use uv to get locked dependencies
 # install uv first
 curl -LsSf https://astral.sh/uv/install.sh | sh
 # or pip install uv
 
-# set up the environment
+# set up environment
 uv sync
+source .venv/bin/activate
+
+# begin serving
+mkdocs serve
 ```
 
 ## Issues
