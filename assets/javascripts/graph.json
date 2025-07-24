@@ -7,10 +7,10 @@
       "value": "/cuda-programming/resources/"
     },
     {
-      "id": "recommender-system",
+      "id": "recommend-system",
       "name": "推荐系统",
       "symbolSize": 0.1,
-      "value": "/recommender-system/resources/"
+      "value": "/recommend-system/王树森推荐系统/"
     },
     {
       "id": "compiler",
@@ -52,7 +52,7 @@
       "id": "LLM",
       "name": "大语言模型",
       "symbolSize": 0.1,
-      "value": "/llm/resources/"
+      "value": "/llm/happy-llm/"
     },
     {
       "id": "AI-Intro",
@@ -394,11 +394,11 @@
     },
     {
       "source": "ML",
-      "target": "recommender-system"
+      "target": "recommend-system"
     },
     {
       "source": "DL",
-      "target": "recommender-system"
+      "target": "recommend-system"
     },
     {
       "source": "parallel-and-distribute",
